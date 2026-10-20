@@ -5,7 +5,7 @@ import PlaceDetail from './ui/PlaceDetail'
 import CameraModal from './ui/CameraModal'
 import MapToolbar from './ui/MapToolbar'
 import { useLiveData } from './data/useLiveData'
-import { PLACES } from './data/places'
+import { resolveAnswerPlaceIds } from './data/hum'
 import { useSaved } from './ui/saved'
 import type { Category, FeedTab, LayerToggles, MapStyleId, TrafficCamera } from './types'
 
@@ -28,6 +28,8 @@ export default function App() {
   const [query, setQuery] = useState('')
   const [categories, setCategories] = useState<Category[]>([])
   const [selectedPlaceId, setSelectedPlaceId] = useState<string | null>(null)
+  const [highlightIds, setHighlightIds] = useState<string[]>([])
+  const [focusNonce, setFocusNonce] = useState(0)
   const [savedOnly, setSavedOnly] = useState(false)
   const saved = useSaved()
   const [userLocation, setUserLocation] = useState<[number, number] | null>(null)
@@ -35,17 +37,25 @@ export default function App() {
   const [styleId, setStyleId] = useState<MapStyleId>('light')
   const [layers, setLayers] = useState<LayerToggles>({ places: true, incidents: true, cameras: true, heat: false })
 
+  const places = live.places
   const visiblePlaces = useMemo(() => {
     const q = query.trim().toLowerCase()
-    return PLACES.filter(
+    return places.filter(
       (p) =>
         (categories.length === 0 || categories.includes(p.category)) &&
         (!savedOnly || saved.includes(p.id)) &&
         (!q || `${p.name} ${p.neighborhood} ${p.blurb}`.toLowerCase().includes(q)),
     )
-  }, [query, categories, savedOnly, saved])
+  }, [places, query, categories, savedOnly, saved])
 
-  const selectedPlace = PLACES.find((p) => p.id === selectedPlaceId) ?? null
+  const selectedPlace = places.find((p) => p.id === selectedPlaceId) ?? null
+
+  const onAskPlaces = (ids: string[]) => {
+    const resolved = resolveAnswerPlaceIds(ids, places)
+    setHighlightIds(resolved)
+    setFocusNonce((n) => n + 1)
+    if (resolved.length === 1) setSelectedPlaceId(resolved[0])
+  }
 
   const sunsetMode = useMemo(() => {
     if (!live.sun) return false
@@ -67,6 +77,8 @@ export default function App() {
         layers={layers}
         styleId={styleId}
         selectedPlaceId={selectedPlaceId}
+        highlightIds={highlightIds}
+        focusNonce={focusNonce}
         onSelectPlace={setSelectedPlaceId}
         onSelectCamera={setCamera}
         padding={padding}
@@ -74,7 +86,10 @@ export default function App() {
         onUserLocation={setUserLocation}
       />
       <Sidebar
-        places={PLACES}
+        places={places}
+        placeState={live.placeState}
+        humUpdatedAt={live.humUpdatedAt}
+        onAskPlaces={onAskPlaces}
         feed={live.feed}
         tab={tab}
         onTabChange={setTab}
@@ -96,6 +111,7 @@ export default function App() {
         <PlaceDetail
           key={selectedPlace.id}
           place={selectedPlace}
+          state={live.placeState[selectedPlace.id]}
           feed={live.feed}
           weather={live.weather}
           userLocation={userLocation}

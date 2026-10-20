@@ -49,6 +49,7 @@ export class PlaceMarkers {
   private entries = new Map<string, Entry>()
   private selectedId: string | null = null
   private hoverId: string | null = null
+  private highlight = new Set<string>()
   private badges = new Map<string, BadgeCounts>()
   private onClick: (id: string) => void
   private raf = 0
@@ -201,6 +202,12 @@ export class PlaceMarkers {
     this.applyZ()
   }
 
+  setHighlighted(ids: string[]) {
+    this.highlight = new Set(ids)
+    for (const [id, e] of this.entries) e.el.classList.toggle('is-highlight', this.highlight.has(id))
+    this.applyZ()
+  }
+
   setSelected(id: string | null) {
     this.selectedId = id
     this.applySelected()
@@ -220,6 +227,7 @@ export class PlaceMarkers {
   private priority(id: string, e: Entry): number {
     if (id === this.selectedId) return 1000
     if (id === this.hoverId) return 900
+    if (this.highlight.has(id)) return 850
     return (e.live ? 100 : 0) + Math.min(e.upcoming, 9) * 5
   }
 

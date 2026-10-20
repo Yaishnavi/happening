@@ -1,7 +1,8 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
-import type { FeedItem, LiveData, SourceState, SunInfo, TrafficCamera, TrafficIncident, WeatherNow } from '../types'
+import type { FeedItem, LiveData, Place, SourceState, SunInfo, TrafficCamera, TrafficIncident, WeatherNow } from '../types'
 import { buildFeed } from './feed'
-import { fetchHum, humEvents, humPlaceState, humSocial, humWeather, type HumPlaceState } from './hum'
+import { fetchHum, humEvents, humNow, humPlaceState, humSocial, humWeather, mergePlaces, newestUpdate, type HumPlace, type HumPlaceState } from './hum'
+import { PLACES } from './places'
 import { fetchCameras, fetchIncidents } from './public'
 import { mockCameras } from './mock/cameras'
 import { mockEvents } from './mock/events'
@@ -17,10 +18,11 @@ import { computeSun } from './sun'
 //   incidents, cameras       <- City of Austin open data, read directly, see public.ts
 //                               falls back to mock
 //   sun                      <- local suncalc
-// Set VITE_HUM_URL (+ VITE_HUM_KEY) in .env.local to go live.
+// Set VITE_HUM_URL (+ VITE_HUM_KEY) in .env.local to override the live-data file.
+// The live JSON refreshes about every 2 minutes.
 // =============================================================================
 
-const TICK_MS = 30_000
+const TICK_MS = 120_000
 
 type SourceId = SourceState['id']
 const LABELS: Record<SourceId, string> = {
@@ -40,6 +42,7 @@ interface Snapshot {
   social: FeedItem[]
   sun: SunInfo
   placeState: Record<string, HumPlaceState>
+  humPlaces: HumPlace[]
   status: Record<SourceId, SourceState['status']>
   errors: Partial<Record<SourceId, string>>
   updatedAt: string
@@ -55,6 +58,7 @@ function initial(): Snapshot {
     social: mockSocial(now.getTime()),
     sun: computeSun(now),
     placeState: {},
+    humPlaces: [],
     status: { weather: 'loading', traffic: 'loading', cameras: 'loading', sun: 'live', events: 'loading', social: 'loading' },
     errors: {},
     updatedAt: now.toISOString(),
@@ -69,12 +73,13 @@ async function load(prev: Snapshot, signal: AbortSignal): Promise<Snapshot> {
 
   if (hum.status === 'fulfilled' && hum.value.places.length) {
     const { places, source } = hum.value
-    const ev = humEvents(places, now.getTime())
+    const ev = [...humNow(places, now.getTime()), ...humEvents(places, now.getTime())]
     const so = humSocial(places)
     next.events = ev.length ? ev : prev.events
     next.social = so.length ? so : prev.social
     next.weather = humWeather(places, mockWeather(now)) ?? prev.weather
-    next.placeState = humPlaceState(places)
+    next.placeState = humPlaceState(places, now.getTime())
+    next.humPlaces = places
     next.status.events = ev.length ? source : 'cached'
     next.status.social = so.length ? source : 'cached' // bots have not written posts yet -> mock stays, marked cached
     next.status.weather = source
@@ -102,7 +107,7 @@ async function load(prev: Snapshot, signal: AbortSignal): Promise<Snapshot> {
   return next
 }
 
-export function useLiveData(): LiveData & { placeState: Record<string, HumPlaceState> } {
+export function useLiveData(): LiveData & { places: Place[]; placeState: Record<string, HumPlaceState>; humUpdatedAt?: string } {
   const [snap, setSnap] = useState<Snapshot>(initial)
   const inflight = useRef<AbortController | null>(null)
 
@@ -143,6 +148,9 @@ export function useLiveData(): LiveData & { placeState: Record<string, HumPlaceS
     [snap],
   )
 
+  const places = useMemo(() => (snap.humPlaces.length ? mergePlaces(snap.humPlaces) : PLACES), [snap.humPlaces])
+  const humUpdatedAt = useMemo(() => newestUpdate(snap.humPlaces), [snap.humPlaces])
+
   const sources = useMemo<SourceState[]>(
     () =>
       (Object.keys(LABELS) as SourceId[]).map((id) => ({
@@ -162,7 +170,9 @@ export function useLiveData(): LiveData & { placeState: Record<string, HumPlaceS
     cameras: snap.cameras,
     feed,
     sources,
+    places,
     placeState: snap.placeState,
+    humUpdatedAt,
     refresh: run,
   }
 }
