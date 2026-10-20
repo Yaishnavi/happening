@@ -14,7 +14,7 @@ import {
   type LucideIcon,
 } from 'lucide-react'
 
-export const APP_NAME = 'Happening'
+export const APP_NAME = 'Hum'
 const TZ = 'America/Chicago'
 
 const toDate = (d: string | number | Date) => (d instanceof Date ? d : new Date(d))

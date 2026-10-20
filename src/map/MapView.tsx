@@ -3,6 +3,7 @@ import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState, typ
 import {
   Map as MLMap,
   Marker,
+  LngLatBounds,
   Popup,
   ScaleControl,
   type GeoJSONSource,
@@ -45,6 +46,10 @@ export interface MapViewProps {
   layers: LayerToggles
   styleId: MapStyleId
   selectedPlaceId: string | null
+  /** Place ids to ring after an Ask Hum answer. */
+  highlightIds?: string[]
+  /** Bumps when a new answer should fly the map to highlightIds. */
+  focusNonce?: number
   onSelectPlace: (id: string | null) => void
   onSelectCamera?: (cam: TrafficCamera) => void
   /** px padding to keep fly-to targets clear of the floating sidebar, e.g. {left: 420} */
@@ -68,7 +73,7 @@ function fullPadding(p: MapViewProps["padding"]): Required<PaddingOptions> {
 const INTERACTIVE = [LYR.incCluster, LYR.incPoint, LYR.camCluster, LYR.camPoint] as const
 
 export default function MapView(props: MapViewProps): JSX.Element {
-  const { places, incidents, cameras, feed, layers, styleId, selectedPlaceId, padding, sunsetMode } = props
+  const { places, incidents, cameras, feed, layers, styleId, selectedPlaceId, highlightIds, focusNonce, padding, sunsetMode } = props
   const containerRef = useRef<HTMLDivElement>(null)
   const mapRef = useRef<MLMap | null>(null)
   const markersRef = useRef<PlaceMarkers | null>(null)
@@ -359,6 +364,30 @@ export default function MapView(props: MapViewProps): JSX.Element {
       curve: 1.42,
     })
   }, [selectedPlaceId])
+
+  useEffect(() => {
+    markersRef.current?.setHighlighted(highlightIds ?? [])
+  }, [highlightIds])
+
+  useEffect(() => {
+    if (!focusNonce) return
+    const map = mapRef.current
+    if (!map) return
+    const ids = propsRef.current.highlightIds ?? []
+    const pts = ids
+      .map((id) => propsRef.current.places.find((p) => p.id === id))
+      .filter((p): p is Place => !!p)
+    if (!pts.length) return
+    const pad = fullPadding(propsRef.current.padding)
+    if (pts.length === 1) {
+      const p = pts[0]
+      map.flyTo({ center: [p.lng, p.lat], zoom: Math.max(map.getZoom(), 14.5), padding: pad, duration: 1200 })
+      return
+    }
+    const b = new LngLatBounds()
+    for (const p of pts) b.extend([p.lng, p.lat])
+    map.fitBounds(b, { padding: pad, maxZoom: 14, duration: 1200 })
+  }, [focusNonce])
 
   // ---------- control actions ----------
   const zoomBy = (d: number) => mapRef.current?.easeTo({ zoom: (mapRef.current?.getZoom() ?? 12) + d, duration: 260 })

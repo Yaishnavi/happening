@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState, type ReactNode } from 'react'
 import { Bookmark, BookmarkCheck, Check, MapPin, Navigation, Share, X } from 'lucide-react'
 import type { FeedItem, Place, WeatherNow } from '../types'
+import type { HumCamera, HumPlaceState } from '../data/hum'
 import { CATEGORY_META } from '../data/places'
 import { APP_NAME, cx, directionsUrl, distanceLabel, milesBetween, useMediaQuery, useNow, weatherIcon } from './format'
 import { EventCard, LiveRow, SocialCard } from './parts'
@@ -9,12 +10,13 @@ import './ui.css'
 
 export default function PlaceDetail(props: {
   place: Place
+  state?: HumPlaceState
   feed: FeedItem[]
   onClose: () => void
   weather?: WeatherNow
   userLocation?: [number, number] | null
 }) {
-  const { place, feed, onClose, weather, userLocation } = props
+  const { place, state, feed, onClose, weather, userLocation } = props
   const miles = userLocation ? milesBetween(userLocation, place.lat, place.lng) : null
   const now = useNow(30_000)
   const isMobile = useMediaQuery('(max-width: 767px)')
@@ -165,7 +167,10 @@ export default function PlaceDetail(props: {
           <h2 id={titleId} className="mt-2.5 text-[22px] font-semibold leading-7 tracking-[-0.02em] text-zinc-950">
             {place.name}
           </h2>
-          <p className="mt-1.5 text-[14px] leading-[21px] text-zinc-600">{place.blurb}</p>
+          {state?.band && (
+            <span className="mt-2 inline-flex rounded-full bg-zinc-900 px-2 py-0.5 text-[11px] font-semibold text-white">{state.band}</span>
+          )}
+          <p className="mt-1.5 text-[14px] leading-[21px] text-zinc-600">{state?.summary || place.blurb}</p>
 
           <div className="mt-4 grid grid-cols-3 gap-2">
             <a
@@ -186,6 +191,29 @@ export default function PlaceDetail(props: {
           </div>
         </div>
 
+        {state?.camera?.image_url && <PlaceCamera camera={state.camera} now={now} />}
+
+        {state ? (
+          <>
+            <Section title="Happening now" count={state.now.length} empty="Nothing live here at the moment.">
+              {state.now.map((n) => (
+                <div key={n.title} className="px-3 py-2">
+                  <p className="text-[13.5px] font-medium leading-5 text-zinc-900">{n.title}</p>
+                  {n.source && <p className="text-[12px] text-zinc-400">{n.source}</p>}
+                </div>
+              ))}
+            </Section>
+            <Section title="Coming up" count={state.upcoming.length} empty="No upcoming events listed.">
+              {state.upcoming.map((u) => (
+                <div key={u.title + u.when} className="px-3 py-2">
+                  <p className="text-[13.5px] font-medium leading-5 text-zinc-900">{u.title}</p>
+                  <p className="text-[12px] text-zinc-400">{u.when}</p>
+                </div>
+              ))}
+            </Section>
+          </>
+        ) : (
+          <>
         <Section title="Happening now" count={nowItems.length} empty="Nothing live here at the moment.">
           {nowItems.map((it) =>
             it.kind === 'event' ? <EventCard key={it.id} item={it} now={now} /> : <LiveRow key={it.id} item={it} now={now} />,
@@ -196,6 +224,8 @@ export default function PlaceDetail(props: {
             <EventCard key={it.id} item={it} now={now} />
           ))}
         </Section>
+          </>
+        )}
         <Section title="Chatter" count={chatter.length} empty="No recent posts about this spot." last>
           {chatter.map((it) => (
             <SocialCard key={it.id} item={it} now={now} showPlace={false} />
@@ -203,6 +233,35 @@ export default function PlaceDetail(props: {
         </Section>
       </div>
     </section>
+  )
+}
+
+function crowdLine(crowd: HumCamera['crowd']): string | null {
+  if (!crowd?.level) return null
+  if (crowd.level === 'unclear') return 'Crowd unclear from this camera'
+  const level = crowd.level.charAt(0).toUpperCase() + crowd.level.slice(1)
+  return crowd.note ? `${level} · ${crowd.note}` : level
+}
+
+function PlaceCamera({ camera, now }: { camera: HumCamera; now: number }) {
+  const [failed, setFailed] = useState(false)
+  if (failed || !camera.image_url) return null
+  const src = `${camera.image_url}${camera.image_url.includes('?') ? '&' : '?'}t=${Math.floor(now / 60_000)}`
+  const captured =
+    camera.captured_at && !Number.isNaN(Date.parse(camera.captured_at))
+      ? `captured ${Math.max(0, Math.round((now - Date.parse(camera.captured_at)) / 60000))} min ago`
+      : ''
+  const dist = typeof camera.distance_mi === 'number' ? `${camera.distance_mi < 10 ? camera.distance_mi.toFixed(1) : Math.round(camera.distance_mi)} mi` : ''
+  const crowd = crowdLine(camera.crowd)
+  return (
+    <figure className="mx-3 mb-1 overflow-hidden rounded-2xl bg-zinc-100 ring-1 ring-black/5">
+      <img src={src} alt={camera.view || 'Camera'} loading="lazy" className="h-40 w-full object-cover" onError={() => setFailed(true)} />
+      <figcaption className="space-y-0.5 px-3 py-2 text-[12px] leading-4 text-zinc-500">
+        {camera.view && <p>{camera.view}</p>}
+        {(dist || captured) && <p>{[dist, captured].filter(Boolean).join(' · ')}</p>}
+        {crowd && <p>{crowd}</p>}
+      </figcaption>
+    </figure>
   )
 }
 

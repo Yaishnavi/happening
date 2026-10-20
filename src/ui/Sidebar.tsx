@@ -1,14 +1,19 @@
 import { useCallback, useEffect, useMemo, useRef, useState, type KeyboardEvent as ReactKeyboardEvent, type PointerEvent as ReactPointerEvent, type ReactNode } from 'react'
 import { Bookmark, CalendarX, CircleAlert, Inbox, MessageSquare, Search, SearchX, Sunrise, Sunset, X } from 'lucide-react'
 import type { Category, FeedItem, FeedTab, Place, SourceState, SunInfo, WeatherNow } from '../types'
+import type { HumPlaceState } from '../data/hum'
 import { CATEGORY_META } from '../data/places'
-import { APP_NAME, austinDayKey, cx, dayLabel, distanceLabel, milesBetween, formatDate, formatTime, formatTimeShort, secondsAgo, timeAgo, useMediaQuery, useNow, weatherIcon } from './format'
+import AskHum from './AskHum'
+import { APP_NAME, austinDayKey, cx, dayLabel, milesBetween, formatDate, formatTime, formatTimeShort, secondsAgo, timeAgo, useMediaQuery, useNow, weatherIcon } from './format'
 import { EmptyState, EventCard, LiveRow, RowSkeleton, SectionLabel, SocialCard } from './parts'
 import { useSaved } from './saved'
 import './ui.css'
 
 export interface SidebarProps {
   places: Place[]
+  placeState: Record<string, HumPlaceState>
+  humUpdatedAt?: string
+  onAskPlaces: (ids: string[]) => void
   feed: FeedItem[]
   tab: FeedTab
   onTabChange: (t: FeedTab) => void
@@ -42,13 +47,16 @@ const TAB_SOURCES: Record<FeedTab, SourceState['id'][]> = {
 const ALL_CATEGORIES = Object.keys(CATEGORY_META) as Category[]
 
 /* Mobile sheet geometry (visible heights, px) */
-const PEEK = 244
+const PEEK = 320
 const TOP_GAP = 56
 type Snap = 'peek' | 'half' | 'full'
 
 export default function Sidebar(props: SidebarProps) {
   const {
     places,
+    placeState,
+    humUpdatedAt,
+    onAskPlaces,
     feed,
     tab,
     onTabChange,
@@ -317,8 +325,10 @@ export default function Sidebar(props: SidebarProps) {
             <span className="h-1 w-9 rounded-full bg-zinc-900/15" />
           </div>
         )}
-        <Header weather={weather} sun={sun} now={now} compact={isMobile} />
+        <Header weather={weather} sun={sun} now={now} compact={isMobile} updatedAt={humUpdatedAt} />
       </div>
+
+      <AskHum onPlaces={onAskPlaces} />
 
       {/* Search */}
       <div className="flex-none px-4 pt-3">
@@ -447,10 +457,12 @@ export default function Sidebar(props: SidebarProps) {
           {showCarousel && (
             <PlacesCarousel
               places={filteredPlaces}
+              placeState={placeState}
               livePlaceIds={livePlaceIds}
               selectedPlaceId={selectedPlaceId}
               onSelect={selectPlace}
               userLocation={userLocation}
+              now={now}
             />
           )}
 
@@ -562,15 +574,29 @@ export default function Sidebar(props: SidebarProps) {
 
 /* ================================================================== */
 
-function Header({ weather, sun, now, compact }: { weather?: WeatherNow; sun?: SunInfo; now: number; compact: boolean }) {
+function updatedLabel(iso: string | undefined, now: number): string | null {
+  if (!iso) return null
+  const t = Date.parse(iso)
+  if (Number.isNaN(t)) return null
+  const mins = Math.max(0, Math.round((now - t) / 60000))
+  return mins < 1 ? 'last updated just now' : `last updated ${mins} min ago`
+}
+
+function Header({ weather, sun, now, compact, updatedAt }: { weather?: WeatherNow; sun?: SunInfo; now: number; compact: boolean; updatedAt?: string }) {
+  const updated = updatedLabel(updatedAt, now)
   return (
     <div className={cx('px-5', compact ? 'pt-1' : 'pt-5')}>
-      <div className="flex items-center gap-2">
+      <div className="flex flex-wrap items-center gap-2">
         <h1 className="text-[19px] font-semibold leading-6 tracking-[-0.02em] text-zinc-950">{APP_NAME}</h1>
         <span className="rounded-full border border-black/[0.07] bg-white/60 px-2 py-0.5 text-[11px] font-medium leading-4 text-zinc-500">
           Austin, TX
         </span>
+        <span className="rounded-full bg-zinc-900 px-2 py-0.5 text-[11px] font-medium leading-4 text-white">Curated by Grok Bot</span>
       </div>
+      <p className="mt-2 text-[12.5px] leading-[18px] text-zinc-500">
+        Grok Bot keeps Hum updated around the clock with the events and places worth knowing about.
+      </p>
+      {updated && <p className="mt-1 text-[12px] text-zinc-400">{updated}</p>}
       <div className="mt-3 flex min-w-0 items-center gap-1.5">
         <WeatherChip weather={weather} compact={compact} />
         <SunChip sun={sun} now={now} />
@@ -656,18 +682,45 @@ function Chip({ active, onClick, color, children }: { active: boolean; onClick: 
   )
 }
 
+const BAND_CLS: Record<string, string> = {
+  Loud: 'bg-rose-600 text-white',
+  Buzzing: 'bg-amber-500 text-white',
+  Humming: 'bg-emerald-600 text-white',
+  Quiet: 'bg-zinc-200 text-zinc-600',
+}
+
+function PlaceLead({ state, blurb, now }: { state?: HumPlaceState; blurb: string; now: number }) {
+  const next = state?.upcoming.find((u) => Date.parse(u.when) > now)
+  return (
+    <div className="mt-1.5 space-y-1">
+      {state?.band && (
+        <span className={cx('inline-flex rounded-full px-1.5 text-[10px] font-semibold leading-4', BAND_CLS[state.band] ?? BAND_CLS.Quiet)}>
+          {state.band}
+        </span>
+      )}
+      <p className="line-clamp-3 text-[11.5px] leading-4 text-zinc-600">{state?.summary || blurb}</p>
+      {state?.now[0] && <p className="line-clamp-2 text-[11.5px] font-medium leading-4 text-zinc-800">{state.now[0].title}</p>}
+      {next && <p className="truncate text-[11px] leading-4 text-zinc-500">Next · {next.title}</p>}
+    </div>
+  )
+}
+
 function PlacesCarousel({
   places,
+  placeState,
   livePlaceIds,
   selectedPlaceId,
   onSelect,
   userLocation,
+  now,
 }: {
   places: Place[]
+  placeState: Record<string, HumPlaceState>
   livePlaceIds: Set<string>
   selectedPlaceId: string | null
   onSelect: (id: string) => void
   userLocation?: [number, number] | null
+  now: number
 }) {
   // Nearest first when we know where the user is; otherwise live places first, then curated order
   const dist = useMemo(
@@ -704,7 +757,7 @@ function PlacesCarousel({
                 aria-pressed={sel}
                 title={`${p.name} · ${p.neighborhood}`}
                 className={cx(
-                  'relative w-[132px] flex-none snap-start rounded-2xl border p-2.5 text-left outline-none transition-all duration-150',
+                  'relative w-[210px] flex-none snap-start rounded-2xl border p-2.5 text-left outline-none transition-all duration-150',
                   'focus-visible:ring-2 focus-visible:ring-zinc-900/60 active:scale-[0.98]',
                   sel
                     ? 'border-zinc-900 bg-white shadow-md'
@@ -724,12 +777,7 @@ function PlacesCarousel({
                   </span>
                 )}
                 <p className="mt-2 truncate text-[13px] font-semibold leading-[18px] text-zinc-900">{p.name}</p>
-                <p className="flex items-center gap-1 truncate text-[11.5px] leading-4 text-zinc-500">
-                  <span className="h-1.5 w-1.5 flex-none rounded-full" style={{ background: color }} />
-                  <span className="truncate">
-                    {dist.has(p.id) ? distanceLabel(dist.get(p.id)!) : p.neighborhood}
-                  </span>
-                </p>
+                <PlaceLead state={placeState[p.id]} blurb={p.blurb} now={now} />
               </button>
             )
           })}
