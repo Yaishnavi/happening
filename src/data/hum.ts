@@ -46,14 +46,19 @@ const ID_MAP: Record<string, string> = {
 }
 export const toAppPlaceId = (storeId: string) => ID_MAP[storeId] ?? storeId
 
-const STORE_URL = import.meta.env.VITE_HUM_URL as string | undefined
+// Default live store: hum-live.json on the repo's `live-data` branch, which the
+// Grok Bot fleet rewrites after every curator run. Override with VITE_HUM_URL.
+const LIVE_BRANCH_URL = 'https://raw.githubusercontent.com/rishiv7/happening/live-data/hum-live.json'
+const STORE_URL = (import.meta.env.VITE_HUM_URL as string | undefined) || LIVE_BRANCH_URL
 const STORE_KEY = import.meta.env.VITE_HUM_KEY as string | undefined
 const SNAPSHOT_URL = '/hum-snapshot.json'
 
 export async function fetchHum(signal?: AbortSignal): Promise<{ places: HumPlace[]; source: 'live' | 'cached' }> {
   if (STORE_URL) {
     try {
-      const r = await fetch(STORE_URL, { signal, headers: STORE_KEY ? { apikey: STORE_KEY, Authorization: `Bearer ${STORE_KEY}` } : {} })
+      // raw.githubusercontent caches for ~5 min; the query param nudges the CDN to revalidate.
+      const url = STORE_URL.includes('raw.githubusercontent.com') ? `${STORE_URL}?t=${Math.floor(Date.now() / 60_000)}` : STORE_URL
+      const r = await fetch(url, { signal, headers: STORE_KEY ? { apikey: STORE_KEY, Authorization: `Bearer ${STORE_KEY}` } : {} })
       if (r.ok) return { places: normalize(await r.json()), source: 'live' }
     } catch {
       /* fall through to snapshot */
