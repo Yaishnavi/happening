@@ -56,7 +56,7 @@
         "last_run": {
           "social": "2026-10-20T02:46:26Z",
           "cameras": "2026-10-20T02:46:46Z",
-          "curator": "2026-10-20T03:00:04Z",
+          "curator": "2026-10-20T03:02:43Z",
           "reviews": "2026-10-20T02:11:21Z",
           "sensors": "2026-10-20T02:57:46.489015+00:00",
           "calendar": "2026-10-20T02:38:27Z",
@@ -156,7 +156,7 @@
         "band": "Humming",
         "score": 48.8,
         "inputs": {
-          "review_recency": 91.6,
+          "review_recency": 91.5,
           "event_proximity": 100,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
@@ -171,7 +171,7 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T03:00:04Z",
+        "computed_at": "2026-10-20T03:02:43Z",
         "explanation": "Snarky Puppy is on now at ACL Live, though it's been quiet online from the show.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
@@ -250,7 +250,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T03:00:18.935438+00:00"
+    "updated_at": "2026-10-20T03:03:12.094072+00:00"
   },
   {
     "id": "alteno",
@@ -285,7 +285,7 @@
         "added_by": "Hum Scout (approved by user)",
         "last_run": {
           "social": "2026-10-20T02:46:26Z",
-          "curator": "2026-10-20T03:00:04Z",
+          "curator": "2026-10-20T03:02:43Z",
           "reviews": "2026-10-20T02:11:21Z",
           "sensors": "2026-10-20T02:57:46.489015+00:00",
           "calendar": "2026-10-20T02:38:27Z",
@@ -342,7 +342,7 @@
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
-        "computed_at": "2026-10-20T03:00:04Z",
+        "computed_at": "2026-10-20T03:02:43Z",
         "explanation": "No events are listed here tonight."
       },
       "anomaly": false,
@@ -378,7 +378,7 @@
       "upcoming": [],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T03:00:18.935438+00:00"
+    "updated_at": "2026-10-20T03:03:12.094072+00:00"
   },
   {
     "id": "barton-springs",
@@ -429,7 +429,7 @@
         "last_run": {
           "social": "2026-10-20T02:46:26Z",
           "cameras": "2026-10-20T02:46:46Z",
-          "curator": "2026-10-20T03:00:04Z",
+          "curator": "2026-10-20T03:02:43Z",
           "reviews": "2026-10-20T02:11:21Z",
           "sensors": "2026-10-20T02:57:46.489015+00:00",
           "calendar": "2026-10-20T02:38:27Z",
@@ -549,7 +549,7 @@
         "band": "Humming",
         "score": 50.4,
         "inputs": {
-          "review_recency": 68.1,
+          "review_recency": 68.0,
           "event_proximity": 100,
           "social_velocity_norm": 10,
           "foot_vs_baseline_norm": null
@@ -564,7 +564,7 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T03:00:04Z",
+        "computed_at": "2026-10-20T03:02:43Z",
         "explanation": "Tonight's free Night Swim has wrapped up, and the next one is tomorrow at 9 PM CT.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
@@ -631,7 +631,7 @@
       ],
       "posts_last_hour": 1
     },
-    "updated_at": "2026-10-20T03:00:18.935438+00:00"
+    "updated_at": "2026-10-20T03:03:12.094072+00:00"
   },
   {
     "id": "big-slick",
@@ -666,7 +666,7 @@
         "added_by": "Hum Scout (approved by user)",
         "last_run": {
           "social": "2026-10-20T02:46:26Z",
-          "curator": "2026-10-20T03:00:04Z",
+          "curator": "2026-10-20T03:02:43Z",
           "reviews": "2026-10-20T02:11:21Z",
           "sensors": "2026-10-20T02:57:46.489015+00:00",
           "calendar": "2026-10-20T02:38:27Z",
@@ -734,7 +734,7 @@
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
-        "computed_at": "2026-10-20T03:00:04Z",
+        "computed_at": "2026-10-20T03:02:43Z",
         "explanation": "No events are listed here tonight."
       },
       "anomaly": false,
@@ -775,7 +775,7 @@
       "upcoming": [],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T03:00:18.935438+00:00"
+    "updated_at": "2026-10-20T03:03:12.094072+00:00"
   },
   {
     "id": "capitol",
@@ -826,7 +826,7 @@
         "last_run": {
           "social": "2026-10-20T02:46:26Z",
           "cameras": "2026-10-20T02:46:46Z",
-          "curator": "2026-10-20T03:00:04Z",
+          "curator": "2026-10-20T03:02:43Z",
           "reviews": "2026-10-20T02:11:21Z",
           "sensors": "2026-10-20T02:57:46.489015+00:00",
           "calendar": "2026-10-20T02:38:27Z",
@@ -946,7 +946,7 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T03:00:04Z",
+        "computed_at": "2026-10-20T03:02:43Z",
         "explanation": "It's quiet tonight, with a Counties 101 lunch-and-learn kicking off tomorrow morning.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
@@ -1037,7 +1037,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T03:00:18.935438+00:00"
+    "updated_at": "2026-10-20T03:03:12.094072+00:00"
   },
   {
     "id": "casa-fina",
@@ -1072,7 +1072,7 @@
         "added_by": "Hum Scout (approved by user)",
         "last_run": {
           "social": "2026-10-20T02:46:26Z",
-          "curator": "2026-10-20T03:00:04Z",
+          "curator": "2026-10-20T03:02:43Z",
           "reviews": "2026-10-20T02:11:21Z",
           "sensors": "2026-10-20T02:57:46.489015+00:00",
           "calendar": "2026-10-20T02:38:27Z",
@@ -1133,14 +1133,14 @@
       "social": [],
       "volume": {
         "band": "Quiet",
-        "score": 11.8,
+        "score": 11.7,
         "inputs": {
-          "review_recency": 82.3,
+          "review_recency": 82.2,
           "event_proximity": 0,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
-        "computed_at": "2026-10-20T03:00:04Z",
+        "computed_at": "2026-10-20T03:02:43Z",
         "explanation": "Its opening isn't confirmed yet, and no events are listed."
       },
       "anomaly": false,
@@ -1181,7 +1181,7 @@
       "upcoming": [],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T03:00:18.935438+00:00"
+    "updated_at": "2026-10-20T03:03:12.094072+00:00"
   },
   {
     "id": "confluence",
@@ -1233,7 +1233,7 @@
         "last_run": {
           "social": "2026-10-20T02:46:26Z",
           "cameras": "2026-10-20T02:46:46Z",
-          "curator": "2026-10-20T03:00:04Z",
+          "curator": "2026-10-20T03:02:43Z",
           "reviews": "2026-10-20T02:11:21Z",
           "sensors": "2026-10-20T02:57:46.489015+00:00",
           "calendar": "2026-10-20T02:38:27Z",
@@ -1318,12 +1318,12 @@
         "band": "Humming",
         "score": 45.7,
         "inputs": {
-          "review_recency": 86.2,
+          "review_recency": 86.1,
           "event_proximity": 93.5,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
-        "computed_at": "2026-10-20T03:00:04Z",
+        "computed_at": "2026-10-20T03:02:43Z",
         "explanation": "A monarch butterfly tagging session tomorrow morning is the next thing on here, so it's quiet tonight."
       },
       "anomaly": false,
@@ -1383,7 +1383,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T03:00:18.935438+00:00"
+    "updated_at": "2026-10-20T03:03:12.094072+00:00"
   },
   {
     "id": "coquito",
@@ -1435,7 +1435,7 @@
         "last_run": {
           "social": "2026-10-20T02:46:26Z",
           "cameras": "2026-10-20T02:46:46Z",
-          "curator": "2026-10-20T03:00:04Z",
+          "curator": "2026-10-20T03:02:43Z",
           "reviews": "2026-10-20T02:11:21Z",
           "sensors": "2026-10-20T02:57:46.489015+00:00",
           "calendar": "2026-10-20T02:38:27Z",
@@ -1518,14 +1518,14 @@
       "social": [],
       "volume": {
         "band": "Quiet",
-        "score": 21.0,
+        "score": 21.1,
         "inputs": {
           "review_recency": 0,
-          "event_proximity": 58.9,
+          "event_proximity": 59.0,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
-        "computed_at": "2026-10-20T03:00:04Z",
+        "computed_at": "2026-10-20T03:02:43Z",
         "explanation": "Coquito is quiet tonight, with SafiCantina and the Perreo Club salsa night coming Thursday."
       },
       "anomaly": false,
@@ -1579,7 +1579,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T03:00:18.935438+00:00"
+    "updated_at": "2026-10-20T03:03:12.094072+00:00"
   },
   {
     "id": "dkr",
@@ -1630,7 +1630,7 @@
         "last_run": {
           "social": "2026-10-20T02:46:26Z",
           "cameras": "2026-10-20T02:46:46Z",
-          "curator": "2026-10-20T03:00:04Z",
+          "curator": "2026-10-20T03:02:43Z",
           "reviews": "2026-10-20T02:11:21Z",
           "sensors": "2026-10-20T02:57:46.489015+00:00",
           "calendar": "2026-10-20T02:38:27Z",
@@ -1760,7 +1760,7 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T03:00:04Z",
+        "computed_at": "2026-10-20T03:02:43Z",
         "explanation": "No game until Saturday's Ole Miss matchup, so the stadium is quiet apart from a few visitor posts.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
@@ -1809,7 +1809,7 @@
       ],
       "posts_last_hour": 1
     },
-    "updated_at": "2026-10-20T03:00:18.935438+00:00"
+    "updated_at": "2026-10-20T03:03:12.094072+00:00"
   },
   {
     "id": "franklin",
@@ -1844,7 +1844,7 @@
         "ig_query": "Franklin Barbecue 900 E 11th St Austin",
         "last_run": {
           "social": "2026-10-20T02:46:26Z",
-          "curator": "2026-10-20T03:00:04Z",
+          "curator": "2026-10-20T03:02:43Z",
           "reviews": "2026-10-20T02:11:21Z",
           "sensors": "2026-10-20T02:57:46.489015+00:00",
           "calendar": "2026-10-20T02:38:27Z",
@@ -1934,7 +1934,7 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T03:00:04Z",
+        "computed_at": "2026-10-20T03:02:43Z",
         "explanation": "Franklin is closed Mondays, so it's quiet tonight.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
@@ -1976,7 +1976,7 @@
       "upcoming": [],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T03:00:18.935438+00:00"
+    "updated_at": "2026-10-20T03:03:12.094072+00:00"
   },
   {
     "id": "hermanas",
@@ -2011,7 +2011,7 @@
         "added_by": "Hum Scout (approved by user)",
         "last_run": {
           "social": "2026-10-20T02:46:26Z",
-          "curator": "2026-10-20T03:00:04Z",
+          "curator": "2026-10-20T03:02:43Z",
           "reviews": "2026-10-20T02:11:21Z",
           "sensors": "2026-10-20T02:57:46.489015+00:00",
           "calendar": "2026-10-20T02:38:27Z",
@@ -2079,7 +2079,7 @@
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
-        "computed_at": "2026-10-20T03:00:04Z",
+        "computed_at": "2026-10-20T03:02:43Z",
         "explanation": "No events are listed here tonight."
       },
       "anomaly": false,
@@ -2120,7 +2120,7 @@
       "upcoming": [],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T03:00:18.935438+00:00"
+    "updated_at": "2026-10-20T03:03:12.094072+00:00"
   },
   {
     "id": "luckys-puccias",
@@ -2155,7 +2155,7 @@
         "added_by": "Hum Scout (approved by user)",
         "last_run": {
           "social": "2026-10-20T02:46:26Z",
-          "curator": "2026-10-20T03:00:04Z",
+          "curator": "2026-10-20T03:02:43Z",
           "reviews": "2026-10-20T02:11:21Z",
           "sensors": "2026-10-20T02:57:46.489015+00:00",
           "calendar": "2026-10-20T02:38:27Z",
@@ -2218,12 +2218,12 @@
         "band": "Quiet",
         "score": 11.6,
         "inputs": {
-          "review_recency": 81.2,
+          "review_recency": 81.1,
           "event_proximity": 0,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
-        "computed_at": "2026-10-20T03:00:04Z",
+        "computed_at": "2026-10-20T03:02:43Z",
         "explanation": "No events are listed here tonight."
       },
       "anomaly": false,
@@ -2264,7 +2264,7 @@
       "upcoming": [],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T03:00:18.935438+00:00"
+    "updated_at": "2026-10-20T03:03:12.094072+00:00"
   },
   {
     "id": "mohawk",
@@ -2323,7 +2323,7 @@
         "last_run": {
           "social": "2026-10-20T02:46:26Z",
           "cameras": "2026-10-20T02:46:46Z",
-          "curator": "2026-10-20T03:00:04Z",
+          "curator": "2026-10-20T03:02:43Z",
           "reviews": "2026-10-20T02:11:21Z",
           "sensors": "2026-10-20T02:57:46.489015+00:00",
           "calendar": "2026-10-20T02:38:27Z",
@@ -2443,7 +2443,7 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T03:00:04Z",
+        "computed_at": "2026-10-20T03:02:43Z",
         "explanation": "Joey Cash is on now on Mohawk's indoor stage.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
@@ -2534,7 +2534,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T03:00:18.935438+00:00"
+    "updated_at": "2026-10-20T03:03:12.094072+00:00"
   },
   {
     "id": "monks-jazz",
@@ -2586,7 +2586,7 @@
         "last_run": {
           "social": "2026-10-20T02:46:26Z",
           "cameras": "2026-10-20T02:46:46Z",
-          "curator": "2026-10-20T03:00:04Z",
+          "curator": "2026-10-20T03:02:43Z",
           "reviews": "2026-10-20T02:11:21Z",
           "sensors": "2026-10-20T02:57:46.489015+00:00",
           "calendar": "2026-10-20T02:38:27Z",
@@ -2671,12 +2671,12 @@
         "band": "Humming",
         "score": 43.5,
         "inputs": {
-          "review_recency": 86.5,
+          "review_recency": 86.4,
           "event_proximity": 87.2,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
-        "computed_at": "2026-10-20T03:00:04Z",
+        "computed_at": "2026-10-20T03:02:43Z",
         "explanation": "Kelly Green Trio's album release show is tomorrow night, so it's a quiet evening until then."
       },
       "anomaly": false,
@@ -2752,7 +2752,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T03:00:18.935438+00:00"
+    "updated_at": "2026-10-20T03:03:12.094072+00:00"
   },
   {
     "id": "moody-center",
@@ -2811,7 +2811,7 @@
         "last_run": {
           "social": "2026-10-20T02:46:26Z",
           "cameras": "2026-10-20T02:46:46Z",
-          "curator": "2026-10-20T03:00:04Z",
+          "curator": "2026-10-20T03:02:43Z",
           "reviews": "2026-10-20T02:11:21Z",
           "sensors": "2026-10-20T02:57:46.489015+00:00",
           "calendar": "2026-10-20T02:38:27Z",
@@ -2946,7 +2946,7 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T03:00:04Z",
+        "computed_at": "2026-10-20T03:02:43Z",
         "explanation": "Staind, Seether, Hoobastank and Hinder are on now at Moody Center.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
@@ -3010,7 +3010,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T03:00:18.935438+00:00"
+    "updated_at": "2026-10-20T03:03:12.094072+00:00"
   },
   {
     "id": "mount-bonnell",
@@ -3045,7 +3045,7 @@
         "ig_query": "Mount Bonnell 3800 Mount Bonnell Rd Austin TX",
         "last_run": {
           "social": "2026-10-20T02:46:26Z",
-          "curator": "2026-10-20T03:00:04Z",
+          "curator": "2026-10-20T03:02:43Z",
           "reviews": "2026-10-20T02:11:21Z",
           "sensors": "2026-10-20T02:57:46.489015+00:00",
           "calendar": "2026-10-20T02:38:27Z",
@@ -3124,8 +3124,8 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T03:00:04Z",
-        "explanation": "No events this week, so it's just the usual evening overlook visitors.",
+        "computed_at": "2026-10-20T03:02:43Z",
+        "explanation": "The overlook closed at 10 PM CT, and nothing is scheduled there this week.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
       "anomaly": false,
@@ -3162,11 +3162,11 @@
         "source": "google_maps",
         "trend_7d": null
       },
-      "summary": "Mount Bonnell has no scheduled events this week, so it's a low-key spot for a view tonight. The overlook in Covert Park is open until 10 PM, and sunset is the busiest time.",
+      "summary": "The Mount Bonnell overlook in Covert Park closed at 10 PM, so save it for another evening this week. Come around sunset for the best view, and expect that to be the busiest time.",
       "upcoming": [],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T03:00:18.935438+00:00"
+    "updated_at": "2026-10-20T03:03:12.094072+00:00"
   },
   {
     "id": "nishi",
@@ -3201,7 +3201,7 @@
         "added_by": "Hum Scout (approved by user)",
         "last_run": {
           "social": "2026-10-20T02:46:26Z",
-          "curator": "2026-10-20T03:00:04Z",
+          "curator": "2026-10-20T03:02:43Z",
           "reviews": "2026-10-20T02:11:21Z",
           "sensors": "2026-10-20T02:57:46.489015+00:00",
           "calendar": "2026-10-20T02:38:27Z",
@@ -3269,7 +3269,7 @@
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
-        "computed_at": "2026-10-20T03:00:04Z",
+        "computed_at": "2026-10-20T03:02:43Z",
         "explanation": "No events are listed here tonight."
       },
       "anomaly": false,
@@ -3310,7 +3310,7 @@
       "upcoming": [],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T03:00:18.935438+00:00"
+    "updated_at": "2026-10-20T03:03:12.094072+00:00"
   },
   {
     "id": "q2",
@@ -3362,7 +3362,7 @@
         "last_run": {
           "social": "2026-10-20T02:46:26Z",
           "cameras": "2026-10-20T02:46:46Z",
-          "curator": "2026-10-20T03:00:04Z",
+          "curator": "2026-10-20T03:02:43Z",
           "reviews": "2026-10-20T02:11:21Z",
           "sensors": "2026-10-20T02:57:46.489015+00:00",
           "calendar": "2026-10-20T02:38:27Z",
@@ -3487,7 +3487,7 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T03:00:04Z",
+        "computed_at": "2026-10-20T03:02:43Z",
         "explanation": "There's no match or event tonight, and the next thing on the calendar is Saturday morning.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
@@ -3536,7 +3536,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T03:00:18.935438+00:00"
+    "updated_at": "2026-10-20T03:03:12.094072+00:00"
   },
   {
     "id": "rainey",
@@ -3595,7 +3595,7 @@
         "last_run": {
           "social": "2026-10-20T02:46:26Z",
           "cameras": "2026-10-20T02:46:46Z",
-          "curator": "2026-10-20T03:00:04Z",
+          "curator": "2026-10-20T03:02:43Z",
           "reviews": "2026-10-20T02:11:21Z",
           "sensors": "2026-10-20T02:57:46.489015+00:00",
           "calendar": "2026-10-20T02:38:27Z",
@@ -3720,7 +3720,7 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T03:00:04Z",
+        "computed_at": "2026-10-20T03:02:43Z",
         "explanation": "The MNP Rainey St. Block Party is on until 11pm CT.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
@@ -3787,7 +3787,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T03:00:18.935438+00:00"
+    "updated_at": "2026-10-20T03:03:12.094072+00:00"
   },
   {
     "id": "ramen-del-barrio",
@@ -3830,7 +3830,7 @@
         "added_by": "Hum Scout (approved by user)",
         "last_run": {
           "social": "2026-10-20T02:46:26Z",
-          "curator": "2026-10-20T03:00:04Z",
+          "curator": "2026-10-20T03:02:43Z",
           "reviews": "2026-10-20T02:11:21Z",
           "sensors": "2026-10-20T02:57:46.489015+00:00",
           "calendar": "2026-10-20T02:38:27Z",
@@ -3898,7 +3898,7 @@
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
-        "computed_at": "2026-10-20T03:00:04Z",
+        "computed_at": "2026-10-20T03:02:43Z",
         "explanation": "No events are listed here tonight."
       },
       "anomaly": false,
@@ -3938,7 +3938,7 @@
       "upcoming": [],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T03:00:18.935438+00:00"
+    "updated_at": "2026-10-20T03:03:12.094072+00:00"
   },
   {
     "id": "sixth-street",
@@ -3989,7 +3989,7 @@
         "last_run": {
           "social": "2026-10-20T02:46:26Z",
           "cameras": "2026-10-20T02:46:46Z",
-          "curator": "2026-10-20T03:00:04Z",
+          "curator": "2026-10-20T03:02:43Z",
           "reviews": "2026-10-20T02:11:21Z",
           "sensors": "2026-10-20T02:57:46.489015+00:00",
           "calendar": "2026-10-20T02:38:27Z",
@@ -4099,10 +4099,10 @@
       "social": [],
       "volume": {
         "band": "Quiet",
-        "score": 25.7,
+        "score": 25.8,
         "inputs": {
           "review_recency": 0,
-          "event_proximity": 72.0,
+          "event_proximity": 72.1,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
@@ -4116,7 +4116,7 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T03:00:04Z",
+        "computed_at": "2026-10-20T03:02:43Z",
         "explanation": "It's a quiet Monday in the E 6th St district, with the next listed shows on Wednesday and Friday.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
@@ -4195,7 +4195,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T03:00:18.935438+00:00"
+    "updated_at": "2026-10-20T03:03:12.094072+00:00"
   },
   {
     "id": "south-congress",
@@ -4206,11 +4206,11 @@
     "record": {
       "now": [
         {
-          "t": "2026-10-20T00:42:00Z",
-          "title": "Elias Haslanger at the Continental Club at 8:30pm, then Dale Watson at 10:15pm.",
-          "source": "wherethemusicsplaying.com",
-          "confidence": 0.7,
-          "expires_at": "2026-10-20T03:15:00Z"
+          "t": "2026-10-20T03:02:00Z",
+          "title": "Dale Watson takes the Continental Club stage at 10:15pm CT.",
+          "source": "continentalclub.com",
+          "confidence": 0.8,
+          "expires_at": "2026-10-20T05:00:00Z"
         }
       ],
       "live": {
@@ -4254,7 +4254,7 @@
         "last_run": {
           "social": "2026-10-20T02:46:26Z",
           "cameras": "2026-10-20T02:46:46Z",
-          "curator": "2026-10-20T03:00:04Z",
+          "curator": "2026-10-20T03:02:43Z",
           "reviews": "2026-10-20T02:11:21Z",
           "sensors": "2026-10-20T02:57:46.489015+00:00",
           "calendar": "2026-10-20T02:38:27Z",
@@ -4379,8 +4379,8 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T03:00:04Z",
-        "explanation": "Elias Haslanger is playing the Continental Club now, with Dale Watson at 10:15pm CT.",
+        "computed_at": "2026-10-20T03:02:43Z",
+        "explanation": "Dale Watson takes the Continental Club stage at 10:15pm CT.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
       "anomaly": false,
@@ -4417,7 +4417,7 @@
         "source": "google_maps",
         "trend_7d": null
       },
-      "summary": "The Continental Club has Elias Haslanger at 8:30pm CT and Dale Watson at 10:15pm tonight, and Jim Ortiz & The Ballroom Destroyers are at C-Boy's. Sidewalks look uncrowded right now, so it's an easy night to walk in.",
+      "summary": "Dale Watson plays the Continental Club at 10:15pm CT tonight, and Jim Ortiz & The Ballroom Destroyers are at C-Boy's. Sidewalks look uncrowded right now, so it's an easy night to walk in.",
       "upcoming": [
         {
           "url": "https://austin.showlists.net/",
@@ -4470,7 +4470,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T03:00:18.935438+00:00"
+    "updated_at": "2026-10-20T03:03:12.094072+00:00"
   },
   {
     "id": "still-austin-quarter",
@@ -4522,7 +4522,7 @@
         "last_run": {
           "social": "2026-10-20T02:46:26Z",
           "cameras": "2026-10-20T02:46:46Z",
-          "curator": "2026-10-20T03:00:04Z",
+          "curator": "2026-10-20T03:02:43Z",
           "reviews": "2026-10-20T02:11:21Z",
           "sensors": "2026-10-20T02:57:46.489015+00:00",
           "calendar": "2026-10-20T02:38:27Z",
@@ -4597,11 +4597,11 @@
         "score": 33.0,
         "inputs": {
           "review_recency": 83.5,
-          "event_proximity": 58.9,
+          "event_proximity": 59.0,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
-        "computed_at": "2026-10-20T03:00:04Z",
+        "computed_at": "2026-10-20T03:02:43Z",
         "explanation": "It's closed Mondays, and its next show is Starkitect's free album release on Thursday."
       },
       "anomaly": false,
@@ -4667,7 +4667,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T03:00:18.935438+00:00"
+    "updated_at": "2026-10-20T03:03:12.094072+00:00"
   },
   {
     "id": "stubbs",
@@ -4718,7 +4718,7 @@
         "last_run": {
           "social": "2026-10-20T02:46:26Z",
           "cameras": "2026-10-20T02:46:46Z",
-          "curator": "2026-10-20T03:00:04Z",
+          "curator": "2026-10-20T03:02:43Z",
           "reviews": "2026-10-20T02:11:21Z",
           "sensors": "2026-10-20T02:57:46.489015+00:00",
           "calendar": "2026-10-20T02:38:27Z",
@@ -4821,10 +4821,10 @@
       "social": [],
       "volume": {
         "band": "Humming",
-        "score": 34.9,
+        "score": 35.0,
         "inputs": {
           "review_recency": 97.3,
-          "event_proximity": 58.9,
+          "event_proximity": 59.0,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
@@ -4838,7 +4838,7 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T03:00:04Z",
+        "computed_at": "2026-10-20T03:02:43Z",
         "explanation": "Nothing on tonight, with Vince Staples coming Thursday.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
@@ -4899,7 +4899,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T03:00:18.935438+00:00"
+    "updated_at": "2026-10-20T03:03:12.094072+00:00"
   },
   {
     "id": "the-domain",
@@ -4950,7 +4950,7 @@
         "last_run": {
           "social": "2026-10-20T02:46:26Z",
           "cameras": "2026-10-20T02:46:46Z",
-          "curator": "2026-10-20T03:00:04Z",
+          "curator": "2026-10-20T03:02:43Z",
           "reviews": "2026-10-20T02:11:21Z",
           "sensors": "2026-10-20T02:57:46.489015+00:00",
           "calendar": "2026-10-20T02:38:27Z",
@@ -5061,7 +5061,7 @@
         "score": 26.1,
         "inputs": {
           "review_recency": 96.3,
-          "event_proximity": 34.5,
+          "event_proximity": 34.6,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
@@ -5075,7 +5075,7 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T03:00:04Z",
+        "computed_at": "2026-10-20T03:02:43Z",
         "explanation": "Nothing is listed tonight, with Pettober coming Saturday.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
@@ -5130,7 +5130,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T03:00:18.935438+00:00"
+    "updated_at": "2026-10-20T03:03:12.094072+00:00"
   },
   {
     "id": "watershed",
@@ -5165,7 +5165,7 @@
         "added_by": "Hum Scout (approved by user)",
         "last_run": {
           "social": "2026-10-20T02:46:26Z",
-          "curator": "2026-10-20T03:00:04Z",
+          "curator": "2026-10-20T03:02:43Z",
           "reviews": "2026-10-20T02:11:21Z",
           "sensors": "2026-10-20T02:57:46.489015+00:00",
           "calendar": "2026-10-20T02:38:27Z",
@@ -5233,7 +5233,7 @@
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
-        "computed_at": "2026-10-20T03:00:04Z",
+        "computed_at": "2026-10-20T03:02:43Z",
         "explanation": "No events are listed here tonight."
       },
       "anomaly": false,
@@ -5274,7 +5274,7 @@
       "upcoming": [],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T03:00:18.935438+00:00"
+    "updated_at": "2026-10-20T03:03:12.094072+00:00"
   },
   {
     "id": "zilker",
@@ -5325,7 +5325,7 @@
         "last_run": {
           "social": "2026-10-20T02:46:26Z",
           "cameras": "2026-10-20T02:46:46Z",
-          "curator": "2026-10-20T03:00:04Z",
+          "curator": "2026-10-20T03:02:43Z",
           "reviews": "2026-10-20T02:11:21Z",
           "sensors": "2026-10-20T02:57:46.489015+00:00",
           "calendar": "2026-10-20T02:38:27Z",
@@ -5437,7 +5437,7 @@
         "band": "Humming",
         "score": 45.0,
         "inputs": {
-          "review_recency": 94.7,
+          "review_recency": 94.6,
           "event_proximity": 88.1,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
@@ -5452,7 +5452,7 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T03:00:04Z",
+        "computed_at": "2026-10-20T03:02:43Z",
         "explanation": "A calm night in the park, with a dog meet-up tomorrow evening and more events through the week.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
@@ -5517,6 +5517,6 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T03:00:18.935438+00:00"
+    "updated_at": "2026-10-20T03:03:12.094072+00:00"
   }
 ]
