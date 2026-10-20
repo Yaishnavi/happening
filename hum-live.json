@@ -35,7 +35,7 @@
         },
         "traffic": {
           "note": "No active incidents within 3 mi; several nearby streets fully closed, allow extra time",
-          "as_of": "2026-10-20T02:18:44+00:00",
+          "as_of": "2026-10-20T02:31:35+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
@@ -57,9 +57,9 @@
         "last_run": {
           "social": "2026-10-20T02:03:00Z",
           "cameras": "2026-10-20T02:20:35Z",
-          "curator": "2026-10-20T02:23:29Z",
+          "curator": "2026-10-20T02:35:24Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T02:18:53.330871+00:00",
+          "sensors": "2026-10-20T02:31:44.699195+00:00",
           "calendar": "2026-10-20T01:42:13Z",
           "social_ig": "2026-10-20T01:44:39Z"
         },
@@ -146,7 +146,7 @@
         "band": "Humming",
         "score": 48.8,
         "inputs": {
-          "review_recency": 91.9,
+          "review_recency": 91.8,
           "event_proximity": 100,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
@@ -161,7 +161,7 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T02:23:29Z",
+        "computed_at": "2026-10-20T02:35:24Z",
         "explanation": "Snarky Puppy is on now at ACL Live, though it's been quiet online from the show.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
@@ -240,7 +240,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T02:23:34.5675+00:00"
+    "updated_at": "2026-10-20T02:35:43.798675+00:00"
   },
   {
     "id": "alteno",
@@ -253,7 +253,7 @@
       "live": {
         "traffic": {
           "note": "No active incidents within 3 mi; several nearby streets fully closed, allow extra time",
-          "as_of": "2026-10-20T02:18:44+00:00",
+          "as_of": "2026-10-20T02:31:35+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
@@ -275,9 +275,9 @@
         "added_by": "Hum Scout (approved by user)",
         "last_run": {
           "social": "2026-10-20T02:03:00Z",
-          "curator": "2026-10-20T02:23:29Z",
+          "curator": "2026-10-20T02:35:24Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T02:18:53.330871+00:00",
+          "sensors": "2026-10-20T02:31:44.699195+00:00",
           "calendar": "2026-10-20T01:42:13Z",
           "social_ig": "2026-10-20T01:44:39Z"
         },
@@ -325,14 +325,14 @@
       "social": [],
       "volume": {
         "band": "Quiet",
-        "score": 5.3,
+        "score": 5.2,
         "inputs": {
-          "review_recency": 36.9,
+          "review_recency": 36.7,
           "event_proximity": 0,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
-        "computed_at": "2026-10-20T02:23:29Z",
+        "computed_at": "2026-10-20T02:35:24Z",
         "explanation": "No events are listed here tonight."
       },
       "anomaly": false,
@@ -364,11 +364,11 @@
         "source": "google_maps",
         "trend_7d": null
       },
-      "summary": "Alteño is a Jalisco-style hotel restaurant in the Rainey district with a skyline patio. It's a mild, clear 70F night, so the patio is the place to sit.",
+      "summary": "Alteño is a Jalisco-style hotel restaurant in the Rainey district with a skyline patio. It's a mild, clear 68F night, so the patio is the place to sit.",
       "upcoming": [],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T02:23:34.5675+00:00"
+    "updated_at": "2026-10-20T02:35:43.798675+00:00"
   },
   {
     "id": "barton-springs",
@@ -405,7 +405,7 @@
         },
         "traffic": {
           "note": "No active incidents within 3 mi",
-          "as_of": "2026-10-20T02:18:44+00:00",
+          "as_of": "2026-10-20T02:31:35+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
@@ -427,9 +427,9 @@
         "last_run": {
           "social": "2026-10-20T02:03:00Z",
           "cameras": "2026-10-20T02:20:35Z",
-          "curator": "2026-10-20T02:23:29Z",
+          "curator": "2026-10-20T02:35:24Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T02:18:53.330871+00:00",
+          "sensors": "2026-10-20T02:31:44.699195+00:00",
           "calendar": "2026-10-20T01:42:13Z",
           "social_ig": "2026-10-20T01:44:39Z"
         },
@@ -536,7 +536,7 @@
         "band": "Humming",
         "score": 50.5,
         "inputs": {
-          "review_recency": 68.4,
+          "review_recency": 68.3,
           "event_proximity": 100,
           "social_velocity_norm": 10,
           "foot_vs_baseline_norm": null
@@ -551,7 +551,7 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T02:23:29Z",
+        "computed_at": "2026-10-20T02:35:24Z",
         "explanation": "Free Night Swims are on now on a mild, clear evening.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
@@ -589,7 +589,7 @@
         "source": "google_maps",
         "trend_7d": null
       },
-      "summary": "Free Night Swims are on now, on a mild, clear 70F evening. Later this week there's a Monkey Tree volunteer swim on Friday and a Save Our Springs snorkel Saturday morning.",
+      "summary": "Free Night Swims are on now, on a mild, clear 68F evening. Later this week there's a Monkey Tree volunteer swim on Friday and a Save Our Springs snorkel Saturday morning.",
       "upcoming": [
         {
           "url": "https://www.outgoing.world/activity/night-swims-eb8b9db34a2a",
@@ -618,7 +618,7 @@
       ],
       "posts_last_hour": 1
     },
-    "updated_at": "2026-10-20T02:23:34.5675+00:00"
+    "updated_at": "2026-10-20T02:35:43.798675+00:00"
   },
   {
     "id": "big-slick",
@@ -631,7 +631,7 @@
       "live": {
         "traffic": {
           "note": "Crash Urgent at 4156 Berkman Dr (2.8 mi); several nearby streets fully closed, allow extra time",
-          "as_of": "2026-10-20T02:18:44+00:00",
+          "as_of": "2026-10-20T02:31:35+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
@@ -653,9 +653,9 @@
         "added_by": "Hum Scout (approved by user)",
         "last_run": {
           "social": "2026-10-20T02:03:00Z",
-          "curator": "2026-10-20T02:23:29Z",
+          "curator": "2026-10-20T02:35:24Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T02:18:53.330871+00:00",
+          "sensors": "2026-10-20T02:31:44.699195+00:00",
           "calendar": "2026-10-20T01:42:13Z",
           "social_ig": "2026-10-20T01:44:39Z"
         },
@@ -705,12 +705,12 @@
         "band": "Quiet",
         "score": 12.2,
         "inputs": {
-          "review_recency": 85.2,
+          "review_recency": 85.1,
           "event_proximity": 0,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
-        "computed_at": "2026-10-20T02:23:29Z",
+        "computed_at": "2026-10-20T02:35:24Z",
         "explanation": "No events are listed here tonight."
       },
       "anomaly": false,
@@ -751,7 +751,7 @@
       "upcoming": [],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T02:23:34.5675+00:00"
+    "updated_at": "2026-10-20T02:35:43.798675+00:00"
   },
   {
     "id": "capitol",
@@ -780,7 +780,7 @@
         },
         "traffic": {
           "note": "Crash Urgent at 4156 Berkman Dr (2.8 mi); several nearby streets fully closed, allow extra time",
-          "as_of": "2026-10-20T02:18:44+00:00",
+          "as_of": "2026-10-20T02:31:35+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
@@ -802,9 +802,9 @@
         "last_run": {
           "social": "2026-10-20T02:03:00Z",
           "cameras": "2026-10-20T02:20:35Z",
-          "curator": "2026-10-20T02:23:29Z",
+          "curator": "2026-10-20T02:35:24Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T02:18:53.330871+00:00",
+          "sensors": "2026-10-20T02:31:44.699195+00:00",
           "calendar": "2026-10-20T01:42:13Z",
           "social_ig": "2026-10-20T01:44:39Z"
         },
@@ -894,10 +894,10 @@
       "social": [],
       "volume": {
         "band": "Humming",
-        "score": 33.0,
+        "score": 33.1,
         "inputs": {
           "review_recency": 0,
-          "event_proximity": 92.5,
+          "event_proximity": 92.6,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
@@ -911,7 +911,7 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T02:23:29Z",
+        "computed_at": "2026-10-20T02:35:24Z",
         "explanation": "It's quiet tonight, with a Counties 101 lunch-and-learn kicking off tomorrow morning.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
@@ -1002,7 +1002,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T02:23:34.5675+00:00"
+    "updated_at": "2026-10-20T02:35:43.798675+00:00"
   },
   {
     "id": "casa-fina",
@@ -1015,7 +1015,7 @@
       "live": {
         "traffic": {
           "note": "No active incidents within 3 mi; several nearby streets fully closed, allow extra time",
-          "as_of": "2026-10-20T02:18:44+00:00",
+          "as_of": "2026-10-20T02:31:35+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
@@ -1037,9 +1037,9 @@
         "added_by": "Hum Scout (approved by user)",
         "last_run": {
           "social": "2026-10-20T02:03:00Z",
-          "curator": "2026-10-20T02:23:29Z",
+          "curator": "2026-10-20T02:35:24Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T02:18:53.330871+00:00",
+          "sensors": "2026-10-20T02:31:44.699195+00:00",
           "calendar": "2026-10-20T01:42:13Z",
           "social_ig": "2026-10-20T01:44:39Z"
         },
@@ -1089,12 +1089,12 @@
         "band": "Quiet",
         "score": 11.8,
         "inputs": {
-          "review_recency": 82.6,
+          "review_recency": 82.5,
           "event_proximity": 0,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
-        "computed_at": "2026-10-20T02:23:29Z",
+        "computed_at": "2026-10-20T02:35:24Z",
         "explanation": "Its opening isn't confirmed yet, and no events are listed."
       },
       "anomaly": false,
@@ -1135,7 +1135,7 @@
       "upcoming": [],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T02:23:34.5675+00:00"
+    "updated_at": "2026-10-20T02:35:43.798675+00:00"
   },
   {
     "id": "confluence",
@@ -1164,7 +1164,7 @@
         },
         "traffic": {
           "note": "No active incidents within 3 mi; several nearby streets fully closed, allow extra time",
-          "as_of": "2026-10-20T02:18:44+00:00",
+          "as_of": "2026-10-20T02:31:35+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
@@ -1187,9 +1187,9 @@
         "last_run": {
           "social": "2026-10-20T02:03:00Z",
           "cameras": "2026-10-20T02:20:35Z",
-          "curator": "2026-10-20T02:23:29Z",
+          "curator": "2026-10-20T02:35:24Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T02:18:53.330871+00:00",
+          "sensors": "2026-10-20T02:31:44.699195+00:00",
           "calendar": "2026-10-20T01:42:13Z",
           "social_ig": "2026-10-20T01:44:39Z"
         },
@@ -1261,12 +1261,12 @@
         "band": "Humming",
         "score": 45.6,
         "inputs": {
-          "review_recency": 86.5,
-          "event_proximity": 93.1,
+          "review_recency": 86.4,
+          "event_proximity": 93.2,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
-        "computed_at": "2026-10-20T02:23:29Z",
+        "computed_at": "2026-10-20T02:35:24Z",
         "explanation": "A monarch butterfly tagging session tomorrow morning is the next thing on here, so it's quiet tonight."
       },
       "anomaly": false,
@@ -1326,7 +1326,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T02:23:34.5675+00:00"
+    "updated_at": "2026-10-20T02:35:43.798675+00:00"
   },
   {
     "id": "coquito",
@@ -1354,8 +1354,8 @@
           "distance_mi": 0.1
         },
         "traffic": {
-          "note": "Crash Urgent at 4156 Berkman Dr (2.6 mi); several nearby streets fully closed, allow extra time",
-          "as_of": "2026-10-20T02:18:44+00:00",
+          "note": "Crash Urgent at 4156 Berkman Dr (2.6 mi) +1 more within 3 mi; several nearby streets fully closed, allow extra time",
+          "as_of": "2026-10-20T02:31:35+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
@@ -1378,9 +1378,9 @@
         "last_run": {
           "social": "2026-10-20T02:03:00Z",
           "cameras": "2026-10-20T02:20:35Z",
-          "curator": "2026-10-20T02:23:29Z",
+          "curator": "2026-10-20T02:35:24Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T02:18:53.330871+00:00",
+          "sensors": "2026-10-20T02:31:44.699195+00:00",
           "calendar": "2026-10-20T01:42:13Z",
           "social_ig": "2026-10-20T01:44:39Z"
         },
@@ -1450,14 +1450,14 @@
       "social": [],
       "volume": {
         "band": "Quiet",
-        "score": 20.7,
+        "score": 20.8,
         "inputs": {
           "review_recency": 0,
-          "event_proximity": 58.0,
+          "event_proximity": 58.1,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
-        "computed_at": "2026-10-20T02:23:29Z",
+        "computed_at": "2026-10-20T02:35:24Z",
         "explanation": "It's quiet tonight, with the weekly Perreo Club salsa and reggaeton night coming Thursday."
       },
       "anomaly": false,
@@ -1505,7 +1505,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T02:23:34.5675+00:00"
+    "updated_at": "2026-10-20T02:35:43.798675+00:00"
   },
   {
     "id": "dkr",
@@ -1534,7 +1534,7 @@
         },
         "traffic": {
           "note": "Crash Urgent at 4156 Berkman Dr (2.1 mi)",
-          "as_of": "2026-10-20T02:18:44+00:00",
+          "as_of": "2026-10-20T02:31:35+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
@@ -1556,9 +1556,9 @@
         "last_run": {
           "social": "2026-10-20T02:03:00Z",
           "cameras": "2026-10-20T02:20:35Z",
-          "curator": "2026-10-20T02:23:29Z",
+          "curator": "2026-10-20T02:35:24Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T02:18:53.330871+00:00",
+          "sensors": "2026-10-20T02:31:44.699195+00:00",
           "calendar": "2026-10-20T01:42:13Z",
           "social_ig": "2026-10-20T01:44:39Z"
         },
@@ -1667,10 +1667,10 @@
       ],
       "volume": {
         "band": "Quiet",
-        "score": 10.8,
+        "score": 10.9,
         "inputs": {
           "review_recency": 0,
-          "event_proximity": 30.3,
+          "event_proximity": 30.4,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
@@ -1684,7 +1684,7 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T02:23:29Z",
+        "computed_at": "2026-10-20T02:35:24Z",
         "explanation": "No game until Saturday's Ole Miss matchup, so the stadium is quiet apart from a few visitor posts.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
@@ -1733,7 +1733,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T02:23:34.5675+00:00"
+    "updated_at": "2026-10-20T02:35:43.798675+00:00"
   },
   {
     "id": "franklin",
@@ -1746,7 +1746,7 @@
       "live": {
         "traffic": {
           "note": "Crash Urgent at 4156 Berkman Dr (2.5 mi); several nearby streets fully closed, allow extra time",
-          "as_of": "2026-10-20T02:18:44+00:00",
+          "as_of": "2026-10-20T02:31:35+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
@@ -1768,9 +1768,9 @@
         "ig_query": "Franklin Barbecue 900 E 11th St Austin",
         "last_run": {
           "social": "2026-10-20T02:03:00Z",
-          "curator": "2026-10-20T02:23:29Z",
+          "curator": "2026-10-20T02:35:24Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T02:18:53.330871+00:00",
+          "sensors": "2026-10-20T02:31:44.699195+00:00",
           "calendar": "2026-10-20T01:42:13Z",
           "social_ig": "2026-10-20T01:44:39Z"
         },
@@ -1842,7 +1842,7 @@
         "band": "Quiet",
         "score": 12.4,
         "inputs": {
-          "review_recency": 86.8,
+          "review_recency": 86.7,
           "event_proximity": 0,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
@@ -1857,7 +1857,7 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T02:23:29Z",
+        "computed_at": "2026-10-20T02:35:24Z",
         "explanation": "Franklin is closed Mondays, so it's quiet tonight.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
@@ -1899,7 +1899,7 @@
       "upcoming": [],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T02:23:34.5675+00:00"
+    "updated_at": "2026-10-20T02:35:43.798675+00:00"
   },
   {
     "id": "hermanas",
@@ -1912,7 +1912,7 @@
       "live": {
         "traffic": {
           "note": "Crash Urgent at 4156 Berkman Dr (2.8 mi); several nearby streets fully closed, allow extra time",
-          "as_of": "2026-10-20T02:18:44+00:00",
+          "as_of": "2026-10-20T02:31:35+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
@@ -1934,9 +1934,9 @@
         "added_by": "Hum Scout (approved by user)",
         "last_run": {
           "social": "2026-10-20T02:03:00Z",
-          "curator": "2026-10-20T02:23:29Z",
+          "curator": "2026-10-20T02:35:24Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T02:18:53.330871+00:00",
+          "sensors": "2026-10-20T02:31:44.699195+00:00",
           "calendar": "2026-10-20T01:42:13Z",
           "social_ig": "2026-10-20T01:44:39Z"
         },
@@ -1986,12 +1986,12 @@
         "band": "Quiet",
         "score": 11.2,
         "inputs": {
-          "review_recency": 78.7,
+          "review_recency": 78.6,
           "event_proximity": 0,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
-        "computed_at": "2026-10-20T02:23:29Z",
+        "computed_at": "2026-10-20T02:35:24Z",
         "explanation": "No events are listed here tonight."
       },
       "anomaly": false,
@@ -2032,7 +2032,7 @@
       "upcoming": [],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T02:23:34.5675+00:00"
+    "updated_at": "2026-10-20T02:35:43.798675+00:00"
   },
   {
     "id": "luckys-puccias",
@@ -2045,7 +2045,7 @@
       "live": {
         "traffic": {
           "note": "No active incidents within 3 mi; several nearby streets fully closed, allow extra time",
-          "as_of": "2026-10-20T02:18:44+00:00",
+          "as_of": "2026-10-20T02:31:35+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
@@ -2067,9 +2067,9 @@
         "added_by": "Hum Scout (approved by user)",
         "last_run": {
           "social": "2026-10-20T02:03:00Z",
-          "curator": "2026-10-20T02:23:29Z",
+          "curator": "2026-10-20T02:35:24Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T02:18:53.330871+00:00",
+          "sensors": "2026-10-20T02:31:44.699195+00:00",
           "calendar": "2026-10-20T01:42:13Z",
           "social_ig": "2026-10-20T01:44:39Z"
         },
@@ -2119,12 +2119,12 @@
         "band": "Quiet",
         "score": 11.6,
         "inputs": {
-          "review_recency": 81.5,
+          "review_recency": 81.4,
           "event_proximity": 0,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
-        "computed_at": "2026-10-20T02:23:29Z",
+        "computed_at": "2026-10-20T02:35:24Z",
         "explanation": "No events are listed here tonight."
       },
       "anomaly": false,
@@ -2165,7 +2165,7 @@
       "upcoming": [],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T02:23:34.5675+00:00"
+    "updated_at": "2026-10-20T02:35:43.798675+00:00"
   },
   {
     "id": "mohawk",
@@ -2203,7 +2203,7 @@
         },
         "traffic": {
           "note": "Crash Urgent at 4156 Berkman Dr (2.7 mi); several nearby streets fully closed, allow extra time",
-          "as_of": "2026-10-20T02:18:44+00:00",
+          "as_of": "2026-10-20T02:31:35+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
@@ -2225,9 +2225,9 @@
         "last_run": {
           "social": "2026-10-20T02:03:00Z",
           "cameras": "2026-10-20T02:20:35Z",
-          "curator": "2026-10-20T02:23:29Z",
+          "curator": "2026-10-20T02:35:24Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T02:18:53.330871+00:00",
+          "sensors": "2026-10-20T02:31:44.699195+00:00",
           "calendar": "2026-10-20T01:42:13Z",
           "social_ig": "2026-10-20T01:44:39Z"
         },
@@ -2317,9 +2317,9 @@
       "social": [],
       "volume": {
         "band": "Humming",
-        "score": 45.4,
+        "score": 45.3,
         "inputs": {
-          "review_recency": 67.5,
+          "review_recency": 67.4,
           "event_proximity": 100,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
@@ -2334,7 +2334,7 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T02:23:29Z",
+        "computed_at": "2026-10-20T02:35:24Z",
         "explanation": "Joey Cash is on now on Mohawk's indoor stage.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
@@ -2425,7 +2425,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T02:23:34.5675+00:00"
+    "updated_at": "2026-10-20T02:35:43.798675+00:00"
   },
   {
     "id": "monks-jazz",
@@ -2454,7 +2454,7 @@
         },
         "traffic": {
           "note": "No active incidents within 3 mi",
-          "as_of": "2026-10-20T02:18:44+00:00",
+          "as_of": "2026-10-20T02:31:35+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
@@ -2477,9 +2477,9 @@
         "last_run": {
           "social": "2026-10-20T02:03:00Z",
           "cameras": "2026-10-20T02:20:35Z",
-          "curator": "2026-10-20T02:23:29Z",
+          "curator": "2026-10-20T02:35:24Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T02:18:53.330871+00:00",
+          "sensors": "2026-10-20T02:31:44.699195+00:00",
           "calendar": "2026-10-20T01:42:13Z",
           "social_ig": "2026-10-20T01:44:39Z"
         },
@@ -2549,14 +2549,14 @@
       "social": [],
       "volume": {
         "band": "Humming",
-        "score": 43.4,
+        "score": 43.5,
         "inputs": {
-          "review_recency": 86.8,
-          "event_proximity": 86.8,
+          "review_recency": 86.7,
+          "event_proximity": 87.0,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
-        "computed_at": "2026-10-20T02:23:29Z",
+        "computed_at": "2026-10-20T02:35:24Z",
         "explanation": "Kelly Green Trio's album release show is tomorrow night, so it's a quiet evening until then."
       },
       "anomaly": false,
@@ -2632,7 +2632,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T02:23:34.5675+00:00"
+    "updated_at": "2026-10-20T02:35:43.798675+00:00"
   },
   {
     "id": "moody-center",
@@ -2669,7 +2669,7 @@
         },
         "traffic": {
           "note": "Crash Urgent at 4156 Berkman Dr (2.1 mi)",
-          "as_of": "2026-10-20T02:18:44+00:00",
+          "as_of": "2026-10-20T02:31:35+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
@@ -2691,9 +2691,9 @@
         "last_run": {
           "social": "2026-10-20T02:03:00Z",
           "cameras": "2026-10-20T02:20:35Z",
-          "curator": "2026-10-20T02:23:29Z",
+          "curator": "2026-10-20T02:35:24Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T02:18:53.330871+00:00",
+          "sensors": "2026-10-20T02:31:44.699195+00:00",
           "calendar": "2026-10-20T01:42:13Z",
           "social_ig": "2026-10-20T01:44:39Z"
         },
@@ -2805,7 +2805,7 @@
         "band": "Humming",
         "score": 49.2,
         "inputs": {
-          "review_recency": 94.6,
+          "review_recency": 94.5,
           "event_proximity": 100,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
@@ -2820,7 +2820,7 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T02:23:29Z",
+        "computed_at": "2026-10-20T02:35:24Z",
         "explanation": "Staind, Seether, Hoobastank and Hinder are on now at Moody Center.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
@@ -2890,7 +2890,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T02:23:34.5675+00:00"
+    "updated_at": "2026-10-20T02:35:43.798675+00:00"
   },
   {
     "id": "mount-bonnell",
@@ -2903,7 +2903,7 @@
       "live": {
         "traffic": {
           "note": "No active incidents within 3 mi; several nearby streets fully closed, allow extra time",
-          "as_of": "2026-10-20T02:18:44+00:00",
+          "as_of": "2026-10-20T02:31:35+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
@@ -2925,9 +2925,9 @@
         "ig_query": "Mount Bonnell 3800 Mount Bonnell Rd Austin TX",
         "last_run": {
           "social": "2026-10-20T02:03:00Z",
-          "curator": "2026-10-20T02:23:29Z",
+          "curator": "2026-10-20T02:35:24Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T02:18:53.330871+00:00",
+          "sensors": "2026-10-20T02:31:44.699195+00:00",
           "calendar": "2026-10-20T01:42:13Z",
           "social_ig": "2026-10-20T01:44:39Z"
         },
@@ -2989,7 +2989,7 @@
         "band": "Quiet",
         "score": 13.8,
         "inputs": {
-          "review_recency": 96.8,
+          "review_recency": 96.6,
           "event_proximity": 0,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
@@ -3004,7 +3004,7 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T02:23:29Z",
+        "computed_at": "2026-10-20T02:35:24Z",
         "explanation": "No events this week, so it's just the usual evening overlook visitors.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
@@ -3046,7 +3046,7 @@
       "upcoming": [],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T02:23:34.5675+00:00"
+    "updated_at": "2026-10-20T02:35:43.798675+00:00"
   },
   {
     "id": "nishi",
@@ -3059,7 +3059,7 @@
       "live": {
         "traffic": {
           "note": "Crash Service at 4970 W Us 290 Hwy Svrd Wb (1.9 mi)",
-          "as_of": "2026-10-20T02:18:44+00:00",
+          "as_of": "2026-10-20T02:31:35+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
@@ -3081,9 +3081,9 @@
         "added_by": "Hum Scout (approved by user)",
         "last_run": {
           "social": "2026-10-20T02:03:00Z",
-          "curator": "2026-10-20T02:23:29Z",
+          "curator": "2026-10-20T02:35:24Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T02:18:53.330871+00:00",
+          "sensors": "2026-10-20T02:31:44.699195+00:00",
           "calendar": "2026-10-20T01:42:13Z",
           "social_ig": "2026-10-20T01:44:39Z"
         },
@@ -3131,14 +3131,14 @@
       "social": [],
       "volume": {
         "band": "Quiet",
-        "score": 14.0,
+        "score": 13.9,
         "inputs": {
-          "review_recency": 97.7,
+          "review_recency": 97.6,
           "event_proximity": 0,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
-        "computed_at": "2026-10-20T02:23:29Z",
+        "computed_at": "2026-10-20T02:35:24Z",
         "explanation": "No events are listed here tonight."
       },
       "anomaly": false,
@@ -3179,7 +3179,7 @@
       "upcoming": [],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T02:23:34.5675+00:00"
+    "updated_at": "2026-10-20T02:35:43.798675+00:00"
   },
   {
     "id": "q2",
@@ -3209,7 +3209,7 @@
         },
         "traffic": {
           "note": "Traffic Hazard at 2000-2200 W Braker Ln (0.7 mi)",
-          "as_of": "2026-10-20T02:18:44+00:00",
+          "as_of": "2026-10-20T02:31:35+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
@@ -3232,9 +3232,9 @@
         "last_run": {
           "social": "2026-10-20T02:03:00Z",
           "cameras": "2026-10-20T02:20:35Z",
-          "curator": "2026-10-20T02:23:29Z",
+          "curator": "2026-10-20T02:35:24Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T02:18:53.330871+00:00",
+          "sensors": "2026-10-20T02:31:44.699195+00:00",
           "calendar": "2026-10-20T01:42:13Z",
           "social_ig": "2026-10-20T01:44:39Z"
         },
@@ -3336,8 +3336,8 @@
         "band": "Quiet",
         "score": 23.8,
         "inputs": {
-          "review_recency": 77.9,
-          "event_proximity": 35.4,
+          "review_recency": 77.8,
+          "event_proximity": 35.5,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
@@ -3351,7 +3351,7 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T02:23:29Z",
+        "computed_at": "2026-10-20T02:35:24Z",
         "explanation": "There's no match or event tonight, and the next thing on the calendar is Saturday morning.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
@@ -3400,7 +3400,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T02:23:34.5675+00:00"
+    "updated_at": "2026-10-20T02:35:43.798675+00:00"
   },
   {
     "id": "rainey",
@@ -3437,7 +3437,7 @@
         },
         "traffic": {
           "note": "No active incidents within 3 mi; several nearby streets fully closed, allow extra time",
-          "as_of": "2026-10-20T02:18:44+00:00",
+          "as_of": "2026-10-20T02:31:35+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
@@ -3459,9 +3459,9 @@
         "last_run": {
           "social": "2026-10-20T02:03:00Z",
           "cameras": "2026-10-20T02:20:35Z",
-          "curator": "2026-10-20T02:23:29Z",
+          "curator": "2026-10-20T02:35:24Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T02:18:53.330871+00:00",
+          "sensors": "2026-10-20T02:31:44.699195+00:00",
           "calendar": "2026-10-20T01:42:13Z",
           "social_ig": "2026-10-20T02:02:11Z"
         },
@@ -3573,7 +3573,7 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T02:23:29Z",
+        "computed_at": "2026-10-20T02:35:24Z",
         "explanation": "The MNP Rainey St. Block Party is on until 11pm CT.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
@@ -3640,7 +3640,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T02:23:34.5675+00:00"
+    "updated_at": "2026-10-20T02:35:43.798675+00:00"
   },
   {
     "id": "ramen-del-barrio",
@@ -3651,17 +3651,17 @@
     "record": {
       "now": [
         {
-          "t": "2026-10-20T01:37:10Z",
+          "t": "2026-10-20T02:31:35Z",
           "title": "Traffic is busy nearby, with a hazard reported on W Braker Ln about 0.3 mi away.",
           "source": "TxDOT Austin + City of Austin",
           "confidence": 0.7,
-          "expires_at": "2026-10-20T02:30:00Z"
+          "expires_at": "2026-10-20T03:05:00Z"
         }
       ],
       "live": {
         "traffic": {
           "note": "Traffic Hazard at 2000-2200 W Braker Ln (0.3 mi)",
-          "as_of": "2026-10-20T02:18:44+00:00",
+          "as_of": "2026-10-20T02:31:35+00:00",
           "level": "Busy",
           "source": "TxDOT Austin + City of Austin"
         },
@@ -3683,9 +3683,9 @@
         "added_by": "Hum Scout (approved by user)",
         "last_run": {
           "social": "2026-10-20T02:03:00Z",
-          "curator": "2026-10-20T02:23:29Z",
+          "curator": "2026-10-20T02:35:24Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T02:18:53.330871+00:00",
+          "sensors": "2026-10-20T02:31:44.699195+00:00",
           "calendar": "2026-10-20T01:42:13Z",
           "social_ig": "2026-10-20T01:44:39Z"
         },
@@ -3735,12 +3735,12 @@
         "band": "Quiet",
         "score": 11.7,
         "inputs": {
-          "review_recency": 81.8,
+          "review_recency": 81.7,
           "event_proximity": 0,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
-        "computed_at": "2026-10-20T02:23:29Z",
+        "computed_at": "2026-10-20T02:35:24Z",
         "explanation": "No events are listed here tonight."
       },
       "anomaly": false,
@@ -3780,7 +3780,7 @@
       "upcoming": [],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T02:23:34.5675+00:00"
+    "updated_at": "2026-10-20T02:35:43.798675+00:00"
   },
   {
     "id": "sixth-street",
@@ -3810,7 +3810,7 @@
         },
         "traffic": {
           "note": "Crash Urgent at 4156 Berkman Dr (3.0 mi); several nearby streets fully closed, allow extra time",
-          "as_of": "2026-10-20T02:18:44+00:00",
+          "as_of": "2026-10-20T02:31:35+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
@@ -3832,9 +3832,9 @@
         "last_run": {
           "social": "2026-10-20T02:03:00Z",
           "cameras": "2026-10-20T02:20:35Z",
-          "curator": "2026-10-20T02:23:29Z",
+          "curator": "2026-10-20T02:35:24Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T02:18:53.330871+00:00",
+          "sensors": "2026-10-20T02:31:44.699195+00:00",
           "calendar": "2026-10-20T01:42:13Z",
           "social_ig": "2026-10-20T01:44:39Z"
         },
@@ -3934,7 +3934,7 @@
         "score": 25.6,
         "inputs": {
           "review_recency": 0,
-          "event_proximity": 71.7,
+          "event_proximity": 71.8,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
@@ -3948,7 +3948,7 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T02:23:29Z",
+        "computed_at": "2026-10-20T02:35:24Z",
         "explanation": "It's a quiet Monday in the E 6th St district, with the next listed shows on Wednesday and Friday.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
@@ -4027,7 +4027,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T02:23:34.5675+00:00"
+    "updated_at": "2026-10-20T02:35:43.798675+00:00"
   },
   {
     "id": "south-congress",
@@ -4065,7 +4065,7 @@
         },
         "traffic": {
           "note": "No active incidents within 3 mi",
-          "as_of": "2026-10-20T02:18:44+00:00",
+          "as_of": "2026-10-20T02:31:35+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
@@ -4087,9 +4087,9 @@
         "last_run": {
           "social": "2026-10-20T02:03:00Z",
           "cameras": "2026-10-20T02:20:35Z",
-          "curator": "2026-10-20T02:23:29Z",
+          "curator": "2026-10-20T02:35:24Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T02:18:53.330871+00:00",
+          "sensors": "2026-10-20T02:31:44.699195+00:00",
           "calendar": "2026-10-20T01:42:13Z",
           "social_ig": "2026-10-20T01:44:39Z"
         },
@@ -4206,7 +4206,7 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T02:23:29Z",
+        "computed_at": "2026-10-20T02:35:24Z",
         "explanation": "Elias Haslanger is playing the Continental Club now, with Dale Watson at 10:15pm CT.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
@@ -4297,7 +4297,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T02:23:34.5675+00:00"
+    "updated_at": "2026-10-20T02:35:43.798675+00:00"
   },
   {
     "id": "still-austin-quarter",
@@ -4326,7 +4326,7 @@
         },
         "traffic": {
           "note": "No active incidents within 3 mi",
-          "as_of": "2026-10-20T02:18:44+00:00",
+          "as_of": "2026-10-20T02:31:35+00:00",
           "level": "Quiet",
           "source": "TxDOT Austin + City of Austin"
         },
@@ -4349,9 +4349,9 @@
         "last_run": {
           "social": "2026-10-20T02:03:00Z",
           "cameras": "2026-10-20T02:20:35Z",
-          "curator": "2026-10-20T02:23:29Z",
+          "curator": "2026-10-20T02:35:24Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T02:18:53.330871+00:00",
+          "sensors": "2026-10-20T02:31:44.699195+00:00",
           "calendar": "2026-10-20T01:42:13Z",
           "social_ig": "2026-10-20T01:44:39Z"
         },
@@ -4423,12 +4423,12 @@
         "band": "Humming",
         "score": 32.9,
         "inputs": {
-          "review_recency": 83.9,
-          "event_proximity": 58.6,
+          "review_recency": 83.8,
+          "event_proximity": 58.7,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
-        "computed_at": "2026-10-20T02:23:29Z",
+        "computed_at": "2026-10-20T02:35:24Z",
         "explanation": "It's closed Mondays, and its next show is Starkitect's free album release on Thursday."
       },
       "anomaly": false,
@@ -4494,7 +4494,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T02:23:34.5675+00:00"
+    "updated_at": "2026-10-20T02:35:43.798675+00:00"
   },
   {
     "id": "stubbs",
@@ -4523,7 +4523,7 @@
         },
         "traffic": {
           "note": "Crash Urgent at 4156 Berkman Dr (2.8 mi); several nearby streets fully closed, allow extra time",
-          "as_of": "2026-10-20T02:18:44+00:00",
+          "as_of": "2026-10-20T02:31:35+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
@@ -4545,9 +4545,9 @@
         "last_run": {
           "social": "2026-10-20T02:03:00Z",
           "cameras": "2026-10-20T02:20:35Z",
-          "curator": "2026-10-20T02:23:29Z",
+          "curator": "2026-10-20T02:35:24Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T02:18:53.330871+00:00",
+          "sensors": "2026-10-20T02:31:44.699195+00:00",
           "calendar": "2026-10-20T01:42:13Z",
           "social_ig": "2026-10-20T01:44:39Z"
         },
@@ -4639,8 +4639,8 @@
         "band": "Humming",
         "score": 34.9,
         "inputs": {
-          "review_recency": 97.7,
-          "event_proximity": 58.6,
+          "review_recency": 97.6,
+          "event_proximity": 58.7,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
@@ -4654,7 +4654,7 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T02:23:29Z",
+        "computed_at": "2026-10-20T02:35:24Z",
         "explanation": "Nothing on tonight, with Vince Staples coming Thursday.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
@@ -4715,7 +4715,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T02:23:34.5675+00:00"
+    "updated_at": "2026-10-20T02:35:43.798675+00:00"
   },
   {
     "id": "the-domain",
@@ -4744,7 +4744,7 @@
         },
         "traffic": {
           "note": "Traffic Hazard at 2000-2200 W Braker Ln (1.2 mi)",
-          "as_of": "2026-10-20T02:18:44+00:00",
+          "as_of": "2026-10-20T02:31:35+00:00",
           "level": "Quiet",
           "source": "TxDOT Austin + City of Austin"
         },
@@ -4766,9 +4766,9 @@
         "last_run": {
           "social": "2026-10-20T02:03:00Z",
           "cameras": "2026-10-20T02:20:35Z",
-          "curator": "2026-10-20T02:23:29Z",
+          "curator": "2026-10-20T02:35:24Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T02:18:53.330871+00:00",
+          "sensors": "2026-10-20T02:31:44.699195+00:00",
           "calendar": "2026-10-20T01:42:13Z",
           "social_ig": "2026-10-20T01:44:39Z"
         },
@@ -4868,10 +4868,10 @@
       "social": [],
       "volume": {
         "band": "Quiet",
-        "score": 26.0,
+        "score": 26.1,
         "inputs": {
-          "review_recency": 96.7,
-          "event_proximity": 34.2,
+          "review_recency": 96.6,
+          "event_proximity": 34.3,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
@@ -4885,7 +4885,7 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T02:23:29Z",
+        "computed_at": "2026-10-20T02:35:24Z",
         "explanation": "Nothing is listed tonight, with Pettober coming Saturday.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
@@ -4940,7 +4940,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T02:23:34.5675+00:00"
+    "updated_at": "2026-10-20T02:35:43.798675+00:00"
   },
   {
     "id": "watershed",
@@ -4953,7 +4953,7 @@
       "live": {
         "traffic": {
           "note": "No active incidents within 3 mi",
-          "as_of": "2026-10-20T02:18:44+00:00",
+          "as_of": "2026-10-20T02:31:35+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
@@ -4975,9 +4975,9 @@
         "added_by": "Hum Scout (approved by user)",
         "last_run": {
           "social": "2026-10-20T02:03:00Z",
-          "curator": "2026-10-20T02:23:29Z",
+          "curator": "2026-10-20T02:35:24Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T02:18:53.330871+00:00",
+          "sensors": "2026-10-20T02:31:44.699195+00:00",
           "calendar": "2026-10-20T01:42:13Z",
           "social_ig": "2026-10-20T01:44:39Z"
         },
@@ -5032,7 +5032,7 @@
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
-        "computed_at": "2026-10-20T02:23:29Z",
+        "computed_at": "2026-10-20T02:35:24Z",
         "explanation": "No events are listed here tonight."
       },
       "anomaly": false,
@@ -5073,7 +5073,7 @@
       "upcoming": [],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T02:23:34.5675+00:00"
+    "updated_at": "2026-10-20T02:35:43.798675+00:00"
   },
   {
     "id": "zilker",
@@ -5102,7 +5102,7 @@
         },
         "traffic": {
           "note": "No active incidents within 3 mi",
-          "as_of": "2026-10-20T02:18:44+00:00",
+          "as_of": "2026-10-20T02:31:35+00:00",
           "level": "Quiet",
           "source": "TxDOT Austin + City of Austin"
         },
@@ -5124,9 +5124,9 @@
         "last_run": {
           "social": "2026-10-20T02:03:00Z",
           "cameras": "2026-10-20T02:20:35Z",
-          "curator": "2026-10-20T02:23:29Z",
+          "curator": "2026-10-20T02:35:24Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T02:18:53.330871+00:00",
+          "sensors": "2026-10-20T02:31:44.699195+00:00",
           "calendar": "2026-10-20T01:42:13Z",
           "social_ig": "2026-10-20T01:44:39Z"
         },
@@ -5228,10 +5228,10 @@
       "social": [],
       "volume": {
         "band": "Humming",
-        "score": 44.9,
+        "score": 45.0,
         "inputs": {
-          "review_recency": 95.0,
-          "event_proximity": 87.7,
+          "review_recency": 94.9,
+          "event_proximity": 87.9,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
@@ -5245,7 +5245,7 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T02:23:29Z",
+        "computed_at": "2026-10-20T02:35:24Z",
         "explanation": "A calm night in the park, with a dog meet-up tomorrow evening and more events through the week.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
@@ -5281,7 +5281,7 @@
         "source": "google_maps",
         "trend_7d": null
       },
-      "summary": "Zilker Park is calm tonight under clear skies at 70F. Next up are a Viz Whizz dog meet-up tomorrow at 6pm CT and Mindful Movement in the Park on Wednesday evening.",
+      "summary": "Zilker Park is calm tonight under clear skies at 68F. Next up are a Viz Whizz dog meet-up tomorrow at 6pm CT and Mindful Movement in the Park on Wednesday evening.",
       "upcoming": [
         {
           "url": "https://happeningnext.com/event/viz-whizz-atx-oct-meet-up-at-zilker-park-eid3a0e2qefmx",
@@ -5310,6 +5310,6 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T02:23:34.5675+00:00"
+    "updated_at": "2026-10-20T02:35:43.798675+00:00"
   }
 ]
