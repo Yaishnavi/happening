@@ -6,49 +6,34 @@
     "lng": -97.747,
     "city": "Austin, TX",
     "record": {
-      "now": [
-        {
-          "t": "2026-10-20T01:00:00Z",
-          "title": "Snarky Puppy is on now at ACL Live at the Moody Theater (show started at 8 PM CT).",
-          "source": "acllive.com",
-          "confidence": 0.85,
-          "expires_at": "2026-10-20T05:00:00Z"
-        },
-        {
-          "t": "2026-10-20T03:52:19Z",
-          "title": "About fifteen people are out on the 2nd St sidewalk outside ACL Live, per the Lavaca St camera.",
-          "source": "City of Austin traffic camera",
-          "confidence": 0.7,
-          "expires_at": "2026-10-20T04:30:00Z"
-        }
-      ],
+      "now": [],
       "live": {
         "camera": {
           "view": "Elevated view of Lavaca St at 2nd St (W Willie Nelson Blvd) looking along the 2nd St sidewalk on the ACL Live / W Hotel block; sidewalk and crosswalk pedestrians clearly visible",
           "crowd": {
-            "note": "About fifteen people are out on the 2nd St sidewalk outside ACL Live, with light traffic on Lavaca.",
-            "level": "moderate",
-            "read_at": "2026-10-20T03:52:19Z",
+            "note": "Several people are standing on the 2nd St sidewalk outside ACL Live, and Lavaca has almost no traffic.",
+            "level": "light",
+            "read_at": "2026-10-20T04:07:51Z",
             "vehicles": "light",
-            "people_visible": 15
+            "people_visible": 8
           },
           "source": "City of Austin Transportation traffic camera (cctv.austinmobility.io)",
           "camera_id": "540",
           "image_url": "https://cctv.austinmobility.io/image/540.jpg",
           "camera_name": "LAVACA ST / 2ND ST",
-          "captured_at": "2026-10-20T03:47:03Z",
+          "captured_at": "2026-10-20T04:07:05Z",
           "distance_mi": 0.03
         },
         "traffic": {
           "note": "No active incidents within 3 mi; several nearby streets fully closed, allow extra time",
-          "as_of": "2026-10-20T03:56:17+00:00",
+          "as_of": "2026-10-20T04:11:22+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
         "weather": {
           "cond": "Mostly Clear",
-          "hour": "2026-10-19T22:00:00-05:00",
-          "temp": 66,
+          "hour": "2026-10-19T23:00:00-05:00",
+          "temp": 65,
           "unit": "F",
           "wind": "Calm",
           "source": "NWS"
@@ -61,12 +46,12 @@
         },
         "anomaly": false,
         "last_run": {
-          "social": "2026-10-20T03:13:25Z",
-          "cameras": "2026-10-20T03:52:19Z",
-          "curator": "2026-10-20T04:00:18Z",
+          "social": "2026-10-20T04:00:53Z",
+          "cameras": "2026-10-20T04:07:51Z",
+          "curator": "2026-10-20T04:17:28Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T03:56:24.88119+00:00",
-          "calendar": "2026-10-20T03:12:09Z",
+          "sensors": "2026-10-20T04:11:29.384995+00:00",
+          "calendar": "2026-10-20T04:03:46Z",
           "social_ig": "2026-10-20T02:46:26Z"
         },
         "gmaps_url": "https://www.google.com/maps/search/?api=1&query=ACL+Live+at+the+Moody+Theater%2C+Austin%2C+TX",
@@ -130,6 +115,11 @@
             "hour": "2026-10-20T03:00:00Z",
             "as_of": "2026-10-20T03:13:25Z",
             "count": 0
+          },
+          {
+            "hour": "2026-10-20T04:00:00Z",
+            "as_of": "2026-10-20T04:00:53Z",
+            "count": 0
           }
         ],
         "gmaps_place_id": "ChIJ6xuoSw-1RIYRl2bhcYygHEk",
@@ -166,10 +156,10 @@
       "social": [],
       "volume": {
         "band": "Humming",
-        "score": 39.1,
+        "score": 39.2,
         "inputs": {
-          "review_recency": 91.0,
-          "event_proximity": 73.2,
+          "review_recency": 90.8,
+          "event_proximity": 73.4,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
@@ -183,8 +173,8 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T04:00:18Z",
-        "explanation": "Snarky Puppy is on now at ACL Live, and a small crowd is out on the sidewalk.",
+        "computed_at": "2026-10-20T04:17:28Z",
+        "explanation": "Snarky Puppy's show tonight is likely over, and Leonid & Friends is next on Wednesday at 8 PM CT.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
       "anomaly": false,
@@ -221,14 +211,8 @@
         "source": "google_maps",
         "trend_7d": null
       },
-      "summary": "Snarky Puppy is on now at ACL Live after an 8 PM CT start, and about fifteen people are out on the 2nd St sidewalk outside. Next up is Leonid & Friends on Wednesday at 8 PM, then Katie Pruitt at 3TEN on Thursday and Grand Prixview LIVE with Guenther Steiner on Saturday.",
+      "summary": "Snarky Puppy's 8 PM CT show at ACL Live is likely over, with just a handful of people left on the 2nd St sidewalk. Next up is Leonid & Friends on Wednesday at 8 PM CT, then Katie Pruitt at 3TEN on Thursday and Grand Prixview LIVE with Guenther Steiner on Saturday.",
       "upcoming": [
-        {
-          "url": "https://www.acllive.com/event/2026-10-19-snarky-puppy-at-8-pm",
-          "when": "2026-10-19T20:00:00-05:00",
-          "title": "Snarky Puppy",
-          "source": "acllive.com"
-        },
         {
           "url": "https://www.acllive.com/event/2026-10-21-leonid-friends-at-8-pm",
           "when": "2026-10-21T20:00:00-05:00",
@@ -262,7 +246,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T04:00:44.155936+00:00"
+    "updated_at": "2026-10-20T04:18:21.376475+00:00"
   },
   {
     "id": "alteno",
@@ -275,14 +259,14 @@
       "live": {
         "traffic": {
           "note": "No active incidents within 3 mi; several nearby streets fully closed, allow extra time",
-          "as_of": "2026-10-20T03:56:17+00:00",
+          "as_of": "2026-10-20T04:11:22+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
         "weather": {
           "cond": "Mostly Clear",
-          "hour": "2026-10-19T22:00:00-05:00",
-          "temp": 66,
+          "hour": "2026-10-19T23:00:00-05:00",
+          "temp": 65,
           "unit": "F",
           "wind": "Calm",
           "source": "NWS"
@@ -296,11 +280,11 @@
         "added_at": "2026-10-20T01:19:10Z",
         "added_by": "Hum Scout (approved by user)",
         "last_run": {
-          "social": "2026-10-20T03:13:25Z",
-          "curator": "2026-10-20T04:00:18Z",
+          "social": "2026-10-20T04:00:53Z",
+          "curator": "2026-10-20T04:17:28Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T03:56:24.88119+00:00",
-          "calendar": "2026-10-20T03:12:09Z",
+          "sensors": "2026-10-20T04:11:29.384995+00:00",
+          "calendar": "2026-10-20T04:03:46Z",
           "social_ig": "2026-10-20T03:13:25Z"
         },
         "scout_note": "Jalisco-style hotel restaurant in the Rainey district with a skyline patio",
@@ -326,6 +310,11 @@
           {
             "hour": "2026-10-20T03:00:00Z",
             "as_of": "2026-10-20T03:13:25Z",
+            "count": 0
+          },
+          {
+            "hour": "2026-10-20T04:00:00Z",
+            "as_of": "2026-10-20T04:00:53Z",
             "count": 0
           }
         ],
@@ -359,12 +348,12 @@
         "band": "Quiet",
         "score": 5.1,
         "inputs": {
-          "review_recency": 35.9,
+          "review_recency": 35.7,
           "event_proximity": 0,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
-        "computed_at": "2026-10-20T04:00:18Z",
+        "computed_at": "2026-10-20T04:17:28Z",
         "explanation": "No events are listed here tonight."
       },
       "anomaly": false,
@@ -400,7 +389,7 @@
       "upcoming": [],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T04:00:44.155936+00:00"
+    "updated_at": "2026-10-20T04:18:21.376475+00:00"
   },
   {
     "id": "barton-springs",
@@ -416,7 +405,7 @@
           "crowd": {
             "note": "The pool is out of frame; Barton Springs Rd at Stratford is dark and empty, with no cars or people in view.",
             "level": "unclear",
-            "read_at": "2026-10-20T03:52:19Z",
+            "read_at": "2026-10-20T04:07:51Z",
             "vehicles": "light",
             "people_visible": 0
           },
@@ -424,19 +413,19 @@
           "camera_id": "377",
           "image_url": "https://cctv.austinmobility.io/image/377.jpg",
           "camera_name": "BARTON SPRINGS RD / STRATFORD DR",
-          "captured_at": "2026-10-20T03:47:43Z",
+          "captured_at": "2026-10-20T04:02:47Z",
           "distance_mi": 0.23
         },
         "traffic": {
           "note": "No active incidents within 3 mi",
-          "as_of": "2026-10-20T03:56:17+00:00",
+          "as_of": "2026-10-20T04:11:22+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
         "weather": {
-          "cond": "Partly Cloudy",
-          "hour": "2026-10-19T22:00:00-05:00",
-          "temp": 66,
+          "cond": "Mostly Clear",
+          "hour": "2026-10-19T23:00:00-05:00",
+          "temp": 65,
           "unit": "F",
           "wind": "Calm",
           "source": "NWS"
@@ -449,12 +438,12 @@
         },
         "anomaly": false,
         "last_run": {
-          "social": "2026-10-20T03:13:25Z",
-          "cameras": "2026-10-20T03:52:19Z",
-          "curator": "2026-10-20T04:00:18Z",
+          "social": "2026-10-20T04:00:53Z",
+          "cameras": "2026-10-20T04:07:51Z",
+          "curator": "2026-10-20T04:17:28Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T03:56:24.88119+00:00",
-          "calendar": "2026-10-20T03:12:09Z",
+          "sensors": "2026-10-20T04:11:29.384995+00:00",
+          "calendar": "2026-10-20T04:03:46Z",
           "social_ig": "2026-10-20T02:46:26Z"
         },
         "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Barton+Springs+Pool+Austin+TX",
@@ -518,6 +507,11 @@
             "hour": "2026-10-20T03:00:00Z",
             "as_of": "2026-10-20T03:13:25Z",
             "count": 0
+          },
+          {
+            "hour": "2026-10-20T04:00:00Z",
+            "as_of": "2026-10-20T04:00:53Z",
+            "count": 0
           }
         ],
         "gmaps_place_id": "ChIJd5ltTj3KRIYRpipD_pz6ntA",
@@ -561,22 +555,12 @@
         ],
         "social_velocity_as_of": "2026-10-20T00:08:44Z"
       },
-      "social": [
-        {
-          "ts": "2026-10-20T01:50:59Z",
-          "net": "X",
-          "url": "https://x.com/HouseCracka/status/2112360901823123627",
-          "text": "@OwenShroyer1776 @takenaps Next summer at Barton Springs?",
-          "handle": "@HouseCracka",
-          "media_url": null,
-          "engagement": 2
-        }
-      ],
+      "social": [],
       "volume": {
         "band": "Humming",
-        "score": 45.4,
+        "score": 45.3,
         "inputs": {
-          "review_recency": 67.5,
+          "review_recency": 67.3,
           "event_proximity": 100,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
@@ -591,7 +575,7 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T04:00:18Z",
+        "computed_at": "2026-10-20T04:17:28Z",
         "explanation": "Tonight's free Night Swim has wrapped up, and the next one is tomorrow at 9 PM CT.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
@@ -664,7 +648,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T04:00:44.155936+00:00"
+    "updated_at": "2026-10-20T04:18:21.376475+00:00"
   },
   {
     "id": "big-slick",
@@ -677,14 +661,14 @@
       "live": {
         "traffic": {
           "note": "No active incidents within 3 mi; several nearby streets fully closed, allow extra time",
-          "as_of": "2026-10-20T03:56:17+00:00",
+          "as_of": "2026-10-20T04:11:22+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
         "weather": {
           "cond": "Mostly Clear",
-          "hour": "2026-10-19T22:00:00-05:00",
-          "temp": 66,
+          "hour": "2026-10-19T23:00:00-05:00",
+          "temp": 65,
           "unit": "F",
           "wind": "Calm",
           "source": "NWS"
@@ -698,11 +682,11 @@
         "added_at": "2026-10-20T01:19:10Z",
         "added_by": "Hum Scout (approved by user)",
         "last_run": {
-          "social": "2026-10-20T03:13:25Z",
-          "curator": "2026-10-20T04:00:18Z",
+          "social": "2026-10-20T04:00:53Z",
+          "curator": "2026-10-20T04:17:28Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T03:56:24.88119+00:00",
-          "calendar": "2026-10-20T03:12:09Z",
+          "sensors": "2026-10-20T04:11:29.384995+00:00",
+          "calendar": "2026-10-20T04:03:46Z",
           "social_ig": "2026-10-20T02:46:26Z"
         },
         "scout_note": "East Sixth steakhouse with a walk-in bar",
@@ -728,6 +712,11 @@
           {
             "hour": "2026-10-20T03:00:00Z",
             "as_of": "2026-10-20T03:13:25Z",
+            "count": 0
+          },
+          {
+            "hour": "2026-10-20T04:00:00Z",
+            "as_of": "2026-10-20T04:00:53Z",
             "count": 0
           }
         ],
@@ -767,12 +756,12 @@
         "band": "Quiet",
         "score": 12.0,
         "inputs": {
-          "review_recency": 84.2,
+          "review_recency": 84.1,
           "event_proximity": 0,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
-        "computed_at": "2026-10-20T04:00:18Z",
+        "computed_at": "2026-10-20T04:17:28Z",
         "explanation": "No events are listed here tonight."
       },
       "anomaly": false,
@@ -813,7 +802,7 @@
       "upcoming": [],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T04:00:44.155936+00:00"
+    "updated_at": "2026-10-20T04:18:21.376475+00:00"
   },
   {
     "id": "capitol",
@@ -827,9 +816,9 @@
         "camera": {
           "view": "High view up Congress Ave at 11th St toward the Capitol's south gate; foreground heavily blocked by tree canopy",
           "crowd": {
-            "note": "Trees and darkness hide most of Congress Ave toward the Capitol; a couple of cars are up the block near flashing emergency lights.",
+            "note": "Trees and darkness hide most of Congress Ave toward the Capitol; one car is parked up the block near flashing emergency lights.",
             "level": "unclear",
-            "read_at": "2026-10-20T03:52:19Z",
+            "read_at": "2026-10-20T04:07:51Z",
             "vehicles": "light",
             "people_visible": null
           },
@@ -837,19 +826,19 @@
           "camera_id": "127",
           "image_url": "https://cctv.austinmobility.io/image/127.jpg",
           "camera_name": "CONGRESS AVE / 11TH ST",
-          "captured_at": "2026-10-20T03:47:00Z",
+          "captured_at": "2026-10-20T04:07:02Z",
           "distance_mi": 0.14
         },
         "traffic": {
           "note": "No active incidents within 3 mi; several nearby streets fully closed, allow extra time",
-          "as_of": "2026-10-20T03:56:17+00:00",
+          "as_of": "2026-10-20T04:11:22+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
         "weather": {
           "cond": "Mostly Clear",
-          "hour": "2026-10-19T22:00:00-05:00",
-          "temp": 66,
+          "hour": "2026-10-19T23:00:00-05:00",
+          "temp": 65,
           "unit": "F",
           "wind": "Calm",
           "source": "NWS"
@@ -862,12 +851,12 @@
         },
         "anomaly": false,
         "last_run": {
-          "social": "2026-10-20T03:13:25Z",
-          "cameras": "2026-10-20T03:52:19Z",
-          "curator": "2026-10-20T04:00:18Z",
+          "social": "2026-10-20T04:00:53Z",
+          "cameras": "2026-10-20T04:07:51Z",
+          "curator": "2026-10-20T04:17:28Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T03:56:24.88119+00:00",
-          "calendar": "2026-10-20T03:12:09Z",
+          "sensors": "2026-10-20T04:11:29.384995+00:00",
+          "calendar": "2026-10-20T04:03:46Z",
           "social_ig": "2026-10-20T02:46:26Z"
         },
         "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Texas+State+Capitol%2C+Austin%2C+TX",
@@ -924,12 +913,17 @@
           },
           {
             "hour": "2026-10-20T02:00:00Z",
-            "as_of": "2026-10-20T03:13:25Z",
+            "as_of": "2026-10-20T04:00:53Z",
             "count": 1
           },
           {
             "hour": "2026-10-20T03:00:00Z",
             "as_of": "2026-10-20T03:13:25Z",
+            "count": 0
+          },
+          {
+            "hour": "2026-10-20T04:00:00Z",
+            "as_of": "2026-10-20T04:00:53Z",
             "count": 0
           }
         ],
@@ -978,24 +972,15 @@
           "handle": "@sldf45",
           "media_url": null,
           "engagement": 0
-        },
-        {
-          "ts": "2026-10-20T01:56:23Z",
-          "net": "X",
-          "url": "https://x.com/bigsmilingmouth/status/2112362261679608140",
-          "text": "@UNATCOHillaryPC as mayor of austin he could mobilize APD to besiege the texas capitol and crown himself dictator perpetuo of texas, to mass approval",
-          "handle": "@bigsmilingmouth",
-          "media_url": null,
-          "engagement": 2
         }
       ],
       "volume": {
         "band": "Humming",
-        "score": 38.4,
+        "score": 33.4,
         "inputs": {
           "review_recency": 0,
-          "event_proximity": 93.5,
-          "social_velocity_norm": 10,
+          "event_proximity": 93.6,
+          "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
         "missing": [],
@@ -1008,7 +993,7 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T04:00:18Z",
+        "computed_at": "2026-10-20T04:17:28Z",
         "explanation": "It's quiet tonight, with a Counties 101 lunch-and-learn kicking off tomorrow morning.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
@@ -1097,9 +1082,9 @@
           "source": "texasenergysummit.com"
         }
       ],
-      "posts_last_hour": 1
+      "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T04:00:44.155936+00:00"
+    "updated_at": "2026-10-20T04:18:21.376475+00:00"
   },
   {
     "id": "casa-fina",
@@ -1112,14 +1097,14 @@
       "live": {
         "traffic": {
           "note": "No active incidents within 3 mi; several nearby streets fully closed, allow extra time",
-          "as_of": "2026-10-20T03:56:17+00:00",
+          "as_of": "2026-10-20T04:11:22+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
         "weather": {
-          "cond": "Partly Cloudy",
-          "hour": "2026-10-19T22:00:00-05:00",
-          "temp": 66,
+          "cond": "Mostly Clear",
+          "hour": "2026-10-19T23:00:00-05:00",
+          "temp": 65,
           "unit": "F",
           "wind": "Calm",
           "source": "NWS"
@@ -1133,11 +1118,11 @@
         "added_at": "2026-10-20T01:19:10Z",
         "added_by": "Hum Scout (approved by user)",
         "last_run": {
-          "social": "2026-10-20T03:13:25Z",
-          "curator": "2026-10-20T04:00:18Z",
+          "social": "2026-10-20T04:00:53Z",
+          "curator": "2026-10-20T04:17:28Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T03:56:24.88119+00:00",
-          "calendar": "2026-10-20T03:12:09Z",
+          "sensors": "2026-10-20T04:11:29.384995+00:00",
+          "calendar": "2026-10-20T04:03:46Z",
           "social_ig": "2026-10-20T02:46:26Z"
         },
         "scout_note": "Tapas bar near Zilker from the Il Brutto chef (opening unconfirmed)",
@@ -1163,6 +1148,11 @@
           {
             "hour": "2026-10-20T03:00:00Z",
             "as_of": "2026-10-20T03:13:25Z",
+            "count": 0
+          },
+          {
+            "hour": "2026-10-20T04:00:00Z",
+            "as_of": "2026-10-20T04:00:53Z",
             "count": 0
           }
         ],
@@ -1200,14 +1190,14 @@
       "social": [],
       "volume": {
         "band": "Quiet",
-        "score": 11.7,
+        "score": 11.6,
         "inputs": {
-          "review_recency": 81.7,
+          "review_recency": 81.5,
           "event_proximity": 0,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
-        "computed_at": "2026-10-20T04:00:18Z",
+        "computed_at": "2026-10-20T04:17:28Z",
         "explanation": "Its opening isn't confirmed yet, and no events are listed."
       },
       "anomaly": false,
@@ -1248,7 +1238,7 @@
       "upcoming": [],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T04:00:44.155936+00:00"
+    "updated_at": "2026-10-20T04:18:21.376475+00:00"
   },
   {
     "id": "confluence",
@@ -1262,9 +1252,9 @@
         "camera": {
           "view": "Cesar Chavez St at Red River St, at the Confluence's southeast edge near the mouth of Waller Creek; the roadway, crosswalk and the corner sidewalk are in view, the park lawns mostly are not",
           "crowd": {
-            "note": "Cesar Chavez at Red River is still closed for overnight repaving, with police and a road crew on scene and only a couple of people walking by.",
+            "note": "Cesar Chavez at Red River is still closed for overnight repaving, with police and a road crew on scene and few people on foot.",
             "level": "light",
-            "read_at": "2026-10-20T03:52:19Z",
+            "read_at": "2026-10-20T04:07:51Z",
             "vehicles": "light",
             "people_visible": 4
           },
@@ -1272,19 +1262,19 @@
           "camera_id": "582",
           "image_url": "https://cctv.austinmobility.io/image/582.jpg",
           "camera_name": "CESAR CHAVEZ ST / RED RIVER ST",
-          "captured_at": "2026-10-20T03:46:55Z",
+          "captured_at": "2026-10-20T04:06:58Z",
           "distance_mi": 0.09
         },
         "traffic": {
           "note": "No active incidents within 3 mi; several nearby streets fully closed, allow extra time",
-          "as_of": "2026-10-20T03:56:17+00:00",
+          "as_of": "2026-10-20T04:11:22+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
         "weather": {
           "cond": "Mostly Clear",
-          "hour": "2026-10-19T22:00:00-05:00",
-          "temp": 66,
+          "hour": "2026-10-19T23:00:00-05:00",
+          "temp": 65,
           "unit": "F",
           "wind": "Calm",
           "source": "NWS"
@@ -1298,12 +1288,12 @@
         "added_at": "2026-10-20T01:19:10Z",
         "added_by": "Hum Scout (approved by user)",
         "last_run": {
-          "social": "2026-10-20T03:13:25Z",
-          "cameras": "2026-10-20T03:52:19Z",
-          "curator": "2026-10-20T04:00:18Z",
+          "social": "2026-10-20T04:00:53Z",
+          "cameras": "2026-10-20T04:07:51Z",
+          "curator": "2026-10-20T04:17:28Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T03:56:24.88119+00:00",
-          "calendar": "2026-10-20T03:12:09Z",
+          "sensors": "2026-10-20T04:11:29.384995+00:00",
+          "calendar": "2026-10-20T04:03:46Z",
           "social_ig": "2026-10-20T02:46:26Z"
         },
         "scout_note": "13-acre downtown park that opened in June",
@@ -1352,6 +1342,11 @@
             "hour": "2026-10-20T03:00:00Z",
             "as_of": "2026-10-20T03:13:25Z",
             "count": 0
+          },
+          {
+            "hour": "2026-10-20T04:00:00Z",
+            "as_of": "2026-10-20T04:00:53Z",
+            "count": 0
           }
         ],
         "geocode_source": "OpenStreetMap Nominatim (park polygon centroid, OSM way 1201573905)",
@@ -1390,12 +1385,12 @@
         "band": "Humming",
         "score": 45.8,
         "inputs": {
-          "review_recency": 85.6,
-          "event_proximity": 94.1,
+          "review_recency": 85.4,
+          "event_proximity": 94.2,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
-        "computed_at": "2026-10-20T04:00:18Z",
+        "computed_at": "2026-10-20T04:17:28Z",
         "explanation": "A monarch butterfly tagging session tomorrow morning is the next thing on here, so it's quiet tonight."
       },
       "anomaly": false,
@@ -1455,7 +1450,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T04:00:44.155936+00:00"
+    "updated_at": "2026-10-20T04:18:21.376475+00:00"
   },
   {
     "id": "coquito",
@@ -1469,9 +1464,9 @@
         "camera": {
           "view": "E 7th St at Attayac St, about a block west of Coquito, looking along 7th St with the crosswalk and north sidewalk in view; Coquito's storefront itself is not in frame",
           "crowd": {
-            "note": "Coquito is out of frame; E 7th at Attayac has a couple of cars and no one on foot.",
+            "note": "Coquito is out of frame; E 7th at Attayac has a car or two and no one on foot.",
             "level": "unclear",
-            "read_at": "2026-10-20T03:52:19Z",
+            "read_at": "2026-10-20T04:07:51Z",
             "vehicles": "light",
             "people_visible": 0
           },
@@ -1479,19 +1474,19 @@
           "camera_id": "381",
           "image_url": "https://cctv.austinmobility.io/image/381.jpg",
           "camera_name": "7TH ST / ATTAYAC ST",
-          "captured_at": "2026-10-20T03:47:00Z",
+          "captured_at": "2026-10-20T04:07:02Z",
           "distance_mi": 0.1
         },
         "traffic": {
-          "note": "Traffic Hazard at 800-855 Ed Bluestein Blvd Svrd Nb (2.9 mi); several nearby streets fully closed, allow extra time",
-          "as_of": "2026-10-20T03:56:17+00:00",
+          "note": "No active incidents within 3 mi; several nearby streets fully closed, allow extra time",
+          "as_of": "2026-10-20T04:11:22+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
         "weather": {
           "cond": "Mostly Clear",
-          "hour": "2026-10-19T22:00:00-05:00",
-          "temp": 66,
+          "hour": "2026-10-19T23:00:00-05:00",
+          "temp": 65,
           "unit": "F",
           "wind": "Calm",
           "source": "NWS"
@@ -1505,12 +1500,12 @@
         "added_at": "2026-10-20T01:19:10Z",
         "added_by": "Hum Scout (approved by user)",
         "last_run": {
-          "social": "2026-10-20T03:13:25Z",
-          "cameras": "2026-10-20T03:52:19Z",
-          "curator": "2026-10-20T04:00:18Z",
+          "social": "2026-10-20T04:00:53Z",
+          "cameras": "2026-10-20T04:07:51Z",
+          "curator": "2026-10-20T04:17:28Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T03:56:24.88119+00:00",
-          "calendar": "2026-10-20T03:12:09Z",
+          "sensors": "2026-10-20T04:11:29.384995+00:00",
+          "calendar": "2026-10-20T04:03:46Z",
           "social_ig": "2026-10-20T02:46:26Z"
         },
         "scout_note": "Coffee by day, DJ bar at night",
@@ -1559,6 +1554,11 @@
             "hour": "2026-10-20T03:00:00Z",
             "as_of": "2026-10-20T03:13:25Z",
             "count": 0
+          },
+          {
+            "hour": "2026-10-20T04:00:00Z",
+            "as_of": "2026-10-20T04:00:53Z",
+            "count": 0
           }
         ],
         "geocode_source": "OpenStreetMap Nominatim (building at address)",
@@ -1595,14 +1595,14 @@
       "social": [],
       "volume": {
         "band": "Quiet",
-        "score": 21.2,
+        "score": 21.3,
         "inputs": {
           "review_recency": 0,
-          "event_proximity": 59.5,
+          "event_proximity": 59.7,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
-        "computed_at": "2026-10-20T04:00:18Z",
+        "computed_at": "2026-10-20T04:17:28Z",
         "explanation": "Coquito is quiet tonight, with SafiCantina and the Perreo Club salsa night coming Thursday."
       },
       "anomaly": false,
@@ -1656,7 +1656,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T04:00:44.155936+00:00"
+    "updated_at": "2026-10-20T04:18:21.376475+00:00"
   },
   {
     "id": "dkr",
@@ -1670,9 +1670,9 @@
         "camera": {
           "view": "Red River St at 18th St, southeast of the stadium; street, sidewalks and a parking area, with privacy-mask blotches over lights; stadium not in frame",
           "crowd": {
-            "note": "The stadium is out of frame; Red River at 18th has a few cars, emergency lights up the street, and almost no one on foot.",
+            "note": "The stadium is out of frame; Red River at 18th has a few cars, emergency lights up the street, and one person on the corner.",
             "level": "unclear",
-            "read_at": "2026-10-20T03:52:19Z",
+            "read_at": "2026-10-20T04:07:51Z",
             "vehicles": "light",
             "people_visible": 1
           },
@@ -1680,19 +1680,19 @@
           "camera_id": "605",
           "image_url": "https://cctv.austinmobility.io/image/605.jpg",
           "camera_name": "RED RIVER ST / 18TH ST (Frank Erwin Center (North))",
-          "captured_at": "2026-10-20T03:46:43Z",
+          "captured_at": "2026-10-20T04:06:50Z",
           "distance_mi": 0.39
         },
         "traffic": {
           "note": "No active incidents within 3 mi",
-          "as_of": "2026-10-20T03:56:17+00:00",
+          "as_of": "2026-10-20T04:11:22+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
         "weather": {
           "cond": "Mostly Clear",
-          "hour": "2026-10-19T22:00:00-05:00",
-          "temp": 66,
+          "hour": "2026-10-19T23:00:00-05:00",
+          "temp": 65,
           "unit": "F",
           "wind": "Calm",
           "source": "NWS"
@@ -1705,12 +1705,12 @@
         },
         "anomaly": false,
         "last_run": {
-          "social": "2026-10-20T03:13:25Z",
-          "cameras": "2026-10-20T03:52:19Z",
-          "curator": "2026-10-20T04:00:18Z",
+          "social": "2026-10-20T04:00:53Z",
+          "cameras": "2026-10-20T04:07:51Z",
+          "curator": "2026-10-20T04:17:28Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T03:56:24.88119+00:00",
-          "calendar": "2026-10-20T03:12:09Z",
+          "sensors": "2026-10-20T04:11:29.384995+00:00",
+          "calendar": "2026-10-20T04:03:46Z",
           "social_ig": "2026-10-20T02:46:26Z"
         },
         "gmaps_url": "https://www.google.com/maps/search/?api=1&query=DKR+Texas+Memorial+Stadium%2C+Austin%2C+TX",
@@ -1767,12 +1767,17 @@
           },
           {
             "hour": "2026-10-20T02:00:00Z",
-            "as_of": "2026-10-20T03:13:25Z",
+            "as_of": "2026-10-20T04:00:53Z",
             "count": 2
           },
           {
             "hour": "2026-10-20T03:00:00Z",
-            "as_of": "2026-10-20T03:13:25Z",
+            "as_of": "2026-10-20T04:00:53Z",
+            "count": 1
+          },
+          {
+            "hour": "2026-10-20T04:00:00Z",
+            "as_of": "2026-10-20T04:00:53Z",
             "count": 0
           }
         ],
@@ -1814,6 +1819,15 @@
       },
       "social": [
         {
+          "ts": "2026-10-20T03:00:11Z",
+          "net": "X",
+          "url": "https://x.com/StudentSecHQ/status/2112378317194051867",
+          "text": "Your one-page guide to a Texas Longhorns football weekend in Austin: barbecue, breakfast tacos, game-day traditions, getting to DKR and what to pack. https://t.co/UyXJok7xLD",
+          "handle": "@StudentSecHQ",
+          "media_url": null,
+          "engagement": 0
+        },
+        {
           "ts": "2026-10-20T02:49:06Z",
           "net": "X",
           "url": "https://x.com/ZarkowskiStan/status/2112375529227866594",
@@ -1834,11 +1848,11 @@
       ],
       "volume": {
         "band": "Quiet",
-        "score": 21.2,
+        "score": 11.2,
         "inputs": {
           "review_recency": 0,
-          "event_proximity": 31.3,
-          "social_velocity_norm": 20,
+          "event_proximity": 31.4,
+          "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
         "missing": [],
@@ -1851,7 +1865,7 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T04:00:18Z",
+        "computed_at": "2026-10-20T04:17:28Z",
         "explanation": "No game until Saturday's Ole Miss matchup, so the stadium is quiet apart from a few visitor posts.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
@@ -1898,9 +1912,9 @@
           "source": "texassports.com"
         }
       ],
-      "posts_last_hour": 2
+      "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T04:00:44.155936+00:00"
+    "updated_at": "2026-10-20T04:18:21.376475+00:00"
   },
   {
     "id": "franklin",
@@ -1913,14 +1927,14 @@
       "live": {
         "traffic": {
           "note": "No active incidents within 3 mi; several nearby streets fully closed, allow extra time",
-          "as_of": "2026-10-20T03:56:17+00:00",
+          "as_of": "2026-10-20T04:11:22+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
         "weather": {
           "cond": "Mostly Clear",
-          "hour": "2026-10-19T22:00:00-05:00",
-          "temp": 66,
+          "hour": "2026-10-19T23:00:00-05:00",
+          "temp": 65,
           "unit": "F",
           "wind": "Calm",
           "source": "NWS"
@@ -1934,11 +1948,11 @@
         "anomaly": false,
         "ig_query": "Franklin Barbecue 900 E 11th St Austin",
         "last_run": {
-          "social": "2026-10-20T03:13:25Z",
-          "curator": "2026-10-20T04:00:18Z",
+          "social": "2026-10-20T04:00:53Z",
+          "curator": "2026-10-20T04:17:28Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T03:56:24.88119+00:00",
-          "calendar": "2026-10-20T03:12:09Z",
+          "sensors": "2026-10-20T04:11:29.384995+00:00",
+          "calendar": "2026-10-20T04:03:46Z",
           "social_ig": "2026-10-20T02:46:26Z"
         },
         "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Franklin+Barbecue%2C+Austin%2C+TX",
@@ -1971,6 +1985,11 @@
           {
             "hour": "2026-10-20T03:00:00Z",
             "as_of": "2026-10-20T03:13:25Z",
+            "count": 0
+          },
+          {
+            "hour": "2026-10-20T04:00:00Z",
+            "as_of": "2026-10-20T04:00:53Z",
             "count": 0
           }
         ],
@@ -2013,9 +2032,9 @@
       "social": [],
       "volume": {
         "band": "Quiet",
-        "score": 12.3,
+        "score": 12.2,
         "inputs": {
-          "review_recency": 85.8,
+          "review_recency": 85.7,
           "event_proximity": 0,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
@@ -2030,7 +2049,7 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T04:00:18Z",
+        "computed_at": "2026-10-20T04:17:28Z",
         "explanation": "Franklin is closed Mondays, so it's quiet tonight.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
@@ -2072,7 +2091,7 @@
       "upcoming": [],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T04:00:44.155936+00:00"
+    "updated_at": "2026-10-20T04:18:21.376475+00:00"
   },
   {
     "id": "hermanas",
@@ -2085,14 +2104,14 @@
       "live": {
         "traffic": {
           "note": "No active incidents within 3 mi; several nearby streets fully closed, allow extra time",
-          "as_of": "2026-10-20T03:56:17+00:00",
+          "as_of": "2026-10-20T04:11:22+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
         "weather": {
           "cond": "Mostly Clear",
-          "hour": "2026-10-19T22:00:00-05:00",
-          "temp": 66,
+          "hour": "2026-10-19T23:00:00-05:00",
+          "temp": 65,
           "unit": "F",
           "wind": "Calm",
           "source": "NWS"
@@ -2106,11 +2125,11 @@
         "added_at": "2026-10-20T01:19:10Z",
         "added_by": "Hum Scout (approved by user)",
         "last_run": {
-          "social": "2026-10-20T03:13:25Z",
-          "curator": "2026-10-20T04:00:18Z",
+          "social": "2026-10-20T04:00:53Z",
+          "curator": "2026-10-20T04:17:28Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T03:56:24.88119+00:00",
-          "calendar": "2026-10-20T03:12:09Z",
+          "sensors": "2026-10-20T04:11:29.384995+00:00",
+          "calendar": "2026-10-20T04:03:46Z",
           "social_ig": "2026-10-20T02:46:26Z"
         },
         "scout_note": "Mexican/Thai/Lao, opened Sept",
@@ -2136,6 +2155,11 @@
           {
             "hour": "2026-10-20T03:00:00Z",
             "as_of": "2026-10-20T03:13:25Z",
+            "count": 0
+          },
+          {
+            "hour": "2026-10-20T04:00:00Z",
+            "as_of": "2026-10-20T04:00:53Z",
             "count": 0
           }
         ],
@@ -2175,12 +2199,12 @@
         "band": "Quiet",
         "score": 11.1,
         "inputs": {
-          "review_recency": 77.7,
+          "review_recency": 77.5,
           "event_proximity": 0,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
-        "computed_at": "2026-10-20T04:00:18Z",
+        "computed_at": "2026-10-20T04:17:28Z",
         "explanation": "No events are listed here tonight."
       },
       "anomaly": false,
@@ -2221,7 +2245,7 @@
       "upcoming": [],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T04:00:44.155936+00:00"
+    "updated_at": "2026-10-20T04:18:21.376475+00:00"
   },
   {
     "id": "luckys-puccias",
@@ -2234,14 +2258,14 @@
       "live": {
         "traffic": {
           "note": "No active incidents within 3 mi; several nearby streets fully closed, allow extra time",
-          "as_of": "2026-10-20T03:56:17+00:00",
+          "as_of": "2026-10-20T04:11:22+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
         "weather": {
-          "cond": "Partly Cloudy",
-          "hour": "2026-10-19T22:00:00-05:00",
-          "temp": 66,
+          "cond": "Mostly Clear",
+          "hour": "2026-10-19T23:00:00-05:00",
+          "temp": 65,
           "unit": "F",
           "wind": "Calm",
           "source": "NWS"
@@ -2255,11 +2279,11 @@
         "added_at": "2026-10-20T01:19:10Z",
         "added_by": "Hum Scout (approved by user)",
         "last_run": {
-          "social": "2026-10-20T03:13:25Z",
-          "curator": "2026-10-20T04:00:18Z",
+          "social": "2026-10-20T04:00:53Z",
+          "curator": "2026-10-20T04:17:28Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T03:56:24.88119+00:00",
-          "calendar": "2026-10-20T03:12:09Z",
+          "sensors": "2026-10-20T04:11:29.384995+00:00",
+          "calendar": "2026-10-20T04:03:46Z",
           "social_ig": "2026-10-20T02:46:26Z"
         },
         "scout_note": "Sandwich shop that reopened in August in Seaholm",
@@ -2285,6 +2309,11 @@
           {
             "hour": "2026-10-20T03:00:00Z",
             "as_of": "2026-10-20T03:13:25Z",
+            "count": 0
+          },
+          {
+            "hour": "2026-10-20T04:00:00Z",
+            "as_of": "2026-10-20T04:00:53Z",
             "count": 0
           }
         ],
@@ -2324,12 +2353,12 @@
         "band": "Quiet",
         "score": 11.5,
         "inputs": {
-          "review_recency": 80.6,
+          "review_recency": 80.4,
           "event_proximity": 0,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
-        "computed_at": "2026-10-20T04:00:18Z",
+        "computed_at": "2026-10-20T04:17:28Z",
         "explanation": "No events are listed here tonight."
       },
       "anomaly": false,
@@ -2370,7 +2399,7 @@
       "upcoming": [],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T04:00:44.155936+00:00"
+    "updated_at": "2026-10-20T04:18:21.376475+00:00"
   },
   {
     "id": "mohawk",
@@ -2392,9 +2421,9 @@
         "camera": {
           "view": "Red River St at 10th St, looking along the Red River curb lane and sidewalks right at the Mohawk/Red River district block",
           "crowd": {
-            "note": "Red River at 10th is lined with parked cars, with just one person on the sidewalk.",
+            "note": "Red River at 10th is lined with parked cars, with just one person on the far sidewalk.",
             "level": "light",
-            "read_at": "2026-10-20T03:52:19Z",
+            "read_at": "2026-10-20T04:07:51Z",
             "vehicles": "light",
             "people_visible": 1
           },
@@ -2402,19 +2431,19 @@
           "camera_id": "129",
           "image_url": "https://cctv.austinmobility.io/image/129.jpg",
           "camera_name": "RED RIVER ST / 10TH ST",
-          "captured_at": "2026-10-20T03:46:43Z",
+          "captured_at": "2026-10-20T04:06:50Z",
           "distance_mi": 0.02
         },
         "traffic": {
           "note": "No active incidents within 3 mi; several nearby streets fully closed, allow extra time",
-          "as_of": "2026-10-20T03:56:17+00:00",
+          "as_of": "2026-10-20T04:11:22+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
         "weather": {
           "cond": "Mostly Clear",
-          "hour": "2026-10-19T22:00:00-05:00",
-          "temp": 66,
+          "hour": "2026-10-19T23:00:00-05:00",
+          "temp": 65,
           "unit": "F",
           "wind": "Calm",
           "source": "NWS"
@@ -2427,12 +2456,12 @@
         },
         "anomaly": false,
         "last_run": {
-          "social": "2026-10-20T03:13:25Z",
-          "cameras": "2026-10-20T03:52:19Z",
-          "curator": "2026-10-20T04:00:18Z",
+          "social": "2026-10-20T04:00:53Z",
+          "cameras": "2026-10-20T04:07:51Z",
+          "curator": "2026-10-20T04:17:28Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T03:56:24.88119+00:00",
-          "calendar": "2026-10-20T03:12:09Z",
+          "sensors": "2026-10-20T04:11:29.384995+00:00",
+          "calendar": "2026-10-20T04:03:46Z",
           "social_ig": "2026-10-20T02:46:26Z"
         },
         "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Mohawk%2C+Austin%2C+TX",
@@ -2496,6 +2525,11 @@
             "hour": "2026-10-20T03:00:00Z",
             "as_of": "2026-10-20T03:13:25Z",
             "count": 0
+          },
+          {
+            "hour": "2026-10-20T04:00:00Z",
+            "as_of": "2026-10-20T04:00:53Z",
+            "count": 0
           }
         ],
         "gmaps_place_id": "ChIJ1aFZAqS1RIYRu5WiNjw8b0A",
@@ -2539,7 +2573,7 @@
         "band": "Humming",
         "score": 45.2,
         "inputs": {
-          "review_recency": 66.5,
+          "review_recency": 66.4,
           "event_proximity": 100,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
@@ -2554,7 +2588,7 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T04:00:18Z",
+        "computed_at": "2026-10-20T04:17:28Z",
         "explanation": "Joey Cash is on now on Mohawk's indoor stage.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
@@ -2645,7 +2679,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T04:00:44.155936+00:00"
+    "updated_at": "2026-10-20T04:18:21.376475+00:00"
   },
   {
     "id": "monks-jazz",
@@ -2659,29 +2693,29 @@
         "camera": {
           "view": "S Congress Ave at St Elmo Rd, about a quarter mile west of Monks; looks along Congress, so the club on E St Elmo Rd is not in frame",
           "crowd": {
-            "note": "Monks on St Elmo is out of frame; Congress at St Elmo has light car traffic and a couple of people near the far corner.",
+            "note": "Monks on St Elmo is out of frame; Congress at St Elmo has a handful of cars and no one on foot.",
             "level": "unclear",
-            "read_at": "2026-10-20T03:52:19Z",
+            "read_at": "2026-10-20T04:07:51Z",
             "vehicles": "light",
-            "people_visible": 2
+            "people_visible": 0
           },
           "source": "City of Austin Transportation traffic camera (cctv.austinmobility.io)",
           "camera_id": "916",
           "image_url": "https://cctv.austinmobility.io/image/916.jpg",
           "camera_name": "CONGRESS AVE / ST ELMO RD",
-          "captured_at": "2026-10-20T03:46:52Z",
+          "captured_at": "2026-10-20T04:06:54Z",
           "distance_mi": 0.25
         },
         "traffic": {
           "note": "No active incidents within 3 mi",
-          "as_of": "2026-10-20T03:56:17+00:00",
+          "as_of": "2026-10-20T04:11:22+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
         "weather": {
           "cond": "Mostly Clear",
-          "hour": "2026-10-19T22:00:00-05:00",
-          "temp": 66,
+          "hour": "2026-10-19T23:00:00-05:00",
+          "temp": 65,
           "unit": "F",
           "wind": "Calm",
           "source": "NWS"
@@ -2695,12 +2729,12 @@
         "added_at": "2026-10-20T01:19:10Z",
         "added_by": "Hum Scout (approved by user)",
         "last_run": {
-          "social": "2026-10-20T03:13:25Z",
-          "cameras": "2026-10-20T03:52:19Z",
-          "curator": "2026-10-20T04:00:18Z",
+          "social": "2026-10-20T04:00:53Z",
+          "cameras": "2026-10-20T04:07:51Z",
+          "curator": "2026-10-20T04:17:28Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T03:56:24.88119+00:00",
-          "calendar": "2026-10-20T03:12:09Z",
+          "sensors": "2026-10-20T04:11:29.384995+00:00",
+          "calendar": "2026-10-20T04:03:46Z",
           "social_ig": "2026-10-20T02:46:26Z"
         },
         "scout_note": "Jazz listening room with shows nightly in new permanent home",
@@ -2749,6 +2783,11 @@
             "hour": "2026-10-20T03:00:00Z",
             "as_of": "2026-10-20T03:13:25Z",
             "count": 0
+          },
+          {
+            "hour": "2026-10-20T04:00:00Z",
+            "as_of": "2026-10-20T04:00:53Z",
+            "count": 0
           }
         ],
         "geocode_source": "OpenStreetMap Nominatim (building at address)",
@@ -2785,14 +2824,14 @@
       "social": [],
       "volume": {
         "band": "Humming",
-        "score": 43.6,
+        "score": 43.7,
         "inputs": {
-          "review_recency": 85.9,
-          "event_proximity": 87.8,
+          "review_recency": 85.7,
+          "event_proximity": 88.0,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
-        "computed_at": "2026-10-20T04:00:18Z",
+        "computed_at": "2026-10-20T04:17:28Z",
         "explanation": "Kelly Green Trio's album release show is tomorrow at 7:30 PM CT, so it's a quiet evening until then."
       },
       "anomaly": false,
@@ -2880,7 +2919,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T04:00:44.155936+00:00"
+    "updated_at": "2026-10-20T04:18:21.376475+00:00"
   },
   {
     "id": "moody-center",
@@ -2894,29 +2933,29 @@
         "camera": {
           "view": "MLK Blvd at the IH-35 northbound frontage, looking west across the MLK bridge toward UT/downtown; the Moody Center is ~0.3 mi west and not clearly visible",
           "crowd": {
-            "note": "The Moody Center isn't visible from the MLK bridge camera; a few cars and no pedestrians are in view.",
+            "note": "The Moody Center isn't visible from the MLK bridge camera; a small group is waiting at the corner and a few cars are passing.",
             "level": "unclear",
-            "read_at": "2026-10-20T03:52:19Z",
+            "read_at": "2026-10-20T04:07:51Z",
             "vehicles": "light",
-            "people_visible": 0
+            "people_visible": 8
           },
           "source": "City of Austin Transportation traffic camera (cctv.austinmobility.io)",
           "camera_id": "1461",
           "image_url": "https://cctv.austinmobility.io/image/1461.jpg",
           "camera_name": "MARTIN LUTHER KING JR BLVD / 35 SVRD",
-          "captured_at": "2026-10-20T03:47:15Z",
+          "captured_at": "2026-10-20T04:07:17Z",
           "distance_mi": 0.29
         },
         "traffic": {
           "note": "No active incidents within 3 mi",
-          "as_of": "2026-10-20T03:56:17+00:00",
+          "as_of": "2026-10-20T04:11:22+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
         "weather": {
           "cond": "Mostly Clear",
-          "hour": "2026-10-19T22:00:00-05:00",
-          "temp": 66,
+          "hour": "2026-10-19T23:00:00-05:00",
+          "temp": 65,
           "unit": "F",
           "wind": "Calm",
           "source": "NWS"
@@ -2929,12 +2968,12 @@
         },
         "anomaly": false,
         "last_run": {
-          "social": "2026-10-20T03:13:25Z",
-          "cameras": "2026-10-20T03:52:19Z",
-          "curator": "2026-10-20T04:00:18Z",
+          "social": "2026-10-20T04:00:53Z",
+          "cameras": "2026-10-20T04:07:51Z",
+          "curator": "2026-10-20T04:17:28Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T03:56:24.88119+00:00",
-          "calendar": "2026-10-20T03:12:09Z",
+          "sensors": "2026-10-20T04:11:29.384995+00:00",
+          "calendar": "2026-10-20T04:03:46Z",
           "social_ig": "2026-10-20T02:46:26Z"
         },
         "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Moody+Center+Austin+TX",
@@ -2996,7 +3035,12 @@
           },
           {
             "hour": "2026-10-20T03:00:00Z",
-            "as_of": "2026-10-20T03:13:25Z",
+            "as_of": "2026-10-20T04:00:53Z",
+            "count": 1
+          },
+          {
+            "hour": "2026-10-20T04:00:00Z",
+            "as_of": "2026-10-20T04:00:53Z",
             "count": 0
           }
         ],
@@ -3041,14 +3085,24 @@
         ],
         "social_velocity_as_of": "2026-10-20T00:08:44Z"
       },
-      "social": [],
+      "social": [
+        {
+          "ts": "2026-10-20T03:26:48Z",
+          "net": "X",
+          "url": "https://x.com/magic1wantu/status/2112385013501337605",
+          "text": "@BYAMONDO “jane remover at moody center” https://t.co/zWlYcp29iy",
+          "handle": "@magic1wantu",
+          "media_url": null,
+          "engagement": 1
+        }
+      ],
       "volume": {
         "band": "Humming",
-        "score": 44.8,
+        "score": 49.9,
         "inputs": {
-          "review_recency": 93.6,
-          "event_proximity": 88.1,
-          "social_velocity_norm": 0,
+          "review_recency": 93.5,
+          "event_proximity": 88.3,
+          "social_velocity_norm": 10,
           "foot_vs_baseline_norm": null
         },
         "missing": [],
@@ -3061,8 +3115,8 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T04:00:18Z",
-        "explanation": "Tonight's Staind show is wrapping up, and SOMBR plays tomorrow at 7 PM CT.",
+        "computed_at": "2026-10-20T04:17:28Z",
+        "explanation": "Tonight's Staind show has wrapped up, and SOMBR plays Tuesday at 7 PM CT.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
       "anomaly": false,
@@ -3096,7 +3150,7 @@
         "source": "google_maps",
         "trend_7d": null
       },
-      "summary": "Tonight's Staind show with Seether, Hoobastank and Hinder is wrapping up. Next up is SOMBR on Tuesday at 7 PM CT, then the Spurs vs. Rockets on Friday at 8:30 PM CT.",
+      "summary": "Tonight's Staind show with Seether, Hoobastank and Hinder has wrapped up. Next up is SOMBR on Tuesday at 7 PM CT, then the Spurs vs. Rockets on Friday at 8:30 PM CT.",
       "upcoming": [
         {
           "url": "https://www.ticketmaster.com/moody-center-atx-tickets-austin/venue/476228",
@@ -3123,9 +3177,9 @@
           "source": "moodycenteratx.com"
         }
       ],
-      "posts_last_hour": 0
+      "posts_last_hour": 1
     },
-    "updated_at": "2026-10-20T04:00:44.155936+00:00"
+    "updated_at": "2026-10-20T04:18:21.376475+00:00"
   },
   {
     "id": "mount-bonnell",
@@ -3138,14 +3192,14 @@
       "live": {
         "traffic": {
           "note": "No active incidents within 3 mi; several nearby streets fully closed, allow extra time",
-          "as_of": "2026-10-20T03:56:17+00:00",
+          "as_of": "2026-10-20T04:11:22+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
         "weather": {
           "cond": "Mostly Clear",
-          "hour": "2026-10-19T22:00:00-05:00",
-          "temp": 66,
+          "hour": "2026-10-19T23:00:00-05:00",
+          "temp": 64,
           "unit": "F",
           "wind": "Calm",
           "source": "NWS"
@@ -3160,11 +3214,11 @@
         "ig_notes": "2026-10-20T03:13Z: IG pull with ig_query timed out; skipped this run.",
         "ig_query": "Mount Bonnell 3800 Mount Bonnell Rd Austin TX",
         "last_run": {
-          "social": "2026-10-20T03:13:25Z",
-          "curator": "2026-10-20T04:00:18Z",
+          "social": "2026-10-20T04:00:53Z",
+          "curator": "2026-10-20T04:17:28Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T03:56:24.88119+00:00",
-          "calendar": "2026-10-20T03:12:09Z",
+          "sensors": "2026-10-20T04:11:29.384995+00:00",
+          "calendar": "2026-10-20T04:03:46Z",
           "social_ig": "2026-10-20T01:44:39Z"
         },
         "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Mount+Bonnell%2C+Austin%2C+TX",
@@ -3198,6 +3252,11 @@
             "hour": "2026-10-20T03:00:00Z",
             "as_of": "2026-10-20T03:13:25Z",
             "count": 0
+          },
+          {
+            "hour": "2026-10-20T04:00:00Z",
+            "as_of": "2026-10-20T04:00:53Z",
+            "count": 0
           }
         ],
         "gmaps_place_id": "ChIJB5JC7sfKRIYRA4i6L8ld7fY",
@@ -3230,7 +3289,7 @@
         "band": "Quiet",
         "score": 13.7,
         "inputs": {
-          "review_recency": 95.8,
+          "review_recency": 95.6,
           "event_proximity": 0,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
@@ -3245,7 +3304,7 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T04:00:18Z",
+        "computed_at": "2026-10-20T04:17:28Z",
         "explanation": "The overlook closed at 10 PM CT, and nothing is scheduled there this week.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
@@ -3287,7 +3346,7 @@
       "upcoming": [],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T04:00:44.155936+00:00"
+    "updated_at": "2026-10-20T04:18:21.376475+00:00"
   },
   {
     "id": "nishi",
@@ -3300,14 +3359,14 @@
       "live": {
         "traffic": {
           "note": "No active incidents within 3 mi",
-          "as_of": "2026-10-20T03:56:17+00:00",
+          "as_of": "2026-10-20T04:11:22+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
         "weather": {
-          "cond": "Partly Cloudy",
-          "hour": "2026-10-19T22:00:00-05:00",
-          "temp": 66,
+          "cond": "Mostly Clear",
+          "hour": "2026-10-19T23:00:00-05:00",
+          "temp": 64,
           "unit": "F",
           "wind": "Calm",
           "source": "NWS"
@@ -3321,11 +3380,11 @@
         "added_at": "2026-10-20T01:19:10Z",
         "added_by": "Hum Scout (approved by user)",
         "last_run": {
-          "social": "2026-10-20T03:13:25Z",
-          "curator": "2026-10-20T04:00:18Z",
+          "social": "2026-10-20T04:00:53Z",
+          "curator": "2026-10-20T04:17:28Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T03:56:24.88119+00:00",
-          "calendar": "2026-10-20T03:12:09Z",
+          "sensors": "2026-10-20T04:11:29.384995+00:00",
+          "calendar": "2026-10-20T04:03:46Z",
           "social_ig": "2026-10-20T02:46:26Z"
         },
         "scout_note": "Little Nishi's first full restaurant, opened Oct 15",
@@ -3351,6 +3410,11 @@
           {
             "hour": "2026-10-20T03:00:00Z",
             "as_of": "2026-10-20T03:13:25Z",
+            "count": 0
+          },
+          {
+            "hour": "2026-10-20T04:00:00Z",
+            "as_of": "2026-10-20T04:00:53Z",
             "count": 0
           }
         ],
@@ -3390,12 +3454,12 @@
         "band": "Quiet",
         "score": 13.8,
         "inputs": {
-          "review_recency": 96.7,
+          "review_recency": 96.6,
           "event_proximity": 0,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
-        "computed_at": "2026-10-20T04:00:18Z",
+        "computed_at": "2026-10-20T04:17:28Z",
         "explanation": "No events are listed here tonight."
       },
       "anomaly": false,
@@ -3436,7 +3500,7 @@
       "upcoming": [],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T04:00:44.155936+00:00"
+    "updated_at": "2026-10-20T04:18:21.376475+00:00"
   },
   {
     "id": "q2",
@@ -3452,7 +3516,7 @@
           "crowd": {
             "note": "Burnet at Bright Verde in front of Q2 Stadium is empty, with no people or cars in view.",
             "level": "none",
-            "read_at": "2026-10-20T03:52:19Z",
+            "read_at": "2026-10-20T04:07:51Z",
             "vehicles": "light",
             "people_visible": 0
           },
@@ -3460,19 +3524,19 @@
           "camera_id": "1277",
           "image_url": "https://cctv.austinmobility.io/image/1277.jpg",
           "camera_name": "BURNET RD / BRIGHT VERDE WAY",
-          "captured_at": "2026-10-20T03:47:08Z",
+          "captured_at": "2026-10-20T04:07:12Z",
           "distance_mi": 0.22
         },
         "traffic": {
           "note": "No active incidents within 3 mi",
-          "as_of": "2026-10-20T03:56:17+00:00",
+          "as_of": "2026-10-20T04:11:22+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
         "weather": {
           "cond": "Mostly Clear",
-          "hour": "2026-10-19T22:00:00-05:00",
-          "temp": 65,
+          "hour": "2026-10-19T23:00:00-05:00",
+          "temp": 64,
           "unit": "F",
           "wind": "Calm",
           "source": "NWS"
@@ -3486,12 +3550,12 @@
         "anomaly": false,
         "ig_query": "Q2 Stadium 10414 McKalla Pl Austin",
         "last_run": {
-          "social": "2026-10-20T03:13:25Z",
-          "cameras": "2026-10-20T03:52:19Z",
-          "curator": "2026-10-20T04:00:18Z",
+          "social": "2026-10-20T04:00:53Z",
+          "cameras": "2026-10-20T04:07:51Z",
+          "curator": "2026-10-20T04:17:28Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T03:56:24.88119+00:00",
-          "calendar": "2026-10-20T03:12:09Z",
+          "sensors": "2026-10-20T04:11:29.384995+00:00",
+          "calendar": "2026-10-20T04:03:46Z",
           "social_ig": "2026-10-20T02:46:26Z"
         },
         "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Q2+Stadium+Austin+TX",
@@ -3555,6 +3619,11 @@
             "hour": "2026-10-20T03:00:00Z",
             "as_of": "2026-10-20T03:13:25Z",
             "count": 0
+          },
+          {
+            "hour": "2026-10-20T04:00:00Z",
+            "as_of": "2026-10-20T04:00:53Z",
+            "count": 0
           }
         ],
         "gmaps_place_id": "ChIJ3fB6atnLRIYRh-10pmVzQnk",
@@ -3603,8 +3672,8 @@
         "band": "Quiet",
         "score": 24.0,
         "inputs": {
-          "review_recency": 77.0,
-          "event_proximity": 36.3,
+          "review_recency": 76.8,
+          "event_proximity": 36.5,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
@@ -3618,7 +3687,7 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T04:00:18Z",
+        "computed_at": "2026-10-20T04:17:28Z",
         "explanation": "There's no match or event tonight, and the next thing on the calendar is Saturday morning.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
@@ -3667,7 +3736,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T04:00:44.155936+00:00"
+    "updated_at": "2026-10-20T04:18:21.376475+00:00"
   },
   {
     "id": "rainey",
@@ -3683,7 +3752,7 @@
           "crowd": {
             "note": "Rainey St is out of frame; at Cesar Chavez and Red River a road crew is repaving behind a road closure.",
             "level": "unclear",
-            "read_at": "2026-10-20T03:52:19Z",
+            "read_at": "2026-10-20T04:07:51Z",
             "vehicles": "light",
             "people_visible": 4
           },
@@ -3691,19 +3760,19 @@
           "camera_id": "582",
           "image_url": "https://cctv.austinmobility.io/image/582.jpg",
           "camera_name": "CESAR CHAVEZ ST / RED RIVER ST",
-          "captured_at": "2026-10-20T03:46:55Z",
+          "captured_at": "2026-10-20T04:06:58Z",
           "distance_mi": 0.21
         },
         "traffic": {
           "note": "No active incidents within 3 mi; several nearby streets fully closed, allow extra time",
-          "as_of": "2026-10-20T03:56:17+00:00",
+          "as_of": "2026-10-20T04:11:22+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
         "weather": {
           "cond": "Mostly Clear",
-          "hour": "2026-10-19T22:00:00-05:00",
-          "temp": 66,
+          "hour": "2026-10-19T23:00:00-05:00",
+          "temp": 65,
           "unit": "F",
           "wind": "Calm",
           "source": "NWS"
@@ -3716,12 +3785,12 @@
         },
         "anomaly": false,
         "last_run": {
-          "social": "2026-10-20T03:13:25Z",
-          "cameras": "2026-10-20T03:52:19Z",
-          "curator": "2026-10-20T04:00:18Z",
+          "social": "2026-10-20T04:00:53Z",
+          "cameras": "2026-10-20T04:07:51Z",
+          "curator": "2026-10-20T04:17:28Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T03:56:24.88119+00:00",
-          "calendar": "2026-10-20T03:12:09Z",
+          "sensors": "2026-10-20T04:11:29.384995+00:00",
+          "calendar": "2026-10-20T04:03:46Z",
           "social_ig": "2026-10-20T02:46:26Z"
         },
         "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Rainey+Street+Historic+District+Austin+TX",
@@ -3785,6 +3854,11 @@
             "hour": "2026-10-20T03:00:00Z",
             "as_of": "2026-10-20T03:13:25Z",
             "count": 0
+          },
+          {
+            "hour": "2026-10-20T04:00:00Z",
+            "as_of": "2026-10-20T04:00:53Z",
+            "count": 0
           }
         ],
         "gmaps_place_id": "ChIJy-7W0qu1RIYROCBKgJ3GGmg",
@@ -3834,7 +3908,7 @@
         "score": 31.3,
         "inputs": {
           "review_recency": 0,
-          "event_proximity": 87.5,
+          "event_proximity": 87.7,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
@@ -3848,8 +3922,8 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T04:00:18Z",
-        "explanation": "Tonight's block party wrapped at 11 PM CT, and a comedy open mic at Rainey House is tomorrow at 8 PM CT.",
+        "computed_at": "2026-10-20T04:17:28Z",
+        "explanation": "Tonight's block party wrapped at 11 PM CT, and a comedy open mic at Rainey House is Tuesday at 8 PM CT.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
       "anomaly": false,
@@ -3889,12 +3963,6 @@
       "summary": "Tonight's MNP Rainey St. Block Party wrapped at 11 PM CT, and Tuesday brings a comedy open mic at Rainey House at 8 PM CT. Friday is the big night, with Comedy On Rainey at Crazy Conchaz at 7:30 PM and the Rainey Street pub crawl at 8 PM CT.",
       "upcoming": [
         {
-          "url": "https://www.austintexas.gov/ace/events/mnp-rainey-st-block-party",
-          "when": "2026-10-19T17:00:00-05:00",
-          "title": "MNP Rainey St. Block Party",
-          "source": "austintexas.gov"
-        },
-        {
           "url": "https://comedyaustin.com/events/comedy-open-mic-at-rainey-house--discovered-76-rainey-st-1jxu5-1958a3y",
           "when": "2026-10-20T20:00:00-05:00",
           "title": "Comedy Open Mic at Rainey House",
@@ -3927,7 +3995,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T04:00:44.155936+00:00"
+    "updated_at": "2026-10-20T04:18:21.376475+00:00"
   },
   {
     "id": "ramen-del-barrio",
@@ -3940,14 +4008,14 @@
       "live": {
         "traffic": {
           "note": "No active incidents within 3 mi",
-          "as_of": "2026-10-20T03:56:17+00:00",
+          "as_of": "2026-10-20T04:11:22+00:00",
           "level": "Quiet",
           "source": "TxDOT Austin + City of Austin"
         },
         "weather": {
           "cond": "Mostly Clear",
-          "hour": "2026-10-19T22:00:00-05:00",
-          "temp": 65,
+          "hour": "2026-10-19T23:00:00-05:00",
+          "temp": 64,
           "unit": "F",
           "wind": "Calm",
           "source": "NWS"
@@ -3961,11 +4029,11 @@
         "added_at": "2026-10-20T01:19:10Z",
         "added_by": "Hum Scout (approved by user)",
         "last_run": {
-          "social": "2026-10-20T03:13:25Z",
-          "curator": "2026-10-20T04:00:18Z",
+          "social": "2026-10-20T04:00:53Z",
+          "curator": "2026-10-20T04:17:28Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T03:56:24.88119+00:00",
-          "calendar": "2026-10-20T03:12:09Z",
+          "sensors": "2026-10-20T04:11:29.384995+00:00",
+          "calendar": "2026-10-20T04:03:46Z",
           "social_ig": "2026-10-20T02:46:26Z"
         },
         "scout_note": "Japanese-Mexican spot with long lines since July opening",
@@ -3991,6 +4059,11 @@
           {
             "hour": "2026-10-20T03:00:00Z",
             "as_of": "2026-10-20T03:13:25Z",
+            "count": 0
+          },
+          {
+            "hour": "2026-10-20T04:00:00Z",
+            "as_of": "2026-10-20T04:00:53Z",
             "count": 0
           }
         ],
@@ -4028,14 +4101,14 @@
       "social": [],
       "volume": {
         "band": "Quiet",
-        "score": 11.6,
+        "score": 11.5,
         "inputs": {
-          "review_recency": 80.9,
+          "review_recency": 80.7,
           "event_proximity": 0,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
-        "computed_at": "2026-10-20T04:00:18Z",
+        "computed_at": "2026-10-20T04:17:28Z",
         "explanation": "No events are listed here tonight."
       },
       "anomaly": false,
@@ -4075,7 +4148,7 @@
       "upcoming": [],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T04:00:44.155936+00:00"
+    "updated_at": "2026-10-20T04:18:21.376475+00:00"
   },
   {
     "id": "sixth-street",
@@ -4089,29 +4162,29 @@
         "camera": {
           "view": "6th St at San Jacinto Blvd, looking at the bar-lined 6th St corner with crosswalks and sidewalks; pedestrians clearly visible",
           "crowd": {
-            "note": "A few people are hanging out on the 6th and San Jacinto corners, with light car traffic.",
+            "note": "About ten people are crossing and standing at the 6th and San Jacinto corners, with light car traffic.",
             "level": "light",
-            "read_at": "2026-10-20T03:52:19Z",
+            "read_at": "2026-10-20T04:07:51Z",
             "vehicles": "light",
-            "people_visible": 6
+            "people_visible": 10
           },
           "source": "City of Austin Transportation traffic camera (cctv.austinmobility.io)",
           "camera_id": "355",
           "image_url": "https://cctv.austinmobility.io/image/355.jpg",
           "camera_name": "6TH ST / SAN JACINTO BLVD",
-          "captured_at": "2026-10-20T03:47:24Z",
+          "captured_at": "2026-10-20T04:02:26Z",
           "distance_mi": 0.05
         },
         "traffic": {
           "note": "No active incidents within 3 mi; several nearby streets fully closed, allow extra time",
-          "as_of": "2026-10-20T03:56:17+00:00",
+          "as_of": "2026-10-20T04:11:22+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
         "weather": {
           "cond": "Mostly Clear",
-          "hour": "2026-10-19T22:00:00-05:00",
-          "temp": 66,
+          "hour": "2026-10-19T23:00:00-05:00",
+          "temp": 65,
           "unit": "F",
           "wind": "Calm",
           "source": "NWS"
@@ -4124,12 +4197,12 @@
         },
         "anomaly": false,
         "last_run": {
-          "social": "2026-10-20T03:13:25Z",
-          "cameras": "2026-10-20T03:52:19Z",
-          "curator": "2026-10-20T04:00:18Z",
+          "social": "2026-10-20T04:00:53Z",
+          "cameras": "2026-10-20T04:07:51Z",
+          "curator": "2026-10-20T04:17:28Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T03:56:24.88119+00:00",
-          "calendar": "2026-10-20T03:12:09Z",
+          "sensors": "2026-10-20T04:11:29.384995+00:00",
+          "calendar": "2026-10-20T04:03:46Z",
           "social_ig": "2026-10-20T02:46:26Z"
         },
         "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Sixth+Street+Austin+TX",
@@ -4193,6 +4266,11 @@
             "hour": "2026-10-20T03:00:00Z",
             "as_of": "2026-10-20T03:13:25Z",
             "count": 0
+          },
+          {
+            "hour": "2026-10-20T04:00:00Z",
+            "as_of": "2026-10-20T04:00:53Z",
+            "count": 0
           }
         ],
         "gmaps_place_id": "ChIJxb5V97C1RIYRwH58cz83UVM",
@@ -4241,10 +4319,10 @@
       "social": [],
       "volume": {
         "band": "Quiet",
-        "score": 25.9,
+        "score": 26.0,
         "inputs": {
           "review_recency": 0,
-          "event_proximity": 72.6,
+          "event_proximity": 72.8,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
@@ -4258,7 +4336,7 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T04:00:18Z",
+        "computed_at": "2026-10-20T04:17:28Z",
         "explanation": "It's a quiet Monday in the E 6th St district, with the next listed shows on Wednesday and Friday.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
@@ -4343,7 +4421,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T04:00:44.155936+00:00"
+    "updated_at": "2026-10-20T04:18:21.376475+00:00"
   },
   {
     "id": "south-congress",
@@ -4365,9 +4443,9 @@
         "camera": {
           "view": "South Congress Ave at Elizabeth St, looking at the storefront corner and down Elizabeth; sidewalk and crosswalk visible",
           "crowd": {
-            "note": "The Congress and Elizabeth corner is empty of people, with just one car passing.",
+            "note": "The Congress and Elizabeth corner is empty, with no people or moving cars in view.",
             "level": "none",
-            "read_at": "2026-10-20T03:52:19Z",
+            "read_at": "2026-10-20T04:07:51Z",
             "vehicles": "light",
             "people_visible": 0
           },
@@ -4375,19 +4453,19 @@
           "camera_id": "124",
           "image_url": "https://cctv.austinmobility.io/image/124.jpg",
           "camera_name": "CONGRESS AVE / ELIZABETH ST",
-          "captured_at": "2026-10-20T03:46:52Z",
+          "captured_at": "2026-10-20T04:06:54Z",
           "distance_mi": 0.08
         },
         "traffic": {
           "note": "No active incidents within 3 mi",
-          "as_of": "2026-10-20T03:56:17+00:00",
+          "as_of": "2026-10-20T04:11:22+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
         "weather": {
           "cond": "Mostly Clear",
-          "hour": "2026-10-19T22:00:00-05:00",
-          "temp": 66,
+          "hour": "2026-10-19T23:00:00-05:00",
+          "temp": 65,
           "unit": "F",
           "wind": "Calm",
           "source": "NWS"
@@ -4400,12 +4478,12 @@
         },
         "anomaly": false,
         "last_run": {
-          "social": "2026-10-20T03:13:25Z",
-          "cameras": "2026-10-20T03:52:19Z",
-          "curator": "2026-10-20T04:00:18Z",
+          "social": "2026-10-20T04:00:53Z",
+          "cameras": "2026-10-20T04:07:51Z",
+          "curator": "2026-10-20T04:17:28Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T03:56:24.88119+00:00",
-          "calendar": "2026-10-20T03:12:09Z",
+          "sensors": "2026-10-20T04:11:29.384995+00:00",
+          "calendar": "2026-10-20T04:03:46Z",
           "social_ig": "2026-10-20T02:46:26Z"
         },
         "gmaps_url": "https://www.google.com/maps/search/?api=1&query=South+Congress+Avenue+Austin+TX",
@@ -4462,12 +4540,17 @@
           },
           {
             "hour": "2026-10-20T02:00:00Z",
-            "as_of": "2026-10-20T03:13:25Z",
+            "as_of": "2026-10-20T04:00:53Z",
             "count": 1
           },
           {
             "hour": "2026-10-20T03:00:00Z",
             "as_of": "2026-10-20T03:13:25Z",
+            "count": 0
+          },
+          {
+            "hour": "2026-10-20T04:00:00Z",
+            "as_of": "2026-10-20T04:00:53Z",
             "count": 0
           }
         ],
@@ -4542,7 +4625,7 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T04:00:18Z",
+        "computed_at": "2026-10-20T04:17:28Z",
         "explanation": "Dale Watson is on now at the Continental Club.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
@@ -4633,7 +4716,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T04:00:44.155936+00:00"
+    "updated_at": "2026-10-20T04:18:21.376475+00:00"
   },
   {
     "id": "still-austin-quarter",
@@ -4647,29 +4730,29 @@
         "camera": {
           "view": "S Congress Ave at St Elmo Rd, about 0.4 mi from the Still Austin Quarter; looks along Congress, so the distillery on Willow Springs Rd is not in frame",
           "crowd": {
-            "note": "The distillery is out of frame; Congress at St Elmo has light car traffic and a couple of people near the far corner.",
+            "note": "The distillery is out of frame; Congress at St Elmo has a handful of cars and no one on foot.",
             "level": "unclear",
-            "read_at": "2026-10-20T03:52:19Z",
+            "read_at": "2026-10-20T04:07:51Z",
             "vehicles": "light",
-            "people_visible": 2
+            "people_visible": 0
           },
           "source": "City of Austin Transportation traffic camera (cctv.austinmobility.io)",
           "camera_id": "916",
           "image_url": "https://cctv.austinmobility.io/image/916.jpg",
           "camera_name": "CONGRESS AVE / ST ELMO RD",
-          "captured_at": "2026-10-20T03:46:52Z",
+          "captured_at": "2026-10-20T04:06:54Z",
           "distance_mi": 0.4
         },
         "traffic": {
           "note": "No active incidents within 3 mi",
-          "as_of": "2026-10-20T03:56:17+00:00",
+          "as_of": "2026-10-20T04:11:22+00:00",
           "level": "Quiet",
           "source": "TxDOT Austin + City of Austin"
         },
         "weather": {
           "cond": "Mostly Clear",
-          "hour": "2026-10-19T22:00:00-05:00",
-          "temp": 66,
+          "hour": "2026-10-19T23:00:00-05:00",
+          "temp": 65,
           "unit": "F",
           "wind": "Calm",
           "source": "NWS"
@@ -4684,12 +4767,12 @@
         "added_by": "Hum Scout (approved by user)",
         "ig_notes": "2026-10-20T03:13Z: \"The Still Austin Quarter Austin\" returned the generic Austin, Texas location (kept none); alternate \"Still Austin Whiskey Co\" failed with \"Failed to fetch location ID\". Try the street address (440 E St Elmo Rd) next run.",
         "last_run": {
-          "social": "2026-10-20T03:13:25Z",
-          "cameras": "2026-10-20T03:52:19Z",
-          "curator": "2026-10-20T04:00:18Z",
+          "social": "2026-10-20T04:00:53Z",
+          "cameras": "2026-10-20T04:07:51Z",
+          "curator": "2026-10-20T04:17:28Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T03:56:24.88119+00:00",
-          "calendar": "2026-10-20T03:12:09Z",
+          "sensors": "2026-10-20T04:11:29.384995+00:00",
+          "calendar": "2026-10-20T04:03:46Z",
           "social_ig": "2026-10-20T03:13:25Z"
         },
         "scout_note": "Distillery's new 500-person Music Room with weekend bands; free grand opening Nov 5",
@@ -4738,6 +4821,11 @@
             "hour": "2026-10-20T03:00:00Z",
             "as_of": "2026-10-20T03:13:25Z",
             "count": 0
+          },
+          {
+            "hour": "2026-10-20T04:00:00Z",
+            "as_of": "2026-10-20T04:00:53Z",
+            "count": 0
           }
         ],
         "geocode_source": "OpenStreetMap Nominatim (address point)",
@@ -4775,12 +4863,12 @@
         "band": "Humming",
         "score": 33.1,
         "inputs": {
-          "review_recency": 82.9,
-          "event_proximity": 59.5,
+          "review_recency": 82.7,
+          "event_proximity": 59.7,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
-        "computed_at": "2026-10-20T04:00:18Z",
+        "computed_at": "2026-10-20T04:17:28Z",
         "explanation": "It's closed Mondays, and its next show is Starkitect's free album release on Thursday."
       },
       "anomaly": false,
@@ -4846,7 +4934,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T04:00:44.155936+00:00"
+    "updated_at": "2026-10-20T04:18:21.376475+00:00"
   },
   {
     "id": "stubbs",
@@ -4860,29 +4948,29 @@
         "camera": {
           "view": "Red River St at 7th St looking north up Red River toward 8th St (Stubb's is one block up, on the far right edge in glare)",
           "crowd": {
-            "note": "Red River at 7th has steady car traffic and one person on the sidewalk toward Stubb's.",
+            "note": "Red River at 7th has a few people at the crosswalk toward Stubb's and light car traffic.",
             "level": "light",
-            "read_at": "2026-10-20T03:52:19Z",
+            "read_at": "2026-10-20T04:07:51Z",
             "vehicles": "light",
-            "people_visible": 1
+            "people_visible": 3
           },
           "source": "City of Austin Transportation traffic camera (cctv.austinmobility.io)",
           "camera_id": "296",
           "image_url": "https://cctv.austinmobility.io/image/296.jpg",
           "camera_name": "7TH ST / RED RIVER ST",
-          "captured_at": "2026-10-20T03:46:54Z",
+          "captured_at": "2026-10-20T04:06:57Z",
           "distance_mi": 0.08
         },
         "traffic": {
           "note": "No active incidents within 3 mi; several nearby streets fully closed, allow extra time",
-          "as_of": "2026-10-20T03:56:17+00:00",
+          "as_of": "2026-10-20T04:11:22+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
         "weather": {
           "cond": "Mostly Clear",
-          "hour": "2026-10-19T22:00:00-05:00",
-          "temp": 66,
+          "hour": "2026-10-19T23:00:00-05:00",
+          "temp": 65,
           "unit": "F",
           "wind": "Calm",
           "source": "NWS"
@@ -4895,12 +4983,12 @@
         },
         "anomaly": false,
         "last_run": {
-          "social": "2026-10-20T03:13:25Z",
-          "cameras": "2026-10-20T03:52:19Z",
-          "curator": "2026-10-20T04:00:18Z",
+          "social": "2026-10-20T04:00:53Z",
+          "cameras": "2026-10-20T04:07:51Z",
+          "curator": "2026-10-20T04:17:28Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T03:56:24.88119+00:00",
-          "calendar": "2026-10-20T03:12:09Z",
+          "sensors": "2026-10-20T04:11:29.384995+00:00",
+          "calendar": "2026-10-20T04:03:46Z",
           "social_ig": "2026-10-20T02:46:26Z"
         },
         "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Stubb%27s+BBQ%2C+Austin%2C+TX",
@@ -4964,6 +5052,11 @@
             "hour": "2026-10-20T03:00:00Z",
             "as_of": "2026-10-20T03:13:25Z",
             "count": 0
+          },
+          {
+            "hour": "2026-10-20T04:00:00Z",
+            "as_of": "2026-10-20T04:00:53Z",
+            "count": 0
           }
         ],
         "gmaps_place_id": "ChIJSVyqJ6S1RIYRdx8PPPRl9Is",
@@ -5007,8 +5100,8 @@
         "band": "Humming",
         "score": 35.1,
         "inputs": {
-          "review_recency": 96.7,
-          "event_proximity": 59.5,
+          "review_recency": 96.5,
+          "event_proximity": 59.7,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
@@ -5022,7 +5115,7 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T04:00:18Z",
+        "computed_at": "2026-10-20T04:17:28Z",
         "explanation": "Nothing on tonight, with Vince Staples coming Thursday.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
@@ -5083,7 +5176,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T04:00:44.155936+00:00"
+    "updated_at": "2026-10-20T04:18:21.376475+00:00"
   },
   {
     "id": "the-domain",
@@ -5097,9 +5190,9 @@
         "camera": {
           "view": "Burnet Rd at Solaris St on the Domain's east edge, roadway plus a parking garage; the Domain shopping streets are not in view",
           "crowd": {
-            "note": "The Domain's shopping streets aren't in view; Burnet at Solaris has a couple of distant cars and no one on foot.",
+            "note": "The Domain's shopping streets aren't in view; Burnet at Solaris has a single car and no one on foot.",
             "level": "unclear",
-            "read_at": "2026-10-20T03:52:19Z",
+            "read_at": "2026-10-20T04:07:51Z",
             "vehicles": "light",
             "people_visible": 0
           },
@@ -5107,19 +5200,19 @@
           "camera_id": "1431",
           "image_url": "https://cctv.austinmobility.io/image/1431.jpg",
           "camera_name": "BURNET RD / SOLARIS ST",
-          "captured_at": "2026-10-20T03:46:43Z",
+          "captured_at": "2026-10-20T04:06:50Z",
           "distance_mi": 0.42
         },
         "traffic": {
           "note": "No active incidents within 3 mi",
-          "as_of": "2026-10-20T03:56:17+00:00",
+          "as_of": "2026-10-20T04:11:22+00:00",
           "level": "Quiet",
           "source": "TxDOT Austin + City of Austin"
         },
         "weather": {
           "cond": "Mostly Clear",
-          "hour": "2026-10-19T22:00:00-05:00",
-          "temp": 65,
+          "hour": "2026-10-19T23:00:00-05:00",
+          "temp": 64,
           "unit": "F",
           "wind": "Calm",
           "source": "NWS"
@@ -5132,12 +5225,12 @@
         },
         "anomaly": false,
         "last_run": {
-          "social": "2026-10-20T03:13:25Z",
-          "cameras": "2026-10-20T03:52:19Z",
-          "curator": "2026-10-20T04:00:18Z",
+          "social": "2026-10-20T04:00:53Z",
+          "cameras": "2026-10-20T04:07:51Z",
+          "curator": "2026-10-20T04:17:28Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T03:56:24.88119+00:00",
-          "calendar": "2026-10-20T03:12:09Z",
+          "sensors": "2026-10-20T04:11:29.384995+00:00",
+          "calendar": "2026-10-20T04:03:46Z",
           "social_ig": "2026-10-20T02:46:26Z"
         },
         "gmaps_url": "https://www.google.com/maps/search/?api=1&query=The+Domain+Austin+TX",
@@ -5201,6 +5294,11 @@
             "hour": "2026-10-20T03:00:00Z",
             "as_of": "2026-10-20T03:13:25Z",
             "count": 0
+          },
+          {
+            "hour": "2026-10-20T04:00:00Z",
+            "as_of": "2026-10-20T04:00:53Z",
+            "count": 0
           }
         ],
         "gmaps_place_id": "ChIJBTs97HHMRIYRIAQ_ZGynxHc",
@@ -5247,10 +5345,10 @@
       "social": [],
       "volume": {
         "band": "Quiet",
-        "score": 26.2,
+        "score": 26.3,
         "inputs": {
-          "review_recency": 95.7,
-          "event_proximity": 35.1,
+          "review_recency": 95.6,
+          "event_proximity": 35.3,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
@@ -5264,7 +5362,7 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T04:00:18Z",
+        "computed_at": "2026-10-20T04:17:28Z",
         "explanation": "Nothing is listed tonight, with Pettober coming Saturday.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
@@ -5319,7 +5417,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T04:00:44.155936+00:00"
+    "updated_at": "2026-10-20T04:18:21.376475+00:00"
   },
   {
     "id": "watershed",
@@ -5332,14 +5430,14 @@
       "live": {
         "traffic": {
           "note": "No active incidents within 3 mi",
-          "as_of": "2026-10-20T03:56:17+00:00",
+          "as_of": "2026-10-20T04:11:22+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
         "weather": {
           "cond": "Mostly Clear",
-          "hour": "2026-10-19T22:00:00-05:00",
-          "temp": 66,
+          "hour": "2026-10-19T23:00:00-05:00",
+          "temp": 65,
           "unit": "F",
           "wind": "Calm",
           "source": "NWS"
@@ -5353,11 +5451,11 @@
         "added_at": "2026-10-20T01:19:10Z",
         "added_by": "Hum Scout (approved by user)",
         "last_run": {
-          "social": "2026-10-20T03:13:25Z",
-          "curator": "2026-10-20T04:00:18Z",
+          "social": "2026-10-20T04:00:53Z",
+          "curator": "2026-10-20T04:17:28Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T03:56:24.88119+00:00",
-          "calendar": "2026-10-20T03:12:09Z",
+          "sensors": "2026-10-20T04:11:29.384995+00:00",
+          "calendar": "2026-10-20T04:03:46Z",
           "social_ig": "2026-10-20T02:46:26Z"
         },
         "scout_note": "Coffee shop, bar and event space, opened Sept 8",
@@ -5383,6 +5481,11 @@
           {
             "hour": "2026-10-20T03:00:00Z",
             "as_of": "2026-10-20T03:13:25Z",
+            "count": 0
+          },
+          {
+            "hour": "2026-10-20T04:00:00Z",
+            "as_of": "2026-10-20T04:00:53Z",
             "count": 0
           }
         ],
@@ -5427,7 +5530,7 @@
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
-        "computed_at": "2026-10-20T04:00:18Z",
+        "computed_at": "2026-10-20T04:17:28Z",
         "explanation": "No events are listed here tonight."
       },
       "anomaly": false,
@@ -5468,7 +5571,7 @@
       "upcoming": [],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T04:00:44.155936+00:00"
+    "updated_at": "2026-10-20T04:18:21.376475+00:00"
   },
   {
     "id": "zilker",
@@ -5484,7 +5587,7 @@
           "crowd": {
             "note": "The park lawns are out of frame; Barton Springs Rd at Stratford is dark and empty, with no cars or people in view.",
             "level": "unclear",
-            "read_at": "2026-10-20T03:52:19Z",
+            "read_at": "2026-10-20T04:07:51Z",
             "vehicles": "light",
             "people_visible": 0
           },
@@ -5492,19 +5595,19 @@
           "camera_id": "377",
           "image_url": "https://cctv.austinmobility.io/image/377.jpg",
           "camera_name": "BARTON SPRINGS RD / STRATFORD DR",
-          "captured_at": "2026-10-20T03:47:43Z",
+          "captured_at": "2026-10-20T04:02:47Z",
           "distance_mi": 0.12
         },
         "traffic": {
           "note": "No active incidents within 3 mi",
-          "as_of": "2026-10-20T03:56:17+00:00",
+          "as_of": "2026-10-20T04:11:22+00:00",
           "level": "Quiet",
           "source": "TxDOT Austin + City of Austin"
         },
         "weather": {
-          "cond": "Partly Cloudy",
-          "hour": "2026-10-19T22:00:00-05:00",
-          "temp": 66,
+          "cond": "Mostly Clear",
+          "hour": "2026-10-19T23:00:00-05:00",
+          "temp": 65,
           "unit": "F",
           "wind": "Calm",
           "source": "NWS"
@@ -5517,12 +5620,12 @@
         },
         "anomaly": false,
         "last_run": {
-          "social": "2026-10-20T03:13:25Z",
-          "cameras": "2026-10-20T03:52:19Z",
-          "curator": "2026-10-20T04:00:18Z",
+          "social": "2026-10-20T04:00:53Z",
+          "cameras": "2026-10-20T04:07:51Z",
+          "curator": "2026-10-20T04:17:28Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T03:56:24.88119+00:00",
-          "calendar": "2026-10-20T03:12:09Z",
+          "sensors": "2026-10-20T04:11:29.384995+00:00",
+          "calendar": "2026-10-20T04:03:46Z",
           "social_ig": "2026-10-20T02:46:26Z"
         },
         "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Zilker+Park+Austin+TX",
@@ -5586,6 +5689,11 @@
             "hour": "2026-10-20T03:00:00Z",
             "as_of": "2026-10-20T03:13:25Z",
             "count": 0
+          },
+          {
+            "hour": "2026-10-20T04:00:00Z",
+            "as_of": "2026-10-20T04:00:53Z",
+            "count": 0
           }
         ],
         "gmaps_place_id": "ChIJ22j54Ia1RIYRunKXejw_UJs",
@@ -5634,10 +5742,10 @@
       "social": [],
       "volume": {
         "band": "Humming",
-        "score": 45.1,
+        "score": 45.2,
         "inputs": {
-          "review_recency": 94.1,
-          "event_proximity": 88.7,
+          "review_recency": 93.9,
+          "event_proximity": 88.9,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
@@ -5651,7 +5759,7 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T04:00:18Z",
+        "computed_at": "2026-10-20T04:17:28Z",
         "explanation": "A calm night in the park, with a dog meet-up tomorrow evening and more events through the week.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
@@ -5716,6 +5824,6 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T04:00:44.155936+00:00"
+    "updated_at": "2026-10-20T04:18:21.376475+00:00"
   }
 ]
