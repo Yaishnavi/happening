@@ -44,7 +44,7 @@
         "anomaly": false,
         "last_run": {
           "social": "2026-10-20T00:44:26.829755+00:00",
-          "curator": "2026-10-20T00:50:47Z",
+          "curator": "2026-10-20T00:53:19Z",
           "reviews": "2026-10-20T00:44:25.036369+00:00",
           "sensors": "2026-10-20T00:49:25.899083+00:00",
           "calendar": "2026-10-20T00:47:14.726596+00:00"
@@ -115,7 +115,7 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T00:50:47Z",
+        "computed_at": "2026-10-20T00:53:19Z",
         "explanation": "Snarky Puppy starting at 8 PM CT maxed out event proximity and a Google review from this morning added a little, but there were no tagged posts in the last hour; foot traffic is excluded for now.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
@@ -183,7 +183,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T00:50:53.954278+00:00"
+    "updated_at": "2026-10-20T00:53:26.028665+00:00"
   },
   {
     "id": "barton-springs",
@@ -194,8 +194,8 @@
     "record": {
       "now": [
         {
-          "t": "2026-10-20T00:50:47Z",
-          "title": "Free Night Swims start at 9pm CT tonight, about 70 minutes from now.",
+          "t": "2026-10-20T00:53:19Z",
+          "title": "Free Night Swims start at 9pm CT tonight, about an hour from now.",
           "source": "outgoing.world",
           "confidence": 0.8,
           "expires_at": "2026-10-20T02:00:00Z"
@@ -230,7 +230,7 @@
         "anomaly": false,
         "last_run": {
           "social": "2026-10-20T00:44:00Z",
-          "curator": "2026-10-20T00:50:47Z",
+          "curator": "2026-10-20T00:53:19Z",
           "reviews": "2026-10-20T00:11:32.626309+00:00",
           "sensors": "2026-10-20T00:49:25.899083+00:00",
           "calendar": "2026-10-20T00:42:08Z"
@@ -288,7 +288,7 @@
         "band": "Humming",
         "score": 43.5,
         "inputs": {
-          "review_recency": 56.4,
+          "review_recency": 56.3,
           "event_proximity": 99.3,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
@@ -303,8 +303,8 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T00:50:47Z",
-        "explanation": "Event proximity drove the score (free Night Swims start at 9pm CT, about 70 minutes away), with a Google review from 3 days ago adding a bit and no posts in the last hour; foot traffic is excluded for now.",
+        "computed_at": "2026-10-20T00:53:19Z",
+        "explanation": "Event proximity drove the score (free Night Swims start at 9pm CT, about an hour away), with a Google review from 3 days ago adding a bit and no posts in the last hour; foot traffic is excluded for now.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
       "anomaly": false,
@@ -370,7 +370,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T00:50:53.954278+00:00"
+    "updated_at": "2026-10-20T00:53:26.028665+00:00"
   },
   {
     "id": "capitol",
@@ -409,7 +409,7 @@
         "anomaly": false,
         "last_run": {
           "social": "2026-10-20T00:44:26.829755+00:00",
-          "curator": "2026-10-20T00:50:47Z",
+          "curator": "2026-10-20T00:53:19Z",
           "reviews": "2026-10-20T00:44:25.036369+00:00",
           "sensors": "2026-10-20T00:49:25.899083+00:00",
           "calendar": "2026-10-20T00:47:14.726596+00:00"
@@ -480,7 +480,7 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T00:50:47Z",
+        "computed_at": "2026-10-20T00:53:19Z",
         "explanation": "Tomorrow morning's Counties 101 event at the Capitol drives event proximity and 1 Instagram post in the last hour adds a little, while the newest Google review is weeks old; foot traffic is excluded for now.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
@@ -566,7 +566,7 @@
       ],
       "posts_last_hour": 1
     },
-    "updated_at": "2026-10-20T00:50:53.954278+00:00"
+    "updated_at": "2026-10-20T00:53:26.028665+00:00"
   },
   {
     "id": "dkr",
@@ -605,7 +605,7 @@
         "anomaly": false,
         "last_run": {
           "social": "2026-10-20T00:44:26.829755+00:00",
-          "curator": "2026-10-20T00:50:47Z",
+          "curator": "2026-10-20T00:53:19Z",
           "reviews": "2026-10-20T00:44:25.036369+00:00",
           "sensors": "2026-10-20T00:49:25.899083+00:00",
           "calendar": "2026-10-20T00:47:14.726596+00:00"
@@ -694,7 +694,7 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T00:50:47Z",
+        "computed_at": "2026-10-20T00:53:19Z",
         "explanation": "2 Instagram posts in the last hour and Saturday's Ole Miss game (about 5 days out) are the only drivers, and the newest Google review is weeks old; foot traffic is excluded for now.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
@@ -738,7 +738,7 @@
       ],
       "posts_last_hour": 2
     },
-    "updated_at": "2026-10-20T00:50:53.954278+00:00"
+    "updated_at": "2026-10-20T00:53:26.028665+00:00"
   },
   {
     "id": "franklin",
@@ -777,7 +777,7 @@
         "anomaly": false,
         "last_run": {
           "social": "2026-10-20T00:44:26.829755+00:00",
-          "curator": "2026-10-20T00:50:47Z",
+          "curator": "2026-10-20T00:53:19Z",
           "reviews": "2026-10-20T00:44:25.036369+00:00",
           "sensors": "2026-10-20T00:49:25.899083+00:00",
           "calendar": "2026-10-20T00:47:14.726596+00:00"
@@ -857,7 +857,7 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T00:50:47Z",
+        "computed_at": "2026-10-20T00:53:19Z",
         "explanation": "2 Instagram posts in the last hour and a Google review from last night are the only drivers, with no events in the next 7 days; foot traffic is excluded for now.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
@@ -894,7 +894,7 @@
       "upcoming": [],
       "posts_last_hour": 2
     },
-    "updated_at": "2026-10-20T00:50:53.954278+00:00"
+    "updated_at": "2026-10-20T00:53:26.028665+00:00"
   },
   {
     "id": "mohawk",
@@ -941,7 +941,7 @@
         "anomaly": false,
         "last_run": {
           "social": "2026-10-20T00:44:26.829755+00:00",
-          "curator": "2026-10-20T00:50:47Z",
+          "curator": "2026-10-20T00:53:19Z",
           "reviews": "2026-10-20T00:44:25.036369+00:00",
           "sensors": "2026-10-20T00:49:25.899083+00:00",
           "calendar": "2026-10-20T00:47:14.726596+00:00"
@@ -1012,7 +1012,7 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T00:50:47Z",
+        "computed_at": "2026-10-20T00:53:19Z",
         "explanation": "Joey Cash at 9 PM CT tonight drives event proximity, with 1 Instagram post in the last hour and a Google review from Saturday adding a little; foot traffic is excluded for now.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
@@ -1098,7 +1098,7 @@
       ],
       "posts_last_hour": 1
     },
-    "updated_at": "2026-10-20T00:50:53.954278+00:00"
+    "updated_at": "2026-10-20T00:53:26.028665+00:00"
   },
   {
     "id": "moody-center",
@@ -1152,7 +1152,7 @@
         "anomaly": false,
         "last_run": {
           "social": "2026-10-20T00:44:00Z",
-          "curator": "2026-10-20T00:50:47Z",
+          "curator": "2026-10-20T00:53:19Z",
           "reviews": "2026-10-20T00:11:32.626309+00:00",
           "sensors": "2026-10-20T00:49:25.899083+00:00",
           "calendar": "2026-10-20T00:42:08Z"
@@ -1316,7 +1316,7 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T00:50:47Z",
+        "computed_at": "2026-10-20T00:53:19Z",
         "explanation": "The Staind show that's on now maxes out event proximity and a Google review from yesterday adds a little, while Instagram has cooled to 2 posts in the last hour; foot traffic is excluded for now.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
@@ -1386,7 +1386,7 @@
       ],
       "posts_last_hour": 2
     },
-    "updated_at": "2026-10-20T00:50:53.954278+00:00"
+    "updated_at": "2026-10-20T00:53:26.028665+00:00"
   },
   {
     "id": "mount-bonnell",
@@ -1425,7 +1425,7 @@
         "anomaly": false,
         "last_run": {
           "social": "2026-10-20T00:44:26.829755+00:00",
-          "curator": "2026-10-20T00:50:47Z",
+          "curator": "2026-10-20T00:53:19Z",
           "reviews": "2026-10-20T00:44:25.036369+00:00",
           "sensors": "2026-10-20T00:49:25.899083+00:00",
           "calendar": "2026-10-20T00:47:14.726596+00:00"
@@ -1486,7 +1486,7 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T00:50:47Z",
+        "computed_at": "2026-10-20T00:53:19Z",
         "explanation": "Only a Google review from this afternoon registers, with no tagged posts in the last hour and no events in the next 7 days; foot traffic is excluded for now.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
@@ -1523,7 +1523,7 @@
       "upcoming": [],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T00:50:53.954278+00:00"
+    "updated_at": "2026-10-20T00:53:26.028665+00:00"
   },
   {
     "id": "q2",
@@ -1562,7 +1562,7 @@
         "anomaly": false,
         "last_run": {
           "social": "2026-10-20T00:44:00Z",
-          "curator": "2026-10-20T00:50:47Z",
+          "curator": "2026-10-20T00:53:19Z",
           "reviews": "2026-10-20T00:11:32.626309+00:00",
           "sensors": "2026-10-20T00:49:25.899083+00:00",
           "calendar": "2026-10-20T00:42:08Z"
@@ -1620,8 +1620,8 @@
         "band": "Quiet",
         "score": 23.6,
         "inputs": {
-          "review_recency": 78.9,
-          "event_proximity": 34.4,
+          "review_recency": 78.8,
+          "event_proximity": 34.5,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
@@ -1635,7 +1635,7 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T00:50:47Z",
+        "computed_at": "2026-10-20T00:53:19Z",
         "explanation": "Review recency and a distant event split the low score (a Google review from yesterday, and the SAFE Alliance Truck-or-Treat is about 110 hours away), with no posts in the last hour; foot traffic is excluded for now.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
@@ -1684,7 +1684,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T00:50:53.954278+00:00"
+    "updated_at": "2026-10-20T00:53:26.028665+00:00"
   },
   {
     "id": "rainey",
@@ -1738,7 +1738,7 @@
         "anomaly": false,
         "last_run": {
           "social": "2026-10-20T00:44:00Z",
-          "curator": "2026-10-20T00:50:47Z",
+          "curator": "2026-10-20T00:53:19Z",
           "reviews": "2026-10-20T00:11:32.626309+00:00",
           "sensors": "2026-10-20T00:49:25.899083+00:00",
           "calendar": "2026-10-20T00:42:08Z"
@@ -1816,7 +1816,7 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T00:50:47Z",
+        "computed_at": "2026-10-20T00:53:19Z",
         "explanation": "Event proximity drove the score (the MNP Rainey St. Block Party runs until 11pm CT), since nobody posted from Rainey in the last hour and the newest Google review is months old; foot traffic is excluded for now.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
@@ -1883,7 +1883,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T00:50:53.954278+00:00"
+    "updated_at": "2026-10-20T00:53:26.028665+00:00"
   },
   {
     "id": "sixth-street",
@@ -1930,7 +1930,7 @@
         "anomaly": false,
         "last_run": {
           "social": "2026-10-20T00:44:00Z",
-          "curator": "2026-10-20T00:50:47Z",
+          "curator": "2026-10-20T00:53:19Z",
           "reviews": "2026-10-20T00:11:32.626309+00:00",
           "sensors": "2026-10-20T00:49:25.899083+00:00",
           "calendar": "2026-10-20T00:42:08Z"
@@ -1991,7 +1991,7 @@
         "score": 25.3,
         "inputs": {
           "review_recency": 0,
-          "event_proximity": 70.7,
+          "event_proximity": 70.8,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
@@ -2005,7 +2005,7 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T00:50:47Z",
+        "computed_at": "2026-10-20T00:53:19Z",
         "explanation": "Event proximity is the only thing lifting the score (Dreadneck Wednesdays at Flamingo Cantina on Wednesday at 9pm CT is about 49 hours out), since there were no posts in the last hour and the newest Google review is months old; foot traffic is excluded for now.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
@@ -2084,7 +2084,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T00:50:53.954278+00:00"
+    "updated_at": "2026-10-20T00:53:26.028665+00:00"
   },
   {
     "id": "south-congress",
@@ -2138,7 +2138,7 @@
         "anomaly": false,
         "last_run": {
           "social": "2026-10-20T00:44:00Z",
-          "curator": "2026-10-20T00:50:47Z",
+          "curator": "2026-10-20T00:53:19Z",
           "reviews": "2026-10-20T00:11:32.626309+00:00",
           "sensors": "2026-10-20T00:49:25.899083+00:00",
           "calendar": "2026-10-20T00:42:08Z"
@@ -2211,7 +2211,7 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T00:50:47Z",
+        "computed_at": "2026-10-20T00:53:19Z",
         "explanation": "Event proximity drove the score (Elias Haslanger plays the Continental Club at 8:30pm CT, under an hour away), since there were no posts in the last hour and the newest Google review is about two weeks old; foot traffic is excluded for now.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
@@ -2302,7 +2302,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T00:50:53.954278+00:00"
+    "updated_at": "2026-10-20T00:53:26.028665+00:00"
   },
   {
     "id": "stubbs",
@@ -2341,7 +2341,7 @@
         "anomaly": false,
         "last_run": {
           "social": "2026-10-20T00:44:26.829755+00:00",
-          "curator": "2026-10-20T00:50:47Z",
+          "curator": "2026-10-20T00:53:19Z",
           "reviews": "2026-10-20T00:44:25.036369+00:00",
           "sensors": "2026-10-20T00:49:25.899083+00:00",
           "calendar": "2026-10-20T00:47:14.726596+00:00"
@@ -2388,7 +2388,7 @@
         "score": 34.7,
         "inputs": {
           "review_recency": 98.6,
-          "event_proximity": 57.6,
+          "event_proximity": 57.7,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
@@ -2402,7 +2402,7 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T00:50:47Z",
+        "computed_at": "2026-10-20T00:53:19Z",
         "explanation": "Vince Staples on Thursday gives moderate event proximity and a fresh Google review from this evening adds a little, with no tagged posts in the last hour; foot traffic is excluded for now.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
@@ -2458,7 +2458,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T00:50:53.954278+00:00"
+    "updated_at": "2026-10-20T00:53:26.028665+00:00"
   },
   {
     "id": "the-domain",
@@ -2497,7 +2497,7 @@
         "anomaly": false,
         "last_run": {
           "social": "2026-10-20T00:44:00Z",
-          "curator": "2026-10-20T00:50:47Z",
+          "curator": "2026-10-20T00:53:19Z",
           "reviews": "2026-10-20T00:11:32.626309+00:00",
           "sensors": "2026-10-20T00:49:25.899083+00:00",
           "calendar": "2026-10-20T00:42:08Z"
@@ -2584,7 +2584,7 @@
         "score": 25.8,
         "inputs": {
           "review_recency": 97.6,
-          "event_proximity": 33.2,
+          "event_proximity": 33.3,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
@@ -2598,7 +2598,7 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T00:50:47Z",
+        "computed_at": "2026-10-20T00:53:19Z",
         "explanation": "A Google review from about 4 hours ago does most of the work, with no Instagram posts in the last hour and the next listed event (Pettober on Saturday) still days away; foot traffic is excluded for now.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
@@ -2653,7 +2653,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T00:50:53.954278+00:00"
+    "updated_at": "2026-10-20T00:53:26.028665+00:00"
   },
   {
     "id": "zilker",
@@ -2707,7 +2707,7 @@
         "anomaly": false,
         "last_run": {
           "social": "2026-10-20T00:44:00Z",
-          "curator": "2026-10-20T00:50:47Z",
+          "curator": "2026-10-20T00:53:19Z",
           "reviews": "2026-10-20T00:04:13Z",
           "sensors": "2026-10-20T00:49:25.899083+00:00",
           "calendar": "2026-10-20T00:42:08Z"
@@ -2782,7 +2782,7 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T00:50:47Z",
+        "computed_at": "2026-10-20T00:53:19Z",
         "explanation": "Upcoming events (a Viz Whizz dog meet-up tomorrow at 6pm CT, about 22 hours out) and a Google review from about 7 hours ago drove the score, with no posts in the last hour; foot traffic is excluded for now.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
@@ -2844,6 +2844,6 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T00:50:53.954278+00:00"
+    "updated_at": "2026-10-20T00:53:26.028665+00:00"
   }
 ]
