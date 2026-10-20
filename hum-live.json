@@ -25,8 +25,8 @@
           "distance_mi": 0.03
         },
         "traffic": {
-          "note": "No active incidents within 3 mi; several nearby streets fully closed, allow extra time",
-          "as_of": "2026-10-20T04:45:24+00:00",
+          "note": "Disabled Vehicle at IH-35 @ 15th St (1.1 mi); several nearby streets fully closed, allow extra time",
+          "as_of": "2026-10-20T04:52:37+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
@@ -46,13 +46,13 @@
         },
         "anomaly": false,
         "last_run": {
-          "social": "2026-10-20T04:22:43Z",
+          "social": "2026-10-20T04:50:24Z",
           "cameras": "2026-10-20T04:46:10Z",
-          "curator": "2026-10-20T04:49:40Z",
+          "curator": "2026-10-20T04:53:47Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T04:45:37.120891+00:00",
+          "sensors": "2026-10-20T04:52:45.237501+00:00",
           "calendar": "2026-10-20T04:37:48Z",
-          "social_ig": "2026-10-20T02:46:26Z"
+          "social_ig": "2026-10-20T04:50:49Z"
         },
         "gmaps_url": "https://www.google.com/maps/search/?api=1&query=ACL+Live+at+the+Moody+Theater%2C+Austin%2C+TX",
         "camera_pick": {
@@ -118,7 +118,7 @@
           },
           {
             "hour": "2026-10-20T04:00:00Z",
-            "as_of": "2026-10-20T04:22:43Z",
+            "as_of": "2026-10-20T04:50:24Z",
             "count": 0
           }
         ],
@@ -156,9 +156,9 @@
       "social": [],
       "volume": {
         "band": "Humming",
-        "score": 39.3,
+        "score": 39.2,
         "inputs": {
-          "review_recency": 90.5,
+          "review_recency": 90.4,
           "event_proximity": 73.7,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
@@ -173,7 +173,7 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T04:49:40Z",
+        "computed_at": "2026-10-20T04:53:47Z",
         "explanation": "Snarky Puppy's show tonight is likely over, and Leonid & Friends is next on Wednesday at 8 PM CT.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
@@ -246,7 +246,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T04:50:03.924044+00:00"
+    "updated_at": "2026-10-20T04:54:12.106611+00:00"
   },
   {
     "id": "alteno",
@@ -258,8 +258,8 @@
       "now": [],
       "live": {
         "traffic": {
-          "note": "No active incidents within 3 mi; several nearby streets fully closed, allow extra time",
-          "as_of": "2026-10-20T04:45:24+00:00",
+          "note": "Disabled Vehicle at IH-35 @ 15th St (1.1 mi); several nearby streets fully closed, allow extra time",
+          "as_of": "2026-10-20T04:52:37+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
@@ -280,10 +280,10 @@
         "added_at": "2026-10-20T01:19:10Z",
         "added_by": "Hum Scout (approved by user)",
         "last_run": {
-          "social": "2026-10-20T04:22:43Z",
-          "curator": "2026-10-20T04:49:40Z",
+          "social": "2026-10-20T04:50:24Z",
+          "curator": "2026-10-20T04:53:47Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T04:45:37.120891+00:00",
+          "sensors": "2026-10-20T04:52:45.237501+00:00",
           "calendar": "2026-10-20T04:37:48Z",
           "social_ig": "2026-10-20T03:13:25Z"
         },
@@ -314,7 +314,7 @@
           },
           {
             "hour": "2026-10-20T04:00:00Z",
-            "as_of": "2026-10-20T04:22:43Z",
+            "as_of": "2026-10-20T04:50:24Z",
             "count": 0
           }
         ],
@@ -353,7 +353,7 @@
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
-        "computed_at": "2026-10-20T04:49:40Z",
+        "computed_at": "2026-10-20T04:53:47Z",
         "explanation": "No events are listed here tonight."
       },
       "anomaly": false,
@@ -389,7 +389,7 @@
       "upcoming": [],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T04:50:03.924044+00:00"
+    "updated_at": "2026-10-20T04:54:12.106611+00:00"
   },
   {
     "id": "barton-springs",
@@ -417,8 +417,8 @@
           "distance_mi": 0.23
         },
         "traffic": {
-          "note": "No active incidents within 3 mi",
-          "as_of": "2026-10-20T04:45:24+00:00",
+          "note": "Disabled Vehicle at IH-35 @ 15th St (2.5 mi)",
+          "as_of": "2026-10-20T04:52:37+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
@@ -438,11 +438,11 @@
         },
         "anomaly": false,
         "last_run": {
-          "social": "2026-10-20T04:22:43Z",
+          "social": "2026-10-20T04:50:24Z",
           "cameras": "2026-10-20T04:46:10Z",
-          "curator": "2026-10-20T04:49:40Z",
+          "curator": "2026-10-20T04:53:47Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T04:45:37.120891+00:00",
+          "sensors": "2026-10-20T04:52:45.237501+00:00",
           "calendar": "2026-10-20T04:37:48Z",
           "social_ig": "2026-10-20T02:46:26Z"
         },
@@ -510,7 +510,7 @@
           },
           {
             "hour": "2026-10-20T04:00:00Z",
-            "as_of": "2026-10-20T04:22:43Z",
+            "as_of": "2026-10-20T04:50:24Z",
             "count": 0
           }
         ],
@@ -560,7 +560,7 @@
         "band": "Humming",
         "score": 45.3,
         "inputs": {
-          "review_recency": 67.0,
+          "review_recency": 66.9,
           "event_proximity": 100,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
@@ -575,7 +575,7 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T04:49:40Z",
+        "computed_at": "2026-10-20T04:53:47Z",
         "explanation": "Tonight's free Night Swim has wrapped up, and the next one is tomorrow at 9 PM CT.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
@@ -648,7 +648,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T04:50:03.924044+00:00"
+    "updated_at": "2026-10-20T04:54:12.106611+00:00"
   },
   {
     "id": "big-slick",
@@ -660,8 +660,8 @@
       "now": [],
       "live": {
         "traffic": {
-          "note": "No active incidents within 3 mi; several nearby streets fully closed, allow extra time",
-          "as_of": "2026-10-20T04:45:24+00:00",
+          "note": "Disabled Vehicle at IH-35 @ 15th St (0.7 mi); several nearby streets fully closed, allow extra time",
+          "as_of": "2026-10-20T04:52:37+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
@@ -682,10 +682,10 @@
         "added_at": "2026-10-20T01:19:10Z",
         "added_by": "Hum Scout (approved by user)",
         "last_run": {
-          "social": "2026-10-20T04:22:43Z",
-          "curator": "2026-10-20T04:49:40Z",
+          "social": "2026-10-20T04:50:24Z",
+          "curator": "2026-10-20T04:53:47Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T04:45:37.120891+00:00",
+          "sensors": "2026-10-20T04:52:45.237501+00:00",
           "calendar": "2026-10-20T04:37:48Z",
           "social_ig": "2026-10-20T02:46:26Z"
         },
@@ -716,7 +716,7 @@
           },
           {
             "hour": "2026-10-20T04:00:00Z",
-            "as_of": "2026-10-20T04:22:43Z",
+            "as_of": "2026-10-20T04:50:24Z",
             "count": 0
           }
         ],
@@ -761,7 +761,7 @@
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
-        "computed_at": "2026-10-20T04:49:40Z",
+        "computed_at": "2026-10-20T04:53:47Z",
         "explanation": "No events are listed here tonight."
       },
       "anomaly": false,
@@ -802,7 +802,7 @@
       "upcoming": [],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T04:50:03.924044+00:00"
+    "updated_at": "2026-10-20T04:54:12.106611+00:00"
   },
   {
     "id": "capitol",
@@ -830,8 +830,8 @@
           "distance_mi": 0.14
         },
         "traffic": {
-          "note": "No active incidents within 3 mi; several nearby streets fully closed, allow extra time",
-          "as_of": "2026-10-20T04:45:24+00:00",
+          "note": "Disabled Vehicle at IH-35 @ 15th St (0.5 mi); several nearby streets fully closed, allow extra time",
+          "as_of": "2026-10-20T04:52:37+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
@@ -851,11 +851,11 @@
         },
         "anomaly": false,
         "last_run": {
-          "social": "2026-10-20T04:22:43Z",
+          "social": "2026-10-20T04:50:24Z",
           "cameras": "2026-10-20T04:46:10Z",
-          "curator": "2026-10-20T04:49:40Z",
+          "curator": "2026-10-20T04:53:47Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T04:45:37.120891+00:00",
+          "sensors": "2026-10-20T04:52:45.237501+00:00",
           "calendar": "2026-10-20T04:37:48Z",
           "social_ig": "2026-10-20T02:46:26Z"
         },
@@ -923,7 +923,7 @@
           },
           {
             "hour": "2026-10-20T04:00:00Z",
-            "as_of": "2026-10-20T04:22:43Z",
+            "as_of": "2026-10-20T04:50:24Z",
             "count": 0
           }
         ],
@@ -963,23 +963,13 @@
         "gmaps_place_title": "Texas Capitol",
         "gmaps_place_address": "1100 Congress Ave., Austin, TX 78701"
       },
-      "social": [
-        {
-          "ts": "2026-10-20T02:49:16Z",
-          "net": "X",
-          "url": "https://x.com/sldf45/status/2112375570294243522",
-          "text": "@cljack Used to be adult CTF Friday or Saturday night on the south half of the Texas Capitol grounds during the fall and spring. Was a lot of fun but someone always got hurt trying to run the slope the building itself sits on. Good times back in the early and mid 2000s",
-          "handle": "@sldf45",
-          "media_url": null,
-          "engagement": 0
-        }
-      ],
+      "social": [],
       "volume": {
         "band": "Humming",
-        "score": 33.5,
+        "score": 33.6,
         "inputs": {
           "review_recency": 0,
-          "event_proximity": 93.9,
+          "event_proximity": 94.0,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
@@ -993,7 +983,7 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T04:49:40Z",
+        "computed_at": "2026-10-20T04:53:47Z",
         "explanation": "It's quiet tonight, with a Counties 101 lunch-and-learn kicking off tomorrow morning.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
@@ -1084,7 +1074,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T04:50:03.924044+00:00"
+    "updated_at": "2026-10-20T04:54:12.106611+00:00"
   },
   {
     "id": "casa-fina",
@@ -1096,8 +1086,8 @@
       "now": [],
       "live": {
         "traffic": {
-          "note": "No active incidents within 3 mi; several nearby streets fully closed, allow extra time",
-          "as_of": "2026-10-20T04:45:24+00:00",
+          "note": "Disabled Vehicle at IH-35 @ 15th St (1.9 mi); several nearby streets fully closed, allow extra time",
+          "as_of": "2026-10-20T04:52:37+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
@@ -1118,10 +1108,10 @@
         "added_at": "2026-10-20T01:19:10Z",
         "added_by": "Hum Scout (approved by user)",
         "last_run": {
-          "social": "2026-10-20T04:22:43Z",
-          "curator": "2026-10-20T04:49:40Z",
+          "social": "2026-10-20T04:50:24Z",
+          "curator": "2026-10-20T04:53:47Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T04:45:37.120891+00:00",
+          "sensors": "2026-10-20T04:52:45.237501+00:00",
           "calendar": "2026-10-20T04:37:48Z",
           "social_ig": "2026-10-20T02:46:26Z"
         },
@@ -1152,7 +1142,7 @@
           },
           {
             "hour": "2026-10-20T04:00:00Z",
-            "as_of": "2026-10-20T04:22:43Z",
+            "as_of": "2026-10-20T04:50:24Z",
             "count": 0
           }
         ],
@@ -1192,12 +1182,12 @@
         "band": "Quiet",
         "score": 11.6,
         "inputs": {
-          "review_recency": 81.2,
+          "review_recency": 81.1,
           "event_proximity": 0,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
-        "computed_at": "2026-10-20T04:49:40Z",
+        "computed_at": "2026-10-20T04:53:47Z",
         "explanation": "Its opening isn't confirmed yet, and no events are listed."
       },
       "anomaly": false,
@@ -1238,7 +1228,7 @@
       "upcoming": [],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T04:50:03.924044+00:00"
+    "updated_at": "2026-10-20T04:54:12.106611+00:00"
   },
   {
     "id": "confluence",
@@ -1266,8 +1256,8 @@
           "distance_mi": 0.09
         },
         "traffic": {
-          "note": "No active incidents within 3 mi; several nearby streets fully closed, allow extra time",
-          "as_of": "2026-10-20T04:45:24+00:00",
+          "note": "Disabled Vehicle at IH-35 @ 15th St (1.1 mi); several nearby streets fully closed, allow extra time",
+          "as_of": "2026-10-20T04:52:37+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
@@ -1288,11 +1278,11 @@
         "added_at": "2026-10-20T01:19:10Z",
         "added_by": "Hum Scout (approved by user)",
         "last_run": {
-          "social": "2026-10-20T04:22:43Z",
+          "social": "2026-10-20T04:50:24Z",
           "cameras": "2026-10-20T04:46:10Z",
-          "curator": "2026-10-20T04:49:40Z",
+          "curator": "2026-10-20T04:53:47Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T04:45:37.120891+00:00",
+          "sensors": "2026-10-20T04:52:45.237501+00:00",
           "calendar": "2026-10-20T04:37:48Z",
           "social_ig": "2026-10-20T02:46:26Z"
         },
@@ -1345,7 +1335,7 @@
           },
           {
             "hour": "2026-10-20T04:00:00Z",
-            "as_of": "2026-10-20T04:22:43Z",
+            "as_of": "2026-10-20T04:50:24Z",
             "count": 0
           }
         ],
@@ -1385,12 +1375,12 @@
         "band": "Humming",
         "score": 45.9,
         "inputs": {
-          "review_recency": 85.1,
-          "event_proximity": 94.5,
+          "review_recency": 85.0,
+          "event_proximity": 94.6,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
-        "computed_at": "2026-10-20T04:49:40Z",
+        "computed_at": "2026-10-20T04:53:47Z",
         "explanation": "A monarch butterfly tagging session tomorrow morning is the next thing on here, so it's quiet tonight."
       },
       "anomaly": false,
@@ -1450,7 +1440,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T04:50:03.924044+00:00"
+    "updated_at": "2026-10-20T04:54:12.106611+00:00"
   },
   {
     "id": "coquito",
@@ -1478,8 +1468,8 @@
           "distance_mi": 0.1
         },
         "traffic": {
-          "note": "No active incidents within 3 mi; several nearby streets fully closed, allow extra time",
-          "as_of": "2026-10-20T04:45:24+00:00",
+          "note": "Disabled Vehicle at IH-35 @ 15th St (0.8 mi); several nearby streets fully closed, allow extra time",
+          "as_of": "2026-10-20T04:52:37+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
@@ -1500,11 +1490,11 @@
         "added_at": "2026-10-20T01:19:10Z",
         "added_by": "Hum Scout (approved by user)",
         "last_run": {
-          "social": "2026-10-20T04:22:43Z",
+          "social": "2026-10-20T04:50:24Z",
           "cameras": "2026-10-20T04:46:10Z",
-          "curator": "2026-10-20T04:49:40Z",
+          "curator": "2026-10-20T04:53:47Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T04:45:37.120891+00:00",
+          "sensors": "2026-10-20T04:52:45.237501+00:00",
           "calendar": "2026-10-20T04:37:48Z",
           "social_ig": "2026-10-20T02:46:26Z"
         },
@@ -1557,7 +1547,7 @@
           },
           {
             "hour": "2026-10-20T04:00:00Z",
-            "as_of": "2026-10-20T04:22:43Z",
+            "as_of": "2026-10-20T04:50:24Z",
             "count": 0
           }
         ],
@@ -1595,14 +1585,14 @@
       "social": [],
       "volume": {
         "band": "Quiet",
-        "score": 21.4,
+        "score": 21.5,
         "inputs": {
           "review_recency": 0,
-          "event_proximity": 60.0,
+          "event_proximity": 60.1,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
-        "computed_at": "2026-10-20T04:49:40Z",
+        "computed_at": "2026-10-20T04:53:47Z",
         "explanation": "Coquito is quiet tonight, with SafiCantina and the Perreo Club salsa night coming Thursday."
       },
       "anomaly": false,
@@ -1656,7 +1646,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T04:50:03.924044+00:00"
+    "updated_at": "2026-10-20T04:54:12.106611+00:00"
   },
   {
     "id": "dkr",
@@ -1684,8 +1674,8 @@
           "distance_mi": 0.39
         },
         "traffic": {
-          "note": "No active incidents within 3 mi",
-          "as_of": "2026-10-20T04:45:24+00:00",
+          "note": "Disabled Vehicle at IH-35 @ 15th St (0.6 mi)",
+          "as_of": "2026-10-20T04:52:37+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
@@ -1705,11 +1695,11 @@
         },
         "anomaly": false,
         "last_run": {
-          "social": "2026-10-20T04:22:43Z",
+          "social": "2026-10-20T04:50:24Z",
           "cameras": "2026-10-20T04:46:10Z",
-          "curator": "2026-10-20T04:49:40Z",
+          "curator": "2026-10-20T04:53:47Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T04:45:37.120891+00:00",
+          "sensors": "2026-10-20T04:52:45.237501+00:00",
           "calendar": "2026-10-20T04:37:48Z",
           "social_ig": "2026-10-20T02:46:26Z"
         },
@@ -1777,7 +1767,7 @@
           },
           {
             "hour": "2026-10-20T04:00:00Z",
-            "as_of": "2026-10-20T04:22:43Z",
+            "as_of": "2026-10-20T04:50:24Z",
             "count": 0
           }
         ],
@@ -1826,32 +1816,14 @@
           "handle": "@StudentSecHQ",
           "media_url": null,
           "engagement": 0
-        },
-        {
-          "ts": "2026-10-20T02:49:06Z",
-          "net": "X",
-          "url": "https://x.com/ZarkowskiStan/status/2112375529227866594",
-          "text": "@JamieBonkiewicz It was taken on October 19, 2024, before the Texas Longhorns vs. Georgia Bulldogs game at Darrell K Royal–Texas Memorial Stadium in Austin.",
-          "handle": "@ZarkowskiStan",
-          "media_url": null,
-          "engagement": 0
-        },
-        {
-          "ts": "2026-10-20T02:25:25Z",
-          "net": "X",
-          "url": "https://x.com/Str8fun_/status/2112369569100599712",
-          "text": "@TheSpun Texas was No. 1 walking into the Cotton Bowl on Oct. 10. Two 27-24 losses later, with No. 7 Ole Miss at DKR on Saturday, benching Arch now would be the softest panic move in Austin.",
-          "handle": "@Str8fun_",
-          "media_url": null,
-          "engagement": 0
         }
       ],
       "volume": {
         "band": "Quiet",
-        "score": 11.3,
+        "score": 11.4,
         "inputs": {
           "review_recency": 0,
-          "event_proximity": 31.7,
+          "event_proximity": 31.8,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
@@ -1865,7 +1837,7 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T04:49:40Z",
+        "computed_at": "2026-10-20T04:53:47Z",
         "explanation": "No game until Saturday's Ole Miss matchup, so the stadium is quiet apart from a few visitor posts.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
@@ -1914,7 +1886,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T04:50:03.924044+00:00"
+    "updated_at": "2026-10-20T04:54:12.106611+00:00"
   },
   {
     "id": "franklin",
@@ -1926,9 +1898,9 @@
       "now": [],
       "live": {
         "traffic": {
-          "note": "No active incidents within 3 mi; several nearby streets fully closed, allow extra time",
-          "as_of": "2026-10-20T04:45:24+00:00",
-          "level": "Steady",
+          "note": "Disabled Vehicle at IH-35 @ 15th St (0.3 mi); several nearby streets fully closed, allow extra time",
+          "as_of": "2026-10-20T04:52:37+00:00",
+          "level": "Peak",
           "source": "TxDOT Austin + City of Austin"
         },
         "weather": {
@@ -1948,10 +1920,10 @@
         "anomaly": false,
         "ig_query": "Franklin Barbecue 900 E 11th St Austin",
         "last_run": {
-          "social": "2026-10-20T04:22:43Z",
-          "curator": "2026-10-20T04:49:40Z",
+          "social": "2026-10-20T04:50:24Z",
+          "curator": "2026-10-20T04:53:47Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T04:45:37.120891+00:00",
+          "sensors": "2026-10-20T04:52:45.237501+00:00",
           "calendar": "2026-10-20T04:37:48Z",
           "social_ig": "2026-10-20T02:46:26Z"
         },
@@ -1989,7 +1961,7 @@
           },
           {
             "hour": "2026-10-20T04:00:00Z",
-            "as_of": "2026-10-20T04:22:43Z",
+            "as_of": "2026-10-20T04:50:24Z",
             "count": 0
           }
         ],
@@ -2049,7 +2021,7 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T04:49:40Z",
+        "computed_at": "2026-10-20T04:53:47Z",
         "explanation": "Franklin is closed Mondays, so it's quiet tonight.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
@@ -2091,7 +2063,7 @@
       "upcoming": [],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T04:50:03.924044+00:00"
+    "updated_at": "2026-10-20T04:54:12.106611+00:00"
   },
   {
     "id": "hermanas",
@@ -2103,8 +2075,8 @@
       "now": [],
       "live": {
         "traffic": {
-          "note": "No active incidents within 3 mi; several nearby streets fully closed, allow extra time",
-          "as_of": "2026-10-20T04:45:24+00:00",
+          "note": "Disabled Vehicle at IH-35 @ 15th St (0.7 mi); several nearby streets fully closed, allow extra time",
+          "as_of": "2026-10-20T04:52:37+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
@@ -2125,10 +2097,10 @@
         "added_at": "2026-10-20T01:19:10Z",
         "added_by": "Hum Scout (approved by user)",
         "last_run": {
-          "social": "2026-10-20T04:22:43Z",
-          "curator": "2026-10-20T04:49:40Z",
+          "social": "2026-10-20T04:50:24Z",
+          "curator": "2026-10-20T04:53:47Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T04:45:37.120891+00:00",
+          "sensors": "2026-10-20T04:52:45.237501+00:00",
           "calendar": "2026-10-20T04:37:48Z",
           "social_ig": "2026-10-20T02:46:26Z"
         },
@@ -2159,7 +2131,7 @@
           },
           {
             "hour": "2026-10-20T04:00:00Z",
-            "as_of": "2026-10-20T04:22:43Z",
+            "as_of": "2026-10-20T04:50:24Z",
             "count": 0
           }
         ],
@@ -2204,7 +2176,7 @@
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
-        "computed_at": "2026-10-20T04:49:40Z",
+        "computed_at": "2026-10-20T04:53:47Z",
         "explanation": "No events are listed here tonight."
       },
       "anomaly": false,
@@ -2245,7 +2217,7 @@
       "upcoming": [],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T04:50:03.924044+00:00"
+    "updated_at": "2026-10-20T04:54:12.106611+00:00"
   },
   {
     "id": "luckys-puccias",
@@ -2257,8 +2229,8 @@
       "now": [],
       "live": {
         "traffic": {
-          "note": "No active incidents within 3 mi; several nearby streets fully closed, allow extra time",
-          "as_of": "2026-10-20T04:45:24+00:00",
+          "note": "Disabled Vehicle at IH-35 @ 15th St (1.5 mi); several nearby streets fully closed, allow extra time",
+          "as_of": "2026-10-20T04:52:37+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
@@ -2279,10 +2251,10 @@
         "added_at": "2026-10-20T01:19:10Z",
         "added_by": "Hum Scout (approved by user)",
         "last_run": {
-          "social": "2026-10-20T04:22:43Z",
-          "curator": "2026-10-20T04:49:40Z",
+          "social": "2026-10-20T04:50:24Z",
+          "curator": "2026-10-20T04:53:47Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T04:45:37.120891+00:00",
+          "sensors": "2026-10-20T04:52:45.237501+00:00",
           "calendar": "2026-10-20T04:37:48Z",
           "social_ig": "2026-10-20T02:46:26Z"
         },
@@ -2313,7 +2285,7 @@
           },
           {
             "hour": "2026-10-20T04:00:00Z",
-            "as_of": "2026-10-20T04:22:43Z",
+            "as_of": "2026-10-20T04:50:24Z",
             "count": 0
           }
         ],
@@ -2353,12 +2325,12 @@
         "band": "Quiet",
         "score": 11.4,
         "inputs": {
-          "review_recency": 80.1,
+          "review_recency": 80.0,
           "event_proximity": 0,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
-        "computed_at": "2026-10-20T04:49:40Z",
+        "computed_at": "2026-10-20T04:53:47Z",
         "explanation": "No events are listed here tonight."
       },
       "anomaly": false,
@@ -2399,7 +2371,7 @@
       "upcoming": [],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T04:50:03.924044+00:00"
+    "updated_at": "2026-10-20T04:54:12.106611+00:00"
   },
   {
     "id": "mohawk",
@@ -2435,9 +2407,9 @@
           "distance_mi": 0.02
         },
         "traffic": {
-          "note": "No active incidents within 3 mi; several nearby streets fully closed, allow extra time",
-          "as_of": "2026-10-20T04:45:24+00:00",
-          "level": "Steady",
+          "note": "Disabled Vehicle at IH-35 @ 15th St (0.4 mi); several nearby streets fully closed, allow extra time",
+          "as_of": "2026-10-20T04:52:37+00:00",
+          "level": "Peak",
           "source": "TxDOT Austin + City of Austin"
         },
         "weather": {
@@ -2456,11 +2428,11 @@
         },
         "anomaly": false,
         "last_run": {
-          "social": "2026-10-20T04:22:43Z",
+          "social": "2026-10-20T04:50:24Z",
           "cameras": "2026-10-20T04:46:10Z",
-          "curator": "2026-10-20T04:49:40Z",
+          "curator": "2026-10-20T04:53:47Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T04:45:37.120891+00:00",
+          "sensors": "2026-10-20T04:52:45.237501+00:00",
           "calendar": "2026-10-20T04:37:48Z",
           "social_ig": "2026-10-20T02:46:26Z"
         },
@@ -2528,7 +2500,7 @@
           },
           {
             "hour": "2026-10-20T04:00:00Z",
-            "as_of": "2026-10-20T04:22:43Z",
+            "as_of": "2026-10-20T04:50:24Z",
             "count": 0
           }
         ],
@@ -2588,7 +2560,7 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T04:49:40Z",
+        "computed_at": "2026-10-20T04:53:47Z",
         "explanation": "Joey Cash is on now on Mohawk's indoor stage.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
@@ -2679,7 +2651,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T04:50:03.924044+00:00"
+    "updated_at": "2026-10-20T04:54:12.106611+00:00"
   },
   {
     "id": "monks-jazz",
@@ -2708,7 +2680,7 @@
         },
         "traffic": {
           "note": "No active incidents within 3 mi",
-          "as_of": "2026-10-20T04:45:24+00:00",
+          "as_of": "2026-10-20T04:52:37+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
@@ -2729,11 +2701,11 @@
         "added_at": "2026-10-20T01:19:10Z",
         "added_by": "Hum Scout (approved by user)",
         "last_run": {
-          "social": "2026-10-20T04:22:43Z",
+          "social": "2026-10-20T04:50:24Z",
           "cameras": "2026-10-20T04:46:10Z",
-          "curator": "2026-10-20T04:49:40Z",
+          "curator": "2026-10-20T04:53:47Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T04:45:37.120891+00:00",
+          "sensors": "2026-10-20T04:52:45.237501+00:00",
           "calendar": "2026-10-20T04:37:48Z",
           "social_ig": "2026-10-20T02:46:26Z"
         },
@@ -2786,7 +2758,7 @@
           },
           {
             "hour": "2026-10-20T04:00:00Z",
-            "as_of": "2026-10-20T04:22:43Z",
+            "as_of": "2026-10-20T04:50:24Z",
             "count": 0
           }
         ],
@@ -2826,12 +2798,12 @@
         "band": "Humming",
         "score": 43.7,
         "inputs": {
-          "review_recency": 85.4,
+          "review_recency": 85.3,
           "event_proximity": 88.3,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
-        "computed_at": "2026-10-20T04:49:40Z",
+        "computed_at": "2026-10-20T04:53:47Z",
         "explanation": "Kelly Green Trio's album release show is tomorrow at 7:30 PM CT, so it's a quiet evening until then."
       },
       "anomaly": false,
@@ -2919,7 +2891,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T04:50:03.924044+00:00"
+    "updated_at": "2026-10-20T04:54:12.106611+00:00"
   },
   {
     "id": "moody-center",
@@ -2947,9 +2919,9 @@
           "distance_mi": 0.29
         },
         "traffic": {
-          "note": "No active incidents within 3 mi",
-          "as_of": "2026-10-20T04:45:24+00:00",
-          "level": "Steady",
+          "note": "Disabled Vehicle at IH-35 @ 15th St (0.5 mi)",
+          "as_of": "2026-10-20T04:52:37+00:00",
+          "level": "Busy",
           "source": "TxDOT Austin + City of Austin"
         },
         "weather": {
@@ -2968,11 +2940,11 @@
         },
         "anomaly": false,
         "last_run": {
-          "social": "2026-10-20T04:22:43Z",
+          "social": "2026-10-20T04:50:24Z",
           "cameras": "2026-10-20T04:46:10Z",
-          "curator": "2026-10-20T04:49:40Z",
+          "curator": "2026-10-20T04:53:47Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T04:45:37.120891+00:00",
+          "sensors": "2026-10-20T04:52:45.237501+00:00",
           "calendar": "2026-10-20T04:37:48Z",
           "social_ig": "2026-10-20T02:46:26Z"
         },
@@ -3040,8 +3012,8 @@
           },
           {
             "hour": "2026-10-20T04:00:00Z",
-            "as_of": "2026-10-20T04:22:43Z",
-            "count": 0
+            "as_of": "2026-10-20T04:50:24Z",
+            "count": 2
           }
         ],
         "gmaps_place_id": "ChIJFyXMCz21RIYRFA1vxCkln0I",
@@ -3087,6 +3059,24 @@
       },
       "social": [
         {
+          "ts": "2026-10-20T04:42:48Z",
+          "net": "X",
+          "url": "https://x.com/glindasmagic/status/2112404140324421674",
+          "text": "@Tinashe @uglytrashboy YESSS MOODY CENTER PLEASEEEE IM BUYING TMRW",
+          "handle": "@glindasmagic",
+          "media_url": null,
+          "engagement": 0
+        },
+        {
+          "ts": "2026-10-20T04:33:32Z",
+          "net": "X",
+          "url": "https://x.com/laurasnugglebug/status/2112401810795471034",
+          "text": "@AntGlobal5 moody center that high is a crime and barclays should be in its own tier called \"we only show up for away teams\"",
+          "handle": "@laurasnugglebug",
+          "media_url": null,
+          "engagement": 0
+        },
+        {
           "ts": "2026-10-20T03:26:48Z",
           "net": "X",
           "url": "https://x.com/magic1wantu/status/2112385013501337605",
@@ -3098,11 +3088,11 @@
       ],
       "volume": {
         "band": "Humming",
-        "score": 49.9,
+        "score": 54.9,
         "inputs": {
           "review_recency": 93.1,
           "event_proximity": 88.6,
-          "social_velocity_norm": 10,
+          "social_velocity_norm": 20,
           "foot_vs_baseline_norm": null
         },
         "missing": [],
@@ -3115,8 +3105,8 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T04:49:40Z",
-        "explanation": "Tonight's Staind show has wrapped up, and SOMBR plays Tuesday at 7 PM CT.",
+        "computed_at": "2026-10-20T04:53:47Z",
+        "explanation": "Tonight's Staind show has wrapped up and a few fans are chatting about future shows online, with SOMBR up next Tuesday at 7 PM CT.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
       "anomaly": false,
@@ -3177,9 +3167,9 @@
           "source": "moodycenteratx.com"
         }
       ],
-      "posts_last_hour": 1
+      "posts_last_hour": 2
     },
-    "updated_at": "2026-10-20T04:50:03.924044+00:00"
+    "updated_at": "2026-10-20T04:54:12.106611+00:00"
   },
   {
     "id": "mount-bonnell",
@@ -3192,7 +3182,7 @@
       "live": {
         "traffic": {
           "note": "No active incidents within 3 mi; several nearby streets fully closed, allow extra time",
-          "as_of": "2026-10-20T04:45:24+00:00",
+          "as_of": "2026-10-20T04:52:37+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
@@ -3214,10 +3204,10 @@
         "ig_notes": "2026-10-20T03:13Z: IG pull with ig_query timed out; skipped this run.",
         "ig_query": "Mount Bonnell 3800 Mount Bonnell Rd Austin TX",
         "last_run": {
-          "social": "2026-10-20T04:22:43Z",
-          "curator": "2026-10-20T04:49:40Z",
+          "social": "2026-10-20T04:50:24Z",
+          "curator": "2026-10-20T04:53:47Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T04:45:37.120891+00:00",
+          "sensors": "2026-10-20T04:52:45.237501+00:00",
           "calendar": "2026-10-20T04:37:48Z",
           "social_ig": "2026-10-20T04:23:08Z"
         },
@@ -3255,7 +3245,7 @@
           },
           {
             "hour": "2026-10-20T04:00:00Z",
-            "as_of": "2026-10-20T04:22:43Z",
+            "as_of": "2026-10-20T04:50:24Z",
             "count": 0
           }
         ],
@@ -3304,7 +3294,7 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T04:49:40Z",
+        "computed_at": "2026-10-20T04:53:47Z",
         "explanation": "The overlook closed at 10 PM CT, and nothing is scheduled there this week.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
@@ -3346,7 +3336,7 @@
       "upcoming": [],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T04:50:03.924044+00:00"
+    "updated_at": "2026-10-20T04:54:12.106611+00:00"
   },
   {
     "id": "nishi",
@@ -3359,7 +3349,7 @@
       "live": {
         "traffic": {
           "note": "No active incidents within 3 mi",
-          "as_of": "2026-10-20T04:45:24+00:00",
+          "as_of": "2026-10-20T04:52:37+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
@@ -3380,10 +3370,10 @@
         "added_at": "2026-10-20T01:19:10Z",
         "added_by": "Hum Scout (approved by user)",
         "last_run": {
-          "social": "2026-10-20T04:22:43Z",
-          "curator": "2026-10-20T04:49:40Z",
+          "social": "2026-10-20T04:50:24Z",
+          "curator": "2026-10-20T04:53:47Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T04:45:37.120891+00:00",
+          "sensors": "2026-10-20T04:52:45.237501+00:00",
           "calendar": "2026-10-20T04:37:48Z",
           "social_ig": "2026-10-20T02:46:26Z"
         },
@@ -3414,7 +3404,7 @@
           },
           {
             "hour": "2026-10-20T04:00:00Z",
-            "as_of": "2026-10-20T04:22:43Z",
+            "as_of": "2026-10-20T04:50:24Z",
             "count": 0
           }
         ],
@@ -3459,7 +3449,7 @@
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
-        "computed_at": "2026-10-20T04:49:40Z",
+        "computed_at": "2026-10-20T04:53:47Z",
         "explanation": "No events are listed here tonight."
       },
       "anomaly": false,
@@ -3500,7 +3490,7 @@
       "upcoming": [],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T04:50:03.924044+00:00"
+    "updated_at": "2026-10-20T04:54:12.106611+00:00"
   },
   {
     "id": "q2",
@@ -3529,7 +3519,7 @@
         },
         "traffic": {
           "note": "No active incidents within 3 mi",
-          "as_of": "2026-10-20T04:45:24+00:00",
+          "as_of": "2026-10-20T04:52:37+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
@@ -3550,11 +3540,11 @@
         "anomaly": false,
         "ig_query": "Q2 Stadium 10414 McKalla Pl Austin",
         "last_run": {
-          "social": "2026-10-20T04:22:43Z",
+          "social": "2026-10-20T04:50:24Z",
           "cameras": "2026-10-20T04:46:10Z",
-          "curator": "2026-10-20T04:49:40Z",
+          "curator": "2026-10-20T04:53:47Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T04:45:37.120891+00:00",
+          "sensors": "2026-10-20T04:52:45.237501+00:00",
           "calendar": "2026-10-20T04:37:48Z",
           "social_ig": "2026-10-20T02:46:26Z"
         },
@@ -3622,7 +3612,7 @@
           },
           {
             "hour": "2026-10-20T04:00:00Z",
-            "as_of": "2026-10-20T04:22:43Z",
+            "as_of": "2026-10-20T04:50:24Z",
             "count": 0
           }
         ],
@@ -3687,7 +3677,7 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T04:49:40Z",
+        "computed_at": "2026-10-20T04:53:47Z",
         "explanation": "There's no match or event tonight, and the next thing on the calendar is Saturday morning.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
@@ -3736,7 +3726,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T04:50:03.924044+00:00"
+    "updated_at": "2026-10-20T04:54:12.106611+00:00"
   },
   {
     "id": "rainey",
@@ -3764,8 +3754,8 @@
           "distance_mi": 0.21
         },
         "traffic": {
-          "note": "No active incidents within 3 mi; several nearby streets fully closed, allow extra time",
-          "as_of": "2026-10-20T04:45:24+00:00",
+          "note": "Disabled Vehicle at IH-35 @ 15th St (1.2 mi); several nearby streets fully closed, allow extra time",
+          "as_of": "2026-10-20T04:52:37+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
@@ -3785,11 +3775,11 @@
         },
         "anomaly": false,
         "last_run": {
-          "social": "2026-10-20T04:22:43Z",
+          "social": "2026-10-20T04:50:24Z",
           "cameras": "2026-10-20T04:46:10Z",
-          "curator": "2026-10-20T04:49:40Z",
+          "curator": "2026-10-20T04:53:47Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T04:45:37.120891+00:00",
+          "sensors": "2026-10-20T04:52:45.237501+00:00",
           "calendar": "2026-10-20T04:37:48Z",
           "social_ig": "2026-10-20T02:46:26Z"
         },
@@ -3857,7 +3847,7 @@
           },
           {
             "hour": "2026-10-20T04:00:00Z",
-            "as_of": "2026-10-20T04:22:43Z",
+            "as_of": "2026-10-20T04:50:24Z",
             "count": 0
           }
         ],
@@ -3922,7 +3912,7 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T04:49:40Z",
+        "computed_at": "2026-10-20T04:53:47Z",
         "explanation": "Tonight's block party wrapped at 11 PM CT, and a comedy open mic at Rainey House is Tuesday at 8 PM CT.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
@@ -3995,7 +3985,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T04:50:03.924044+00:00"
+    "updated_at": "2026-10-20T04:54:12.106611+00:00"
   },
   {
     "id": "ramen-del-barrio",
@@ -4008,7 +3998,7 @@
       "live": {
         "traffic": {
           "note": "No active incidents within 3 mi",
-          "as_of": "2026-10-20T04:45:24+00:00",
+          "as_of": "2026-10-20T04:52:37+00:00",
           "level": "Quiet",
           "source": "TxDOT Austin + City of Austin"
         },
@@ -4029,10 +4019,10 @@
         "added_at": "2026-10-20T01:19:10Z",
         "added_by": "Hum Scout (approved by user)",
         "last_run": {
-          "social": "2026-10-20T04:22:43Z",
-          "curator": "2026-10-20T04:49:40Z",
+          "social": "2026-10-20T04:50:24Z",
+          "curator": "2026-10-20T04:53:47Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T04:45:37.120891+00:00",
+          "sensors": "2026-10-20T04:52:45.237501+00:00",
           "calendar": "2026-10-20T04:37:48Z",
           "social_ig": "2026-10-20T02:46:26Z"
         },
@@ -4063,7 +4053,7 @@
           },
           {
             "hour": "2026-10-20T04:00:00Z",
-            "as_of": "2026-10-20T04:22:43Z",
+            "as_of": "2026-10-20T04:50:24Z",
             "count": 0
           }
         ],
@@ -4103,12 +4093,12 @@
         "band": "Quiet",
         "score": 11.5,
         "inputs": {
-          "review_recency": 80.4,
+          "review_recency": 80.3,
           "event_proximity": 0,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
-        "computed_at": "2026-10-20T04:49:40Z",
+        "computed_at": "2026-10-20T04:53:47Z",
         "explanation": "No events are listed here tonight."
       },
       "anomaly": false,
@@ -4148,7 +4138,7 @@
       "upcoming": [],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T04:50:03.924044+00:00"
+    "updated_at": "2026-10-20T04:54:12.106611+00:00"
   },
   {
     "id": "sixth-street",
@@ -4176,8 +4166,8 @@
           "distance_mi": 0.05
         },
         "traffic": {
-          "note": "No active incidents within 3 mi; several nearby streets fully closed, allow extra time",
-          "as_of": "2026-10-20T04:45:24+00:00",
+          "note": "Disabled Vehicle at IH-35 @ 15th St (0.7 mi); several nearby streets fully closed, allow extra time",
+          "as_of": "2026-10-20T04:52:37+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
@@ -4197,11 +4187,11 @@
         },
         "anomaly": false,
         "last_run": {
-          "social": "2026-10-20T04:22:43Z",
+          "social": "2026-10-20T04:50:24Z",
           "cameras": "2026-10-20T04:46:10Z",
-          "curator": "2026-10-20T04:49:40Z",
+          "curator": "2026-10-20T04:53:47Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T04:45:37.120891+00:00",
+          "sensors": "2026-10-20T04:52:45.237501+00:00",
           "calendar": "2026-10-20T04:37:48Z",
           "social_ig": "2026-10-20T02:46:26Z"
         },
@@ -4269,7 +4259,7 @@
           },
           {
             "hour": "2026-10-20T04:00:00Z",
-            "as_of": "2026-10-20T04:22:43Z",
+            "as_of": "2026-10-20T04:50:24Z",
             "count": 0
           }
         ],
@@ -4322,7 +4312,7 @@
         "score": 26.1,
         "inputs": {
           "review_recency": 0,
-          "event_proximity": 73.1,
+          "event_proximity": 73.2,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
@@ -4336,7 +4326,7 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T04:49:40Z",
+        "computed_at": "2026-10-20T04:53:47Z",
         "explanation": "It's a quiet Monday in the E 6th St district, with the next listed shows on Wednesday and Friday.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
@@ -4421,7 +4411,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T04:50:03.924044+00:00"
+    "updated_at": "2026-10-20T04:54:12.106611+00:00"
   },
   {
     "id": "south-congress",
@@ -4457,8 +4447,8 @@
           "distance_mi": 0.08
         },
         "traffic": {
-          "note": "No active incidents within 3 mi",
-          "as_of": "2026-10-20T04:45:24+00:00",
+          "note": "Disabled Vehicle at IH-35 @ 15th St (2.0 mi)",
+          "as_of": "2026-10-20T04:52:37+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
@@ -4478,11 +4468,11 @@
         },
         "anomaly": false,
         "last_run": {
-          "social": "2026-10-20T04:22:43Z",
+          "social": "2026-10-20T04:50:24Z",
           "cameras": "2026-10-20T04:46:10Z",
-          "curator": "2026-10-20T04:49:40Z",
+          "curator": "2026-10-20T04:53:47Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T04:45:37.120891+00:00",
+          "sensors": "2026-10-20T04:52:45.237501+00:00",
           "calendar": "2026-10-20T04:37:48Z",
           "social_ig": "2026-10-20T02:46:26Z"
         },
@@ -4550,7 +4540,7 @@
           },
           {
             "hour": "2026-10-20T04:00:00Z",
-            "as_of": "2026-10-20T04:22:43Z",
+            "as_of": "2026-10-20T04:50:24Z",
             "count": 0
           }
         ],
@@ -4615,7 +4605,7 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T04:49:40Z",
+        "computed_at": "2026-10-20T04:53:47Z",
         "explanation": "Dale Watson is on now at the Continental Club.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
@@ -4706,7 +4696,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T04:50:03.924044+00:00"
+    "updated_at": "2026-10-20T04:54:12.106611+00:00"
   },
   {
     "id": "still-austin-quarter",
@@ -4735,7 +4725,7 @@
         },
         "traffic": {
           "note": "No active incidents within 3 mi",
-          "as_of": "2026-10-20T04:45:24+00:00",
+          "as_of": "2026-10-20T04:52:37+00:00",
           "level": "Quiet",
           "source": "TxDOT Austin + City of Austin"
         },
@@ -4757,11 +4747,11 @@
         "added_by": "Hum Scout (approved by user)",
         "ig_notes": "2026-10-20T03:13Z: \"The Still Austin Quarter Austin\" returned the generic Austin, Texas location (kept none); alternate \"Still Austin Whiskey Co\" failed with \"Failed to fetch location ID\". Try the street address (440 E St Elmo Rd) next run.",
         "last_run": {
-          "social": "2026-10-20T04:22:43Z",
+          "social": "2026-10-20T04:50:24Z",
           "cameras": "2026-10-20T04:46:10Z",
-          "curator": "2026-10-20T04:49:40Z",
+          "curator": "2026-10-20T04:53:47Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T04:45:37.120891+00:00",
+          "sensors": "2026-10-20T04:52:45.237501+00:00",
           "calendar": "2026-10-20T04:37:48Z",
           "social_ig": "2026-10-20T03:13:25Z"
         },
@@ -4814,7 +4804,7 @@
           },
           {
             "hour": "2026-10-20T04:00:00Z",
-            "as_of": "2026-10-20T04:22:43Z",
+            "as_of": "2026-10-20T04:50:24Z",
             "count": 0
           }
         ],
@@ -4854,11 +4844,11 @@
         "score": 33.2,
         "inputs": {
           "review_recency": 82.4,
-          "event_proximity": 60.0,
+          "event_proximity": 60.1,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
-        "computed_at": "2026-10-20T04:49:40Z",
+        "computed_at": "2026-10-20T04:53:47Z",
         "explanation": "It's closed Mondays, and its next show is Starkitect's free album release on Thursday."
       },
       "anomaly": false,
@@ -4924,7 +4914,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T04:50:03.924044+00:00"
+    "updated_at": "2026-10-20T04:54:12.106611+00:00"
   },
   {
     "id": "stubbs",
@@ -4952,8 +4942,8 @@
           "distance_mi": 0.08
         },
         "traffic": {
-          "note": "No active incidents within 3 mi; several nearby streets fully closed, allow extra time",
-          "as_of": "2026-10-20T04:45:24+00:00",
+          "note": "Disabled Vehicle at IH-35 @ 15th St (0.5 mi); several nearby streets fully closed, allow extra time",
+          "as_of": "2026-10-20T04:52:37+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
@@ -4973,11 +4963,11 @@
         },
         "anomaly": false,
         "last_run": {
-          "social": "2026-10-20T04:22:43Z",
+          "social": "2026-10-20T04:50:24Z",
           "cameras": "2026-10-20T04:46:10Z",
-          "curator": "2026-10-20T04:49:40Z",
+          "curator": "2026-10-20T04:53:47Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T04:45:37.120891+00:00",
+          "sensors": "2026-10-20T04:52:45.237501+00:00",
           "calendar": "2026-10-20T04:37:48Z",
           "social_ig": "2026-10-20T02:46:26Z"
         },
@@ -5045,7 +5035,7 @@
           },
           {
             "hour": "2026-10-20T04:00:00Z",
-            "as_of": "2026-10-20T04:22:43Z",
+            "as_of": "2026-10-20T04:50:24Z",
             "count": 0
           }
         ],
@@ -5091,7 +5081,7 @@
         "score": 35.2,
         "inputs": {
           "review_recency": 96.2,
-          "event_proximity": 60.0,
+          "event_proximity": 60.1,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
@@ -5105,7 +5095,7 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T04:49:40Z",
+        "computed_at": "2026-10-20T04:53:47Z",
         "explanation": "Nothing on tonight, with Vince Staples coming Thursday.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
@@ -5166,7 +5156,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T04:50:03.924044+00:00"
+    "updated_at": "2026-10-20T04:54:12.106611+00:00"
   },
   {
     "id": "the-domain",
@@ -5195,7 +5185,7 @@
         },
         "traffic": {
           "note": "No active incidents within 3 mi",
-          "as_of": "2026-10-20T04:45:24+00:00",
+          "as_of": "2026-10-20T04:52:37+00:00",
           "level": "Quiet",
           "source": "TxDOT Austin + City of Austin"
         },
@@ -5215,11 +5205,11 @@
         },
         "anomaly": false,
         "last_run": {
-          "social": "2026-10-20T04:22:43Z",
+          "social": "2026-10-20T04:50:24Z",
           "cameras": "2026-10-20T04:46:10Z",
-          "curator": "2026-10-20T04:49:40Z",
+          "curator": "2026-10-20T04:53:47Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T04:45:37.120891+00:00",
+          "sensors": "2026-10-20T04:52:45.237501+00:00",
           "calendar": "2026-10-20T04:37:48Z",
           "social_ig": "2026-10-20T02:46:26Z"
         },
@@ -5287,7 +5277,7 @@
           },
           {
             "hour": "2026-10-20T04:00:00Z",
-            "as_of": "2026-10-20T04:22:43Z",
+            "as_of": "2026-10-20T04:50:24Z",
             "count": 0
           }
         ],
@@ -5335,10 +5325,10 @@
       "social": [],
       "volume": {
         "band": "Quiet",
-        "score": 26.3,
+        "score": 26.4,
         "inputs": {
-          "review_recency": 95.3,
-          "event_proximity": 35.6,
+          "review_recency": 95.2,
+          "event_proximity": 35.7,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
@@ -5352,7 +5342,7 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T04:49:40Z",
+        "computed_at": "2026-10-20T04:53:47Z",
         "explanation": "Nothing is listed tonight, with Pettober coming Saturday.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
@@ -5407,7 +5397,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T04:50:03.924044+00:00"
+    "updated_at": "2026-10-20T04:54:12.106611+00:00"
   },
   {
     "id": "watershed",
@@ -5419,8 +5409,8 @@
       "now": [],
       "live": {
         "traffic": {
-          "note": "No active incidents within 3 mi",
-          "as_of": "2026-10-20T04:45:24+00:00",
+          "note": "Disabled Vehicle at IH-35 @ 15th St (1.2 mi)",
+          "as_of": "2026-10-20T04:52:37+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
@@ -5441,10 +5431,10 @@
         "added_at": "2026-10-20T01:19:10Z",
         "added_by": "Hum Scout (approved by user)",
         "last_run": {
-          "social": "2026-10-20T04:22:43Z",
-          "curator": "2026-10-20T04:49:40Z",
+          "social": "2026-10-20T04:50:24Z",
+          "curator": "2026-10-20T04:53:47Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T04:45:37.120891+00:00",
+          "sensors": "2026-10-20T04:52:45.237501+00:00",
           "calendar": "2026-10-20T04:37:48Z",
           "social_ig": "2026-10-20T02:46:26Z"
         },
@@ -5475,7 +5465,7 @@
           },
           {
             "hour": "2026-10-20T04:00:00Z",
-            "as_of": "2026-10-20T04:22:43Z",
+            "as_of": "2026-10-20T04:50:24Z",
             "count": 0
           }
         ],
@@ -5520,7 +5510,7 @@
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
-        "computed_at": "2026-10-20T04:49:40Z",
+        "computed_at": "2026-10-20T04:53:47Z",
         "explanation": "No events are listed here tonight."
       },
       "anomaly": false,
@@ -5561,7 +5551,7 @@
       "upcoming": [],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T04:50:03.924044+00:00"
+    "updated_at": "2026-10-20T04:54:12.106611+00:00"
   },
   {
     "id": "zilker",
@@ -5589,8 +5579,8 @@
           "distance_mi": 0.12
         },
         "traffic": {
-          "note": "No active incidents within 3 mi",
-          "as_of": "2026-10-20T04:45:24+00:00",
+          "note": "Disabled Vehicle at IH-35 @ 15th St (2.5 mi)",
+          "as_of": "2026-10-20T04:52:37+00:00",
           "level": "Quiet",
           "source": "TxDOT Austin + City of Austin"
         },
@@ -5610,11 +5600,11 @@
         },
         "anomaly": false,
         "last_run": {
-          "social": "2026-10-20T04:22:43Z",
+          "social": "2026-10-20T04:50:24Z",
           "cameras": "2026-10-20T04:46:10Z",
-          "curator": "2026-10-20T04:49:40Z",
+          "curator": "2026-10-20T04:53:47Z",
           "reviews": "2026-10-20T02:11:21Z",
-          "sensors": "2026-10-20T04:45:37.120891+00:00",
+          "sensors": "2026-10-20T04:52:45.237501+00:00",
           "calendar": "2026-10-20T04:37:48Z",
           "social_ig": "2026-10-20T02:46:26Z"
         },
@@ -5682,7 +5672,7 @@
           },
           {
             "hour": "2026-10-20T04:00:00Z",
-            "as_of": "2026-10-20T04:22:43Z",
+            "as_of": "2026-10-20T04:50:24Z",
             "count": 0
           }
         ],
@@ -5734,7 +5724,7 @@
         "band": "Humming",
         "score": 45.2,
         "inputs": {
-          "review_recency": 93.6,
+          "review_recency": 93.5,
           "event_proximity": 89.2,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
@@ -5749,7 +5739,7 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T04:49:40Z",
+        "computed_at": "2026-10-20T04:53:47Z",
         "explanation": "A calm night in the park, with a dog meet-up tomorrow evening and more events through the week.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
@@ -5814,6 +5804,6 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T04:50:03.924044+00:00"
+    "updated_at": "2026-10-20T04:54:12.106611+00:00"
   }
 ]
