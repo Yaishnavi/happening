@@ -235,7 +235,39 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T01:19:03.197344+00:00"
+    "updated_at": "2026-10-20T01:19:08.298202+00:00"
+  },
+  {
+    "id": "alteno",
+    "name": "Alteño",
+    "lat": 30.2609356,
+    "lng": -97.7397355,
+    "city": "Austin, TX",
+    "record": {
+      "now": [],
+      "live": {},
+      "meta": {
+        "added_at": "2026-10-20T01:19:10Z",
+        "added_by": "Hum Scout (approved by user)",
+        "scout_note": "Jalisco-style hotel restaurant in the Rainey district with a skyline patio",
+        "source_url": "https://austin.eater.com/maps/best-new-restaurants-austin-heatmap",
+        "category_note": "restaurant",
+        "geocode_source": "OpenStreetMap Nominatim (venue POI)",
+        "geocode_confidence": "high",
+        "gmaps_place_address": "96 Red River St, Austin, TX 78701"
+      },
+      "social": [],
+      "volume": {
+        "band": "Quiet",
+        "score": 0
+      },
+      "anomaly": false,
+      "reviews": {},
+      "summary": "",
+      "upcoming": [],
+      "posts_last_hour": 0
+    },
+    "updated_at": "2026-10-20T01:19:14.839748+00:00"
   },
   {
     "id": "barton-springs",
@@ -454,7 +486,39 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T01:19:03.197344+00:00"
+    "updated_at": "2026-10-20T01:19:08.298202+00:00"
+  },
+  {
+    "id": "big-slick",
+    "name": "Big Slick",
+    "lat": 30.2647276,
+    "lng": -97.7318296,
+    "city": "Austin, TX",
+    "record": {
+      "now": [],
+      "live": {},
+      "meta": {
+        "added_at": "2026-10-20T01:19:10Z",
+        "added_by": "Hum Scout (approved by user)",
+        "scout_note": "East Sixth steakhouse with a walk-in bar",
+        "source_url": "https://austin.eater.com/maps/best-new-restaurants-austin-heatmap",
+        "category_note": "restaurant/bar",
+        "geocode_source": "OpenStreetMap Nominatim (address point)",
+        "geocode_confidence": "high",
+        "gmaps_place_address": "1017 E 6th St, Austin, TX 78702"
+      },
+      "social": [],
+      "volume": {
+        "band": "Quiet",
+        "score": 0
+      },
+      "anomaly": false,
+      "reviews": {},
+      "summary": "",
+      "upcoming": [],
+      "posts_last_hour": 0
+    },
+    "updated_at": "2026-10-20T01:19:14.839748+00:00"
   },
   {
     "id": "capitol",
@@ -689,7 +753,103 @@
       ],
       "posts_last_hour": 1
     },
-    "updated_at": "2026-10-20T01:19:03.197344+00:00"
+    "updated_at": "2026-10-20T01:19:08.298202+00:00"
+  },
+  {
+    "id": "casa-fina",
+    "name": "Casa Fina",
+    "lat": 30.261917,
+    "lng": -97.7588961,
+    "city": "Austin, TX",
+    "record": {
+      "now": [],
+      "live": {},
+      "meta": {
+        "added_at": "2026-10-20T01:19:10Z",
+        "added_by": "Hum Scout (approved by user)",
+        "scout_note": "Tapas bar near Zilker from the Il Brutto chef (opening unconfirmed)",
+        "source_url": "https://communityimpact.com/central-austin/dining/sushi-goes-brick-and-mortar-plus-tapas-and-dumplings-6-austin-dining-updates/",
+        "category_note": "restaurant/bar",
+        "geocode_source": "OpenStreetMap Nominatim (address point; OSM still lists former tenant House Wine)",
+        "geocode_confidence": "high",
+        "gmaps_place_address": "408 Josephine St, Austin, TX 78704"
+      },
+      "social": [],
+      "volume": {
+        "band": "Quiet",
+        "score": 0
+      },
+      "anomaly": false,
+      "reviews": {},
+      "summary": "",
+      "upcoming": [],
+      "posts_last_hour": 0
+    },
+    "updated_at": "2026-10-20T01:19:14.839748+00:00"
+  },
+  {
+    "id": "confluence",
+    "name": "The Confluence (Waterloo Greenway Phase II)",
+    "lat": 30.2613309,
+    "lng": -97.7401698,
+    "city": "Austin, TX",
+    "record": {
+      "now": [],
+      "live": {},
+      "meta": {
+        "added_at": "2026-10-20T01:19:10Z",
+        "added_by": "Hum Scout (approved by user)",
+        "scout_note": "13-acre downtown park that opened in June",
+        "source_url": "https://www.austintexas.gov/watershed-protection/projects/confluence",
+        "category_note": "park",
+        "geocode_source": "OpenStreetMap Nominatim (park polygon centroid, OSM way 1201573905)",
+        "geocode_confidence": "high",
+        "gmaps_place_address": "Waller Creek from E 4th St to Lady Bird Lake, near 74 Trinity St, Austin, TX 78701"
+      },
+      "social": [],
+      "volume": {
+        "band": "Quiet",
+        "score": 0
+      },
+      "anomaly": false,
+      "reviews": {},
+      "summary": "",
+      "upcoming": [],
+      "posts_last_hour": 0
+    },
+    "updated_at": "2026-10-20T01:19:14.839748+00:00"
+  },
+  {
+    "id": "coquito",
+    "name": "Coquito",
+    "lat": 30.2642725,
+    "lng": -97.7277378,
+    "city": "Austin, TX",
+    "record": {
+      "now": [],
+      "live": {},
+      "meta": {
+        "added_at": "2026-10-20T01:19:10Z",
+        "added_by": "Hum Scout (approved by user)",
+        "scout_note": "Coffee by day, DJ bar at night",
+        "source_url": "https://www.austinchronicle.com/food/first-look-coquito-on-east-seventh/",
+        "category_note": "bar/DJ venue",
+        "geocode_source": "OpenStreetMap Nominatim (building at address)",
+        "geocode_confidence": "high",
+        "gmaps_place_address": "1407 E 7th St, Austin, TX 78702"
+      },
+      "social": [],
+      "volume": {
+        "band": "Quiet",
+        "score": 0
+      },
+      "anomaly": false,
+      "reviews": {},
+      "summary": "",
+      "upcoming": [],
+      "posts_last_hour": 0
+    },
+    "updated_at": "2026-10-20T01:19:14.839748+00:00"
   },
   {
     "id": "dkr",
@@ -891,7 +1051,7 @@
       ],
       "posts_last_hour": 1
     },
-    "updated_at": "2026-10-20T01:19:03.197344+00:00"
+    "updated_at": "2026-10-20T01:19:08.298202+00:00"
   },
   {
     "id": "franklin",
@@ -1049,7 +1209,71 @@
       "upcoming": [],
       "posts_last_hour": 1
     },
-    "updated_at": "2026-10-20T01:19:03.197344+00:00"
+    "updated_at": "2026-10-20T01:19:08.298202+00:00"
+  },
+  {
+    "id": "hermanas",
+    "name": "Hermanas",
+    "lat": 30.2648635,
+    "lng": -97.7312935,
+    "city": "Austin, TX",
+    "record": {
+      "now": [],
+      "live": {},
+      "meta": {
+        "added_at": "2026-10-20T01:19:10Z",
+        "added_by": "Hum Scout (approved by user)",
+        "scout_note": "Mexican/Thai/Lao, opened Sept",
+        "source_url": "https://austin.culturemap.com/news/restaurants-bars/hermanas-opening-east-6th-street/",
+        "category_note": "restaurant",
+        "geocode_source": "OpenStreetMap Nominatim (address point)",
+        "geocode_confidence": "high",
+        "gmaps_place_address": "1100 E 6th St, Austin, TX 78702"
+      },
+      "social": [],
+      "volume": {
+        "band": "Quiet",
+        "score": 0
+      },
+      "anomaly": false,
+      "reviews": {},
+      "summary": "",
+      "upcoming": [],
+      "posts_last_hour": 0
+    },
+    "updated_at": "2026-10-20T01:19:14.839748+00:00"
+  },
+  {
+    "id": "luckys-puccias",
+    "name": "Lucky's Puccias",
+    "lat": 30.266939,
+    "lng": -97.754086,
+    "city": "Austin, TX",
+    "record": {
+      "now": [],
+      "live": {},
+      "meta": {
+        "added_at": "2026-10-20T01:19:10Z",
+        "added_by": "Hum Scout (approved by user)",
+        "scout_note": "Sandwich shop that reopened in August in Seaholm",
+        "source_url": "https://austin.eater.com/maps/best-new-restaurants-austin-heatmap",
+        "category_note": "food",
+        "geocode_source": "OpenStreetMap Nominatim (street-level: Electric Drive, Seaholm; no house-number match)",
+        "geocode_confidence": "medium (within ~0.1 mi)",
+        "gmaps_place_address": "901 Electric Dr, Austin, TX 78703"
+      },
+      "social": [],
+      "volume": {
+        "band": "Quiet",
+        "score": 0
+      },
+      "anomaly": false,
+      "reviews": {},
+      "summary": "",
+      "upcoming": [],
+      "posts_last_hour": 0
+    },
+    "updated_at": "2026-10-20T01:19:14.839748+00:00"
   },
   {
     "id": "mohawk",
@@ -1302,7 +1526,39 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T01:19:03.197344+00:00"
+    "updated_at": "2026-10-20T01:19:08.298202+00:00"
+  },
+  {
+    "id": "monks-jazz",
+    "name": "Monks Jazz Club",
+    "lat": 30.215931,
+    "lng": -97.7635127,
+    "city": "Austin, TX",
+    "record": {
+      "now": [],
+      "live": {},
+      "meta": {
+        "added_at": "2026-10-20T01:19:10Z",
+        "added_by": "Hum Scout (approved by user)",
+        "scout_note": "Jazz listening room with shows nightly in new permanent home",
+        "source_url": "https://www.austinchronicle.com/music/crosstalk/buzzy-new-homes-for-dancing-eating-and-jazz-snapping/",
+        "category_note": "music venue",
+        "geocode_source": "OpenStreetMap Nominatim (building at address)",
+        "geocode_confidence": "high",
+        "gmaps_place_address": "310 E St. Elmo Rd, Unit A, Austin, TX 78745"
+      },
+      "social": [],
+      "volume": {
+        "band": "Quiet",
+        "score": 0
+      },
+      "anomaly": false,
+      "reviews": {},
+      "summary": "",
+      "upcoming": [],
+      "posts_last_hour": 0
+    },
+    "updated_at": "2026-10-20T01:19:14.839748+00:00"
   },
   {
     "id": "moody-center",
@@ -1345,7 +1601,7 @@
       },
       "meta": {
         "alerts": {
-          "prev_band": "Buzzing",
+          "prev_band": "Humming",
           "prev_anomaly": false
         },
         "anomaly": false,
@@ -1593,7 +1849,7 @@
       ],
       "posts_last_hour": 1
     },
-    "updated_at": "2026-10-20T01:19:03.197344+00:00"
+    "updated_at": "2026-10-20T01:19:08.298202+00:00"
   },
   {
     "id": "mount-bonnell",
@@ -1732,7 +1988,39 @@
       "upcoming": [],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T01:19:03.197344+00:00"
+    "updated_at": "2026-10-20T01:19:08.298202+00:00"
+  },
+  {
+    "id": "nishi",
+    "name": "Nishi",
+    "lat": 30.2189022,
+    "lng": -97.7957262,
+    "city": "Austin, TX",
+    "record": {
+      "now": [],
+      "live": {},
+      "meta": {
+        "added_at": "2026-10-20T01:19:10Z",
+        "added_by": "Hum Scout (approved by user)",
+        "scout_note": "Little Nishi's first full restaurant, opened Oct 15",
+        "source_url": "https://communityimpact.com/central-austin/dining/sushi-goes-brick-and-mortar-plus-tapas-and-dumplings-6-austin-dining-updates/",
+        "category_note": "restaurant",
+        "geocode_source": "OpenStreetMap Nominatim (address point; OSM still lists former tenant Vegan Yacht)",
+        "geocode_confidence": "high",
+        "gmaps_place_address": "2000 Southern Oaks Dr, Austin, TX 78745"
+      },
+      "social": [],
+      "volume": {
+        "band": "Quiet",
+        "score": 0
+      },
+      "anomaly": false,
+      "reviews": {},
+      "summary": "",
+      "upcoming": [],
+      "posts_last_hour": 0
+    },
+    "updated_at": "2026-10-20T01:19:14.839748+00:00"
   },
   {
     "id": "q2",
@@ -1940,7 +2228,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T01:19:03.197344+00:00"
+    "updated_at": "2026-10-20T01:19:08.298202+00:00"
   },
   {
     "id": "rainey",
@@ -2159,7 +2447,39 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T01:19:03.197344+00:00"
+    "updated_at": "2026-10-20T01:19:08.298202+00:00"
+  },
+  {
+    "id": "ramen-del-barrio",
+    "name": "Ramen Del Barrio",
+    "lat": 30.3881022,
+    "lng": -97.7098878,
+    "city": "Austin, TX",
+    "record": {
+      "now": [],
+      "live": {},
+      "meta": {
+        "added_at": "2026-10-20T01:19:10Z",
+        "added_by": "Hum Scout (approved by user)",
+        "scout_note": "Japanese-Mexican spot with long lines since July opening",
+        "source_url": "https://www.austinchronicle.com/music/crosstalk/buzzy-new-homes-for-dancing-eating-and-jazz-snapping/",
+        "category_note": "restaurant",
+        "geocode_source": "OpenStreetMap Nominatim (venue POI)",
+        "geocode_confidence": "high",
+        "gmaps_place_address": "2007 Kramer Ln, Ste 105, Austin, TX 78758"
+      },
+      "social": [],
+      "volume": {
+        "band": "Quiet",
+        "score": 0
+      },
+      "anomaly": false,
+      "reviews": {},
+      "summary": "",
+      "upcoming": [],
+      "posts_last_hour": 0
+    },
+    "updated_at": "2026-10-20T01:19:14.839748+00:00"
   },
   {
     "id": "sixth-street",
@@ -2394,7 +2714,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T01:19:03.197344+00:00"
+    "updated_at": "2026-10-20T01:19:08.298202+00:00"
   },
   {
     "id": "south-congress",
@@ -2652,7 +2972,39 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T01:19:03.197344+00:00"
+    "updated_at": "2026-10-20T01:19:08.298202+00:00"
+  },
+  {
+    "id": "still-austin-quarter",
+    "name": "The Still Austin Quarter",
+    "lat": 30.21906,
+    "lng": -97.760944,
+    "city": "Austin, TX",
+    "record": {
+      "now": [],
+      "live": {},
+      "meta": {
+        "added_at": "2026-10-20T01:19:10Z",
+        "added_by": "Hum Scout (approved by user)",
+        "scout_note": "Distillery's new 500-person Music Room with weekend bands; free grand opening Nov 5",
+        "source_url": "https://www.stillaustin.com/still-austin-quarter",
+        "category_note": "music venue",
+        "geocode_source": "OpenStreetMap Nominatim (address point)",
+        "geocode_confidence": "high",
+        "gmaps_place_address": "4211 Willow Springs Rd, Austin, TX 78745"
+      },
+      "social": [],
+      "volume": {
+        "band": "Quiet",
+        "score": 0
+      },
+      "anomaly": false,
+      "reviews": {},
+      "summary": "",
+      "upcoming": [],
+      "posts_last_hour": 0
+    },
+    "updated_at": "2026-10-20T01:19:14.839748+00:00"
   },
   {
     "id": "stubbs",
@@ -2847,7 +3199,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T01:19:03.197344+00:00"
+    "updated_at": "2026-10-20T01:19:08.298202+00:00"
   },
   {
     "id": "the-domain",
@@ -3061,7 +3413,39 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T01:19:03.197344+00:00"
+    "updated_at": "2026-10-20T01:19:08.298202+00:00"
+  },
+  {
+    "id": "watershed",
+    "name": "The Watershed",
+    "lat": 30.2764565,
+    "lng": -97.752027,
+    "city": "Austin, TX",
+    "record": {
+      "now": [],
+      "live": {},
+      "meta": {
+        "added_at": "2026-10-20T01:19:10Z",
+        "added_by": "Hum Scout (approved by user)",
+        "scout_note": "Coffee shop, bar and event space, opened Sept 8",
+        "source_url": "https://austin.culturemap.com/news/restaurants-bars/watershed-opening-muy-yum-thoroughbread/",
+        "category_note": "bar/event space",
+        "geocode_source": "OpenStreetMap Nominatim (building at address)",
+        "geocode_confidence": "high",
+        "gmaps_place_address": "1004 W 11th St, Austin, TX 78701"
+      },
+      "social": [],
+      "volume": {
+        "band": "Quiet",
+        "score": 0
+      },
+      "anomaly": false,
+      "reviews": {},
+      "summary": "",
+      "upcoming": [],
+      "posts_last_hour": 0
+    },
+    "updated_at": "2026-10-20T01:19:14.839748+00:00"
   },
   {
     "id": "zilker",
@@ -3278,6 +3662,6 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T01:19:03.197344+00:00"
+    "updated_at": "2026-10-20T01:19:08.298202+00:00"
   }
 ]
