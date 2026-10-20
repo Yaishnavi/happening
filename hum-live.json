@@ -25,18 +25,13 @@
             "vehicles": "light",
             "people_visible": 6
           },
-          "source": "City of Austin Transportation traffic camera (cctv.austinmobility.io, via data.austintexas.gov b4k4-adkb)",
+          "source": "City of Austin Transportation traffic camera (cctv.austinmobility.io)",
           "refresh": "still image, updated roughly every 5 minutes",
           "camera_id": "540",
           "image_url": "https://cctv.austinmobility.io/image/540.jpg",
           "camera_name": "LAVACA ST / 2ND ST",
           "captured_at": "2026-10-20T01:05:42Z",
           "distance_mi": 0.03
-        },
-        "webcam": {
-          "url": "https://its.txdot.gov/its/District/AUS/cameras",
-          "name": "IH-35 @ 6th",
-          "dist_mi": 0.75
         },
         "traffic": {
           "note": "Disabled Vehicle at IH-35 @ Oltorf St (2.2 mi); 19 full and 29 partial lane closures within 0.5 mi",
@@ -100,12 +95,6 @@
         "sensors_gaps": {
           "checked_at": "2026-10-20T00:41:59+00:00",
           "foot_traffic": "Google popular times not retrievable from plain web fetch; not written"
-        },
-        "txdot_camera": {
-          "name": "IH-35 @ 6th",
-          "icd_id": "IH-35 @ 6th (0500)",
-          "dist_mi": 0.75,
-          "page_url": "https://its.txdot.gov/its/District/AUS/cameras"
         },
         "social_hourly": [
           {
@@ -230,7 +219,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T01:10:07.85582+00:00"
+    "updated_at": "2026-10-20T01:12:20.483119+00:00"
   },
   {
     "id": "barton-springs",
@@ -251,25 +240,10 @@
       "live": {
         "camera": {
           "view": "Barton Springs Rd at Stratford Dr, roadway and sidewalk at the west end of Zilker Park; the pool itself (~0.2 mi east) is not in frame",
-          "crowd": {
-            "note": "Night view of Barton Springs Rd ~0.2 mi from the pool; the pool and its entrance are not in frame, so the crowd there can't be judged (road and sidewalk empty).",
-            "level": "unclear",
-            "read_at": "2026-10-20T01:08:00Z",
-            "vehicles": "light",
-            "people_visible": 0
-          },
-          "source": "City of Austin Transportation traffic camera (cctv.austinmobility.io, via data.austintexas.gov b4k4-adkb)",
-          "refresh": "still image, updated roughly every 5 minutes",
+          "source": "City of Austin Transportation traffic camera (cctv.austinmobility.io)",
           "camera_id": "377",
           "image_url": "https://cctv.austinmobility.io/image/377.jpg",
-          "camera_name": "BARTON SPRINGS RD / STRATFORD DR",
-          "captured_at": "2026-10-20T01:06:42Z",
           "distance_mi": 0.23
-        },
-        "webcam": {
-          "url": "https://its.txdot.gov/its/District/AUS/cameras",
-          "name": "LP-1 @ Barton Springs Blvd",
-          "dist_mi": 0.47
         },
         "traffic": {
           "note": "Disabled Vehicle at IH-35 @ Oltorf St (2.8 mi); 2 full and 6 partial lane closures within 0.5 mi",
@@ -333,12 +307,6 @@
         "sensors_gaps": {
           "checked_at": "2026-10-19T23:32:55+00:00",
           "foot_traffic": "Google popular times not retrievable from plain web fetch; not written"
-        },
-        "txdot_camera": {
-          "name": "LP-1 @ Barton Springs Blvd",
-          "icd_id": "LP-1 @ Barton Springs Blvd (500) 66",
-          "dist_mi": 0.47,
-          "page_url": "https://its.txdot.gov/its/District/AUS/cameras"
         },
         "social_hourly": [
           {
@@ -464,7 +432,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T01:10:07.85582+00:00"
+    "updated_at": "2026-10-20T01:12:20.483119+00:00"
   },
   {
     "id": "capitol",
@@ -477,25 +445,10 @@
       "live": {
         "camera": {
           "view": "High view up Congress Ave at 11th St toward the Capitol's south gate; foreground heavily blocked by tree canopy",
-          "crowd": {
-            "note": "Tree canopy blocks most of the frame and it's dark; Capitol grounds and sidewalks can't be read, and only a few cars on Congress are visible.",
-            "level": "unclear",
-            "read_at": "2026-10-20T01:08:00Z",
-            "vehicles": "light",
-            "people_visible": 0
-          },
-          "source": "City of Austin Transportation traffic camera (cctv.austinmobility.io, via data.austintexas.gov b4k4-adkb)",
-          "refresh": "still image, updated roughly every 5 minutes",
+          "source": "City of Austin Transportation traffic camera (cctv.austinmobility.io)",
           "camera_id": "127",
           "image_url": "https://cctv.austinmobility.io/image/127.jpg",
-          "camera_name": "CONGRESS AVE / 11TH ST",
-          "captured_at": "2026-10-20T01:05:37Z",
           "distance_mi": 0.14
-        },
-        "webcam": {
-          "url": "https://its.txdot.gov/its/District/AUS/cameras",
-          "name": "IH-35 @ 11th",
-          "dist_mi": 0.56
         },
         "traffic": {
           "note": "Disabled Vehicle at IH-35 @ Oltorf St (2.8 mi); 8 full and 45 partial lane closures within 0.5 mi",
@@ -559,12 +512,6 @@
         "sensors_gaps": {
           "checked_at": "2026-10-20T00:41:59+00:00",
           "foot_traffic": "Google popular times not retrievable from plain web fetch; not written"
-        },
-        "txdot_camera": {
-          "name": "IH-35 @ 11th",
-          "icd_id": "IH-35 @ 11th (1000)",
-          "dist_mi": 0.56,
-          "page_url": "https://its.txdot.gov/its/District/AUS/cameras"
         },
         "social_hourly": [
           {
@@ -707,7 +654,7 @@
       ],
       "posts_last_hour": 1
     },
-    "updated_at": "2026-10-20T01:10:07.85582+00:00"
+    "updated_at": "2026-10-20T01:12:20.483119+00:00"
   },
   {
     "id": "dkr",
@@ -720,25 +667,10 @@
       "live": {
         "camera": {
           "view": "Red River St at 18th St, southeast of the stadium; street, sidewalks and a parking area, with privacy-mask blotches over lights; stadium not in frame",
-          "crowd": {
-            "note": "Camera is 0.39 mi from the stadium at Red River/18th with privacy-mask blotches over the lights; one pedestrian visible, the stadium itself can't be judged.",
-            "level": "unclear",
-            "read_at": "2026-10-20T01:08:00Z",
-            "vehicles": "light",
-            "people_visible": 1
-          },
-          "source": "City of Austin Transportation traffic camera (cctv.austinmobility.io, via data.austintexas.gov b4k4-adkb)",
-          "refresh": "still image, updated roughly every 5 minutes",
+          "source": "City of Austin Transportation traffic camera (cctv.austinmobility.io)",
           "camera_id": "605",
           "image_url": "https://cctv.austinmobility.io/image/605.jpg",
-          "camera_name": "RED RIVER ST / 18TH ST (Frank Erwin Center (North))",
-          "captured_at": "2026-10-20T01:05:32Z",
           "distance_mi": 0.39
-        },
-        "webcam": {
-          "url": "https://its.txdot.gov/its/District/AUS/cameras",
-          "name": "IH-35 @ Manor Upper",
-          "dist_mi": 0.28
         },
         "traffic": {
           "note": "No active incidents within 3 mi; 0 full and 20 partial lane closures within 0.5 mi",
@@ -802,12 +734,6 @@
         "sensors_gaps": {
           "checked_at": "2026-10-20T00:41:59+00:00",
           "foot_traffic": "Google popular times not retrievable from plain web fetch; not written"
-        },
-        "txdot_camera": {
-          "name": "IH-35 @ Manor Upper",
-          "icd_id": "IH-35 @ Manor Upper (2300)",
-          "dist_mi": 0.28,
-          "page_url": "https://its.txdot.gov/its/District/AUS/cameras"
         },
         "social_hourly": [
           {
@@ -926,7 +852,7 @@
       ],
       "posts_last_hour": 2
     },
-    "updated_at": "2026-10-20T01:10:07.85582+00:00"
+    "updated_at": "2026-10-20T01:12:20.483119+00:00"
   },
   {
     "id": "franklin",
@@ -937,28 +863,6 @@
     "record": {
       "now": [],
       "live": {
-        "camera": {
-          "view": "IH-35 southbound frontage road at 12th St, mostly frontage-road traffic with the I-35 main lanes beyond; Franklin's block (11th & Branch) is not in frame",
-          "crowd": {
-            "note": "Frontage-road traffic camera with heavy glare; Franklin's block is out of frame, so foot traffic can't be judged (nearby sidewalk empty).",
-            "level": "unclear",
-            "read_at": "2026-10-20T01:08:00Z",
-            "vehicles": "moderate",
-            "people_visible": 0
-          },
-          "source": "City of Austin Transportation traffic camera (cctv.austinmobility.io, via data.austintexas.gov b4k4-adkb)",
-          "refresh": "still image, updated roughly every 5 minutes",
-          "camera_id": "1409",
-          "image_url": "https://cctv.austinmobility.io/image/1409.jpg",
-          "camera_name": "12TH ST / 35 SVRD",
-          "captured_at": "2026-10-20T01:05:45Z",
-          "distance_mi": 0.15
-        },
-        "webcam": {
-          "url": "https://its.txdot.gov/its/District/AUS/cameras",
-          "name": "IH-35 @ 11th",
-          "dist_mi": 0.08
-        },
         "traffic": {
           "note": "Disabled Vehicle at IH-35 @ Oltorf St (2.6 mi); 8 full and 11 partial lane closures within 0.5 mi",
           "as_of": "2026-10-20T01:09:18+00:00",
@@ -988,45 +892,9 @@
           "calendar": "2026-10-20T00:47:14.726596+00:00"
         },
         "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Franklin+Barbecue%2C+Austin%2C+TX",
-        "camera_pick": {
-          "lat": 30.271833,
-          "lng": -97.732788,
-          "name": "12TH ST / 35 SVRD",
-          "view": "IH-35 southbound frontage road at 12th St, mostly frontage-road traffic with the I-35 main lanes beyond; Franklin's block (11th & Branch) is not in frame",
-          "source": "City of Austin Transportation traffic camera (cctv.austinmobility.io)",
-          "dataset": "https://data.austintexas.gov/resource/b4k4-adkb.json",
-          "camera_id": "1409",
-          "fallbacks": [
-            {
-              "name": "12TH ST / RED RIVER ST",
-              "camera_id": "545",
-              "image_url": "https://cctv.austinmobility.io/image/545.jpg",
-              "source_key": "coa",
-              "distance_mi": 0.27
-            },
-            {
-              "name": "IH-35 @ 11th",
-              "note": "TxDOT returns JSON with a base64 JPEG in \"snippet\" (no direct image URL); highway view, traffic only",
-              "camera_id": "IH-35 @ 11th (1000)",
-              "source_key": "txdot",
-              "distance_mi": 0.08,
-              "snapshot_api": "https://its.txdot.gov/its/DistrictIts/GetCctvSnapshotByIcdId?icdId=IH-35%20%40%2011th%20(1000)&districtCode=AUS"
-            }
-          ],
-          "image_url": "https://cctv.austinmobility.io/image/1409.jpg",
-          "picked_at": "2026-10-20T01:06:00Z",
-          "source_key": "coa",
-          "distance_mi": 0.15
-        },
         "sensors_gaps": {
           "checked_at": "2026-10-20T00:41:59+00:00",
           "foot_traffic": "Google popular times not retrievable from plain web fetch; not written"
-        },
-        "txdot_camera": {
-          "name": "IH-35 @ 11th",
-          "icd_id": "IH-35 @ 11th (1000)",
-          "dist_mi": 0.08,
-          "page_url": "https://its.txdot.gov/its/District/AUS/cameras"
         },
         "social_hourly": [
           {
@@ -1129,7 +997,7 @@
       "upcoming": [],
       "posts_last_hour": 2
     },
-    "updated_at": "2026-10-20T01:10:07.85582+00:00"
+    "updated_at": "2026-10-20T01:11:50.539076+00:00"
   },
   {
     "id": "mohawk",
@@ -1157,18 +1025,13 @@
             "vehicles": "light",
             "people_visible": 0
           },
-          "source": "City of Austin Transportation traffic camera (cctv.austinmobility.io, via data.austintexas.gov b4k4-adkb)",
+          "source": "City of Austin Transportation traffic camera (cctv.austinmobility.io)",
           "refresh": "still image, updated roughly every 5 minutes",
           "camera_id": "129",
           "image_url": "https://cctv.austinmobility.io/image/129.jpg",
           "camera_name": "RED RIVER ST / 10TH ST",
           "captured_at": "2026-10-20T01:05:46Z",
           "distance_mi": 0.02
-        },
-        "webcam": {
-          "url": "https://its.txdot.gov/its/District/AUS/cameras",
-          "name": "IH-35 @ 11th",
-          "dist_mi": 0.21
         },
         "traffic": {
           "note": "Disabled Vehicle at IH-35 @ Oltorf St (2.5 mi); 13 full and 27 partial lane closures within 0.5 mi",
@@ -1232,12 +1095,6 @@
         "sensors_gaps": {
           "checked_at": "2026-10-20T00:41:59+00:00",
           "foot_traffic": "Google popular times not retrievable from plain web fetch; not written"
-        },
-        "txdot_camera": {
-          "name": "IH-35 @ 11th",
-          "icd_id": "IH-35 @ 11th (1000)",
-          "dist_mi": 0.21,
-          "page_url": "https://its.txdot.gov/its/District/AUS/cameras"
         },
         "social_hourly": [
           {
@@ -1380,7 +1237,7 @@
       ],
       "posts_last_hour": 1
     },
-    "updated_at": "2026-10-20T01:10:07.85582+00:00"
+    "updated_at": "2026-10-20T01:12:20.483119+00:00"
   },
   {
     "id": "moody-center",
@@ -1408,25 +1265,10 @@
       "live": {
         "camera": {
           "view": "MLK Blvd at the IH-35 northbound frontage, looking west across the MLK bridge toward UT/downtown; the Moody Center is ~0.3 mi west and not clearly visible",
-          "crowd": {
-            "note": "MLK at the IH-35 frontage, ~0.3 mi east of the venue; one pedestrian visible at the corner earlier, and the Moody Center area is too far away to judge.",
-            "level": "unclear",
-            "read_at": "2026-10-20T01:08:00Z",
-            "vehicles": "light",
-            "people_visible": 1
-          },
-          "source": "City of Austin Transportation traffic camera (cctv.austinmobility.io, via data.austintexas.gov b4k4-adkb)",
-          "refresh": "still image, updated roughly every 5 minutes",
+          "source": "City of Austin Transportation traffic camera (cctv.austinmobility.io)",
           "camera_id": "1461",
           "image_url": "https://cctv.austinmobility.io/image/1461.jpg",
-          "camera_name": "MARTIN LUTHER KING JR BLVD / 35 SVRD",
-          "captured_at": "2026-10-20T01:05:42Z",
           "distance_mi": 0.29
-        },
-        "webcam": {
-          "url": "https://its.txdot.gov/its/District/AUS/cameras",
-          "name": "IH-35 @ East MLK Blvd",
-          "dist_mi": 0.22
         },
         "traffic": {
           "note": "No active incidents within 3 mi; 0 full and 11 partial lane closures within 0.5 mi",
@@ -1490,12 +1332,6 @@
         "sensors_gaps": {
           "checked_at": "2026-10-19T23:32:55+00:00",
           "foot_traffic": "Google popular times not retrievable from plain web fetch; not written"
-        },
-        "txdot_camera": {
-          "name": "IH-35 @ East MLK Blvd",
-          "icd_id": "IH-35 @ East MLK Blvd (1900)",
-          "dist_mi": 0.22,
-          "page_url": "https://its.txdot.gov/its/District/AUS/cameras"
         },
         "social_hourly": [
           {
@@ -1715,7 +1551,7 @@
       ],
       "posts_last_hour": 2
     },
-    "updated_at": "2026-10-20T01:10:07.85582+00:00"
+    "updated_at": "2026-10-20T01:12:20.483119+00:00"
   },
   {
     "id": "mount-bonnell",
@@ -1726,28 +1562,6 @@
     "record": {
       "now": [],
       "live": {
-        "camera": {
-          "view": "35th St at Pecos St, a residential arterial ~0.6 mi east of Mount Bonnell; the park/overlook is not visible",
-          "crowd": {
-            "note": "Nearest working camera is 0.62 mi away on 35th St at Pecos, in a residential area; the park and overlook aren't visible, so the crowd can't be judged.",
-            "level": "unclear",
-            "read_at": "2026-10-20T01:08:00Z",
-            "vehicles": "light",
-            "people_visible": 0
-          },
-          "source": "City of Austin Transportation traffic camera (cctv.austinmobility.io, via data.austintexas.gov b4k4-adkb)",
-          "refresh": "still image, updated roughly every 5 minutes",
-          "camera_id": "4",
-          "image_url": "https://cctv.austinmobility.io/image/4.jpg",
-          "camera_name": "35TH ST / PECOS ST",
-          "captured_at": "2026-10-20T01:05:58Z",
-          "distance_mi": 0.62
-        },
-        "webcam": {
-          "url": "https://its.txdot.gov/its/District/AUS/cameras",
-          "name": "LP-1 @ 45th Street",
-          "dist_mi": 1.02
-        },
         "traffic": {
           "note": "No active incidents within 3 mi; 6 full and 2 partial lane closures within 0.5 mi",
           "as_of": "2026-10-20T01:09:18+00:00",
@@ -1777,45 +1591,9 @@
           "calendar": "2026-10-20T00:47:14.726596+00:00"
         },
         "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Mount+Bonnell%2C+Austin%2C+TX",
-        "camera_pick": {
-          "lat": 30.31354,
-          "lng": -97.76716,
-          "name": "35TH ST / PECOS ST",
-          "view": "35th St at Pecos St, a residential arterial ~0.6 mi east of Mount Bonnell; the park/overlook is not visible",
-          "source": "City of Austin Transportation traffic camera (cctv.austinmobility.io)",
-          "dataset": "https://data.austintexas.gov/resource/b4k4-adkb.json",
-          "camera_id": "4",
-          "fallbacks": [
-            {
-              "name": "35TH ST / EXPOSITION BLVD",
-              "camera_id": "239",
-              "image_url": "https://cctv.austinmobility.io/image/239.jpg",
-              "source_key": "coa",
-              "distance_mi": 0.95
-            },
-            {
-              "name": "LP-1 @ 45th Street",
-              "note": "TxDOT returns JSON with a base64 JPEG in \"snippet\" (no direct image URL); highway view, traffic only",
-              "camera_id": "LP-1 @ 45th Street (4400) 46",
-              "source_key": "txdot",
-              "distance_mi": 1.02,
-              "snapshot_api": "https://its.txdot.gov/its/DistrictIts/GetCctvSnapshotByIcdId?icdId=LP-1%20%40%2045th%20Street%20(4400)%2046&districtCode=AUS"
-            }
-          ],
-          "image_url": "https://cctv.austinmobility.io/image/4.jpg",
-          "picked_at": "2026-10-20T01:06:00Z",
-          "source_key": "coa",
-          "distance_mi": 0.62
-        },
         "sensors_gaps": {
           "checked_at": "2026-10-20T00:41:59+00:00",
           "foot_traffic": "Google popular times not retrievable from plain web fetch; not written"
-        },
-        "txdot_camera": {
-          "name": "LP-1 @ 45th Street",
-          "icd_id": "LP-1 @ 45th Street (4400) 46",
-          "dist_mi": 1.02,
-          "page_url": "https://its.txdot.gov/its/District/AUS/cameras"
         },
         "social_hourly": [
           {
@@ -1899,7 +1677,7 @@
       "upcoming": [],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T01:10:07.85582+00:00"
+    "updated_at": "2026-10-20T01:11:50.539076+00:00"
   },
   {
     "id": "q2",
@@ -1919,18 +1697,13 @@
             "vehicles": "light",
             "people_visible": 0
           },
-          "source": "City of Austin Transportation traffic camera (cctv.austinmobility.io, via data.austintexas.gov b4k4-adkb)",
+          "source": "City of Austin Transportation traffic camera (cctv.austinmobility.io)",
           "refresh": "still image, updated roughly every 5 minutes",
           "camera_id": "1277",
           "image_url": "https://cctv.austinmobility.io/image/1277.jpg",
           "camera_name": "BURNET RD / BRIGHT VERDE WAY",
           "captured_at": "2026-10-20T01:05:49Z",
           "distance_mi": 0.22
-        },
-        "webcam": {
-          "url": "https://its.txdot.gov/its/District/AUS/cameras",
-          "name": "LP-1 @Braker Ln",
-          "dist_mi": 0.94
         },
         "traffic": {
           "note": "Traffic Hazard at 2000-2200 W Braker Ln (0.7 mi) +1 more within 3 mi; 0 full and 5 partial lane closures within 0.5 mi",
@@ -1994,12 +1767,6 @@
         "sensors_gaps": {
           "checked_at": "2026-10-19T23:32:55+00:00",
           "foot_traffic": "Google popular times not retrievable from plain web fetch; not written"
-        },
-        "txdot_camera": {
-          "name": "LP-1 @Braker Ln",
-          "icd_id": "LP-1 @ Braker Ln (10700) 31",
-          "dist_mi": 0.94,
-          "page_url": "https://its.txdot.gov/its/District/AUS/cameras"
         },
         "social_hourly": [
           {
@@ -2107,7 +1874,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T01:10:07.85582+00:00"
+    "updated_at": "2026-10-20T01:12:20.483119+00:00"
   },
   {
     "id": "rainey",
@@ -2135,25 +1902,10 @@
       "live": {
         "camera": {
           "view": "Cesar Chavez St at Red River St at the north end of the Rainey district; tonight it shows a road closure with milling equipment and work crews; Rainey St bars are not in frame",
-          "crowd": {
-            "note": "Cesar Chavez at Red River is closed for overnight paving and the people visible are work crews; the Rainey St bars are out of frame, so the nightlife crowd can't be judged.",
-            "level": "unclear",
-            "read_at": "2026-10-20T01:08:00Z",
-            "vehicles": "light",
-            "people_visible": 3
-          },
-          "source": "City of Austin Transportation traffic camera (cctv.austinmobility.io, via data.austintexas.gov b4k4-adkb)",
-          "refresh": "still image, updated roughly every 5 minutes",
+          "source": "City of Austin Transportation traffic camera (cctv.austinmobility.io)",
           "camera_id": "582",
           "image_url": "https://cctv.austinmobility.io/image/582.jpg",
-          "camera_name": "CESAR CHAVEZ ST / RED RIVER ST",
-          "captured_at": "2026-10-20T01:05:40Z",
           "distance_mi": 0.21
-        },
-        "webcam": {
-          "url": "https://its.txdot.gov/its/District/AUS/cameras",
-          "name": "IH-35 @ Holly",
-          "dist_mi": 0.14
         },
         "traffic": {
           "note": "Disabled Vehicle at IH-35 @ Oltorf St (1.7 mi) +1 more within 3 mi; 14 full and 21 partial lane closures within 0.5 mi",
@@ -2217,12 +1969,6 @@
         "sensors_gaps": {
           "checked_at": "2026-10-19T23:32:55+00:00",
           "foot_traffic": "Google popular times not retrievable from plain web fetch; not written"
-        },
-        "txdot_camera": {
-          "name": "IH-35 @ Holly",
-          "icd_id": "IH-35 @ Holly (0000)",
-          "dist_mi": 0.14,
-          "page_url": "https://its.txdot.gov/its/District/AUS/cameras"
         },
         "social_hourly": [
           {
@@ -2353,7 +2099,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T01:10:07.85582+00:00"
+    "updated_at": "2026-10-20T01:12:20.483119+00:00"
   },
   {
     "id": "sixth-street",
@@ -2381,18 +2127,13 @@
             "vehicles": "light",
             "people_visible": 5
           },
-          "source": "City of Austin Transportation traffic camera (cctv.austinmobility.io, via data.austintexas.gov b4k4-adkb)",
+          "source": "City of Austin Transportation traffic camera (cctv.austinmobility.io)",
           "refresh": "still image, updated roughly every 5 minutes",
           "camera_id": "355",
           "image_url": "https://cctv.austinmobility.io/image/355.jpg",
           "camera_name": "6TH ST / SAN JACINTO BLVD",
           "captured_at": "2026-10-20T01:05:47Z",
           "distance_mi": 0.05
-        },
-        "webcam": {
-          "url": "https://its.txdot.gov/its/District/AUS/cameras",
-          "name": "IH-35 @ 6th",
-          "dist_mi": 0.33
         },
         "traffic": {
           "note": "Disabled Vehicle at IH-35 @ Oltorf St (2.3 mi); 14 full and 41 partial lane closures within 0.5 mi",
@@ -2456,12 +2197,6 @@
         "sensors_gaps": {
           "checked_at": "2026-10-19T23:32:55+00:00",
           "foot_traffic": "Google popular times not retrievable from plain web fetch; not written"
-        },
-        "txdot_camera": {
-          "name": "IH-35 @ 6th",
-          "icd_id": "IH-35 @ 6th (0500)",
-          "dist_mi": 0.33,
-          "page_url": "https://its.txdot.gov/its/District/AUS/cameras"
         },
         "social_hourly": [
           {
@@ -2601,7 +2336,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T01:10:07.85582+00:00"
+    "updated_at": "2026-10-20T01:12:20.483119+00:00"
   },
   {
     "id": "south-congress",
@@ -2636,18 +2371,13 @@
             "vehicles": "moderate",
             "people_visible": 4
           },
-          "source": "City of Austin Transportation traffic camera (cctv.austinmobility.io, via data.austintexas.gov b4k4-adkb)",
+          "source": "City of Austin Transportation traffic camera (cctv.austinmobility.io)",
           "refresh": "still image, updated roughly every 5 minutes",
           "camera_id": "124",
           "image_url": "https://cctv.austinmobility.io/image/124.jpg",
           "camera_name": "CONGRESS AVE / ELIZABETH ST",
           "captured_at": "2026-10-20T01:05:31Z",
           "distance_mi": 0.08
-        },
-        "webcam": {
-          "url": "https://its.txdot.gov/its/District/AUS/cameras",
-          "name": "IH-35 @ E Riverside",
-          "dist_mi": 0.89
         },
         "traffic": {
           "note": "Disabled Vehicle at IH-35 @ Oltorf St (1.2 mi) +2 more within 3 mi; 2 full and 14 partial lane closures within 0.5 mi",
@@ -2711,12 +2441,6 @@
         "sensors_gaps": {
           "checked_at": "2026-10-19T23:32:55+00:00",
           "foot_traffic": "Google popular times not retrievable from plain web fetch; not written"
-        },
-        "txdot_camera": {
-          "name": "IH-35 @ E Riverside",
-          "icd_id": "IH-35 @ E Riverside (1000)",
-          "dist_mi": 0.89,
-          "page_url": "https://its.txdot.gov/its/District/AUS/cameras"
         },
         "social_hourly": [
           {
@@ -2866,7 +2590,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T01:10:07.85582+00:00"
+    "updated_at": "2026-10-20T01:12:20.483119+00:00"
   },
   {
     "id": "stubbs",
@@ -2879,25 +2603,10 @@
       "live": {
         "camera": {
           "view": "Red River St at 7th St looking north up Red River toward 8th St (Stubb's is one block up, on the far right edge in glare)",
-          "crowd": {
-            "note": "About 2 people on the Red River sidewalks at 7th; the block up toward Stubb's at 8th is mostly lost in glare, so the venue entrance itself isn't readable.",
-            "level": "light",
-            "read_at": "2026-10-20T01:08:00Z",
-            "vehicles": "light",
-            "people_visible": 2
-          },
-          "source": "City of Austin Transportation traffic camera (cctv.austinmobility.io, via data.austintexas.gov b4k4-adkb)",
-          "refresh": "still image, updated roughly every 5 minutes",
+          "source": "City of Austin Transportation traffic camera (cctv.austinmobility.io)",
           "camera_id": "296",
           "image_url": "https://cctv.austinmobility.io/image/296.jpg",
-          "camera_name": "7TH ST / RED RIVER ST",
-          "captured_at": "2026-10-20T01:05:35Z",
           "distance_mi": 0.08
-        },
-        "webcam": {
-          "url": "https://its.txdot.gov/its/District/AUS/cameras",
-          "name": "IH-35 @ 6th",
-          "dist_mi": 0.23
         },
         "traffic": {
           "note": "Disabled Vehicle at IH-35 @ Oltorf St (2.4 mi); 17 full and 27 partial lane closures within 0.5 mi",
@@ -2961,12 +2670,6 @@
         "sensors_gaps": {
           "checked_at": "2026-10-20T00:41:59+00:00",
           "foot_traffic": "Google popular times not retrievable from plain web fetch; not written"
-        },
-        "txdot_camera": {
-          "name": "IH-35 @ 6th",
-          "icd_id": "IH-35 @ 6th (0500)",
-          "dist_mi": 0.23,
-          "page_url": "https://its.txdot.gov/its/District/AUS/cameras"
         },
         "social_hourly": [
           {
@@ -3069,7 +2772,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T01:10:07.85582+00:00"
+    "updated_at": "2026-10-20T01:12:20.483119+00:00"
   },
   {
     "id": "the-domain",
@@ -3082,25 +2785,10 @@
       "live": {
         "camera": {
           "view": "Burnet Rd at Solaris St on the Domain's east edge, roadway plus a parking garage; the Domain shopping streets are not in view",
-          "crowd": {
-            "note": "Burnet Rd at Solaris on the Domain's east edge (0.42 mi) shows only road and a parking garage; the Domain's shopping streets are not in view.",
-            "level": "unclear",
-            "read_at": "2026-10-20T01:08:00Z",
-            "vehicles": "light",
-            "people_visible": 0
-          },
-          "source": "City of Austin Transportation traffic camera (cctv.austinmobility.io, via data.austintexas.gov b4k4-adkb)",
-          "refresh": "still image, updated roughly every 5 minutes",
+          "source": "City of Austin Transportation traffic camera (cctv.austinmobility.io)",
           "camera_id": "1431",
           "image_url": "https://cctv.austinmobility.io/image/1431.jpg",
-          "camera_name": "BURNET RD / SOLARIS ST",
-          "captured_at": "2026-10-20T01:05:42Z",
           "distance_mi": 0.42
-        },
-        "webcam": {
-          "url": "https://its.txdot.gov/its/District/AUS/cameras",
-          "name": "LP-1 @ Stonelake Rd",
-          "dist_mi": 0.23
         },
         "traffic": {
           "note": "Traffic Hazard at 2000-2200 W Braker Ln (1.2 mi) +1 more within 3 mi",
@@ -3164,12 +2852,6 @@
         "sensors_gaps": {
           "checked_at": "2026-10-19T23:32:55+00:00",
           "foot_traffic": "Google popular times not retrievable from plain web fetch; not written"
-        },
-        "txdot_camera": {
-          "name": "LP-1 @ Stonelake Rd",
-          "icd_id": "LP-1 @ Stonelake Rd (11200) 30",
-          "dist_mi": 0.23,
-          "page_url": "https://its.txdot.gov/its/District/AUS/cameras"
         },
         "social_hourly": [
           {
@@ -3311,7 +2993,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T01:10:07.85582+00:00"
+    "updated_at": "2026-10-20T01:12:20.483119+00:00"
   },
   {
     "id": "zilker",
@@ -3339,25 +3021,10 @@
       "live": {
         "camera": {
           "view": "Barton Springs Rd at Stratford Dr at the park's west edge; road and sidewalk only, park lawns not in view",
-          "crowd": {
-            "note": "Dark night view of Barton Springs Rd at Stratford on the park's west edge; the park lawns aren't visible, so the crowd can't be judged (road and sidewalk empty).",
-            "level": "unclear",
-            "read_at": "2026-10-20T01:08:00Z",
-            "vehicles": "light",
-            "people_visible": 0
-          },
-          "source": "City of Austin Transportation traffic camera (cctv.austinmobility.io, via data.austintexas.gov b4k4-adkb)",
-          "refresh": "still image, updated roughly every 5 minutes",
+          "source": "City of Austin Transportation traffic camera (cctv.austinmobility.io)",
           "camera_id": "377",
           "image_url": "https://cctv.austinmobility.io/image/377.jpg",
-          "camera_name": "BARTON SPRINGS RD / STRATFORD DR",
-          "captured_at": "2026-10-20T01:06:42Z",
           "distance_mi": 0.12
-        },
-        "webcam": {
-          "url": "https://its.txdot.gov/its/District/AUS/cameras",
-          "name": "LP-1 @ Barton Springs Blvd",
-          "dist_mi": 0.24
         },
         "traffic": {
           "note": "Disabled Vehicle at IH-35 @ Oltorf St (3.0 mi); 0 full and 3 partial lane closures within 0.5 mi",
@@ -3421,12 +3088,6 @@
         "sensors_gaps": {
           "checked_at": "2026-10-19T23:32:55+00:00",
           "foot_traffic": "Google popular times not retrievable from plain web fetch; not written"
-        },
-        "txdot_camera": {
-          "name": "LP-1 @ Barton Springs Blvd",
-          "icd_id": "LP-1 @ Barton Springs Blvd (500) 66",
-          "dist_mi": 0.24,
-          "page_url": "https://its.txdot.gov/its/District/AUS/cameras"
         },
         "social_hourly": [
           {
@@ -3553,6 +3214,6 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T01:10:07.85582+00:00"
+    "updated_at": "2026-10-20T01:12:20.483119+00:00"
   }
 ]
