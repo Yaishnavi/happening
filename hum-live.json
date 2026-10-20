@@ -34,8 +34,8 @@
           "distance_mi": 0.03
         },
         "traffic": {
-          "note": "Disabled Vehicle at IH-35 @ Oltorf St (2.2 mi); 19 full and 29 partial lane closures within 0.5 mi",
-          "as_of": "2026-10-20T01:09:18+00:00",
+          "note": "Disabled Vehicle at IH-35 @ Oltorf St (2.2 mi); several nearby streets fully closed, allow extra time",
+          "as_of": "2026-10-20T01:14:39+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
@@ -55,10 +55,10 @@
         },
         "anomaly": false,
         "last_run": {
-          "social": "2026-10-20T00:44:26.829755+00:00",
-          "curator": "2026-10-20T01:10:00Z",
+          "social": "2026-10-20T01:13:54Z",
+          "curator": "2026-10-20T01:18:23Z",
           "reviews": "2026-10-20T00:44:25.036369+00:00",
-          "sensors": "2026-10-20T01:09:27.674116+00:00",
+          "sensors": "2026-10-20T01:14:49.567871+00:00",
           "calendar": "2026-10-20T00:47:14.726596+00:00"
         },
         "gmaps_url": "https://www.google.com/maps/search/?api=1&query=ACL+Live+at+the+Moody+Theater%2C+Austin%2C+TX",
@@ -96,15 +96,21 @@
           "checked_at": "2026-10-20T00:41:59+00:00",
           "foot_traffic": "Google popular times not retrievable from plain web fetch; not written"
         },
+        "curator_notes": "Score excludes foot traffic (no source yet): (0.35 social + 0.25 event + 0.10 review)/0.70; social norm = posts_last_hour x 10 capped at 100 (no 4-week baseline yet).",
         "social_hourly": [
           {
             "hour": "2026-10-19T23:00:00Z",
-            "as_of": "2026-10-20T00:44:13Z",
-            "count": 0
+            "as_of": "2026-10-20T01:13:54Z",
+            "count": 2
           },
           {
             "hour": "2026-10-20T00:00:00Z",
             "as_of": "2026-10-20T00:44:13Z",
+            "count": 0
+          },
+          {
+            "hour": "2026-10-20T01:00:00Z",
+            "as_of": "2026-10-20T01:13:54Z",
             "count": 0
           }
         ],
@@ -118,25 +124,35 @@
           }
         ],
         "gmaps_place_url": "https://www.google.com/maps/search/?api=1&query=Austin%20City%20Limits%20Live%20(ACL%20Live%20%26%203TEN%20ACL%20Live)&query_place_id=ChIJ6xuoSw-1RIYRl2bhcYygHEk",
+        "last_social_runs": [],
         "gmaps_place_title": "Austin City Limits Live (ACL Live & 3TEN ACL Live)",
         "gmaps_place_address": "310 W Willie Nelson Blvd, Austin, TX 78701"
       },
       "social": [
         {
-          "ts": "2026-10-19T22:49:20Z",
-          "net": "IG",
-          "url": "https://www.instagram.com/p/DesXfX5qMux/",
-          "text": "@acllive @snarkypuppy \nGonna be a fun one. Great to be back at this awesome venue! \n#jtondrums #jasonjtthomas #snarkypuppy #drummersaremusicianstoo #tourlife",
-          "handle": "@jtondrums",
-          "media_url": "https://scontent-arn2-1.cdninstagram.com/v/t51.82787-15/854779393_18500714437102153_5712655971243535908_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=101&cb=30a688f7-99daaf84&ig_cache_key=NDAxMTY4NDY3OTExNzIyODk3NzE4NTAwNzE0NDMxMTAyMTUz.3-ccb7-5-cb30a688f7-99daaf84&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyOTAuc2RyLnZpZGVvX3VzZXJfc2VsZWN0ZWRfdGh1bWJuYWlsLkMzIn0%3D&_nc_ohc=HxFlBTOMURAQ7kNvwFYl1cH&_nc_oc=AdrujG-spVI1ai0AvZNfz3CF1kuV25BBQwlKrV-G4vHQbq1_8FpzE1t4TA7qtAahLLM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_gid=I5HvMoGERhtjszuAgb2Bug&_nc_ss=7a3ba&oh=00_AQOKraZJBnwpo83AXv3dLRPhNh6xKRcoclLwBtt4UAfFOQ&oe=6ADCA62B",
-          "engagement": 42
+          "ts": "2026-10-19T23:42:25Z",
+          "net": "X",
+          "url": "https://x.com/fartpop5/status/2112328545989275998",
+          "text": "@uglytrashboy At least get her to ACL Live chile",
+          "handle": "@fartpop5",
+          "media_url": null,
+          "engagement": 7
+        },
+        {
+          "ts": "2026-10-19T23:11:27Z",
+          "net": "X",
+          "url": "https://x.com/pamrenteria/status/2112320752963956890",
+          "text": "@Tinashe @uglytrashboy Come to ACL Live queen\n\nGonna get my ticket to help make it happen 🫶",
+          "handle": "@pamrenteria",
+          "media_url": null,
+          "engagement": 0
         }
       ],
       "volume": {
         "band": "Humming",
-        "score": 49.0,
+        "score": 48.9,
         "inputs": {
-          "review_recency": 92.7,
+          "review_recency": 92.6,
           "event_proximity": 100,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
@@ -151,8 +167,8 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T01:10:00Z",
-        "explanation": "The Snarky Puppy show that's on now maxes out event proximity and a Google review from this morning adds a little, with no tagged posts in the last hour; foot traffic is excluded for now.",
+        "computed_at": "2026-10-20T01:18:23Z",
+        "explanation": "Snarky Puppy is on now, though the street outside is just a steady trickle and nobody's posted from the show in the last hour.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
       "anomaly": false,
@@ -184,7 +200,7 @@
         "source": "google_maps",
         "trend_7d": null
       },
-      "summary": "Snarky Puppy is on now at ACL Live at the Moody Theater after an 8 PM CT start, and the 2nd St camera shows a steady trickle of people rather than a crowd. Next up is Leonid & Friends on Wednesday at 8 PM, with Katie Pruitt at 3TEN on Thursday; traffic is steady, but expect lane closures around the block.",
+      "summary": "Snarky Puppy is on now at ACL Live after an 8 PM CT start, and the sidewalk outside looks easygoing rather than packed. Next up is Leonid & Friends on Wednesday at 8 PM, then Katie Pruitt at 3TEN on Thursday.",
       "upcoming": [
         {
           "url": "https://www.acllive.com/event/2026-10-19-snarky-puppy-at-8-pm",
@@ -219,7 +235,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T01:12:20.483119+00:00"
+    "updated_at": "2026-10-20T01:19:03.197344+00:00"
   },
   {
     "id": "barton-springs",
@@ -231,7 +247,7 @@
       "now": [
         {
           "t": "2026-10-20T01:10:00Z",
-          "title": "Free Night Swims start at 9pm CT tonight, about 50 minutes from now.",
+          "title": "Free Night Swims start at 9pm CT tonight.",
           "source": "outgoing.world",
           "confidence": 0.8,
           "expires_at": "2026-10-20T02:00:00Z"
@@ -246,8 +262,8 @@
           "distance_mi": 0.23
         },
         "traffic": {
-          "note": "Disabled Vehicle at IH-35 @ Oltorf St (2.8 mi); 2 full and 6 partial lane closures within 0.5 mi",
-          "as_of": "2026-10-20T01:09:18+00:00",
+          "note": "Disabled Vehicle at IH-35 @ Oltorf St (2.8 mi)",
+          "as_of": "2026-10-20T01:14:39+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
@@ -267,10 +283,10 @@
         },
         "anomaly": false,
         "last_run": {
-          "social": "2026-10-20T00:44:00Z",
-          "curator": "2026-10-20T01:10:00Z",
+          "social": "2026-10-20T01:13:54Z",
+          "curator": "2026-10-20T01:18:23Z",
           "reviews": "2026-10-20T00:11:32.626309+00:00",
-          "sensors": "2026-10-20T01:09:27.674116+00:00",
+          "sensors": "2026-10-20T01:14:49.567871+00:00",
           "calendar": "2026-10-20T00:42:08Z"
         },
         "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Barton+Springs+Pool+Austin+TX",
@@ -308,6 +324,7 @@
           "checked_at": "2026-10-19T23:32:55+00:00",
           "foot_traffic": "Google popular times not retrievable from plain web fetch; not written"
         },
+        "curator_notes": "Score excludes foot traffic (no source yet): (0.35 social + 0.25 event + 0.10 review)/0.70; social norm = posts_last_hour x 10 capped at 100 (no 4-week baseline yet).",
         "social_hourly": [
           {
             "hour": "2026-10-19T23:00:00Z",
@@ -317,6 +334,11 @@
           {
             "hour": "2026-10-20T00:00:00Z",
             "as_of": "2026-10-20T00:44:00Z",
+            "count": 0
+          },
+          {
+            "hour": "2026-10-20T01:00:00Z",
+            "as_of": "2026-10-20T01:13:54Z",
             "count": 0
           }
         ],
@@ -350,8 +372,8 @@
         "band": "Humming",
         "score": 43.6,
         "inputs": {
-          "review_recency": 56.2,
-          "event_proximity": 99.5,
+          "review_recency": 56.1,
+          "event_proximity": 99.6,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
@@ -365,8 +387,8 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T01:10:00Z",
-        "explanation": "Event proximity drove the score (free Night Swims start at 9pm CT, about 50 minutes away), with a Google review from 3 days ago adding a bit and no posts in the last hour; foot traffic is excluded for now.",
+        "computed_at": "2026-10-20T01:18:23Z",
+        "explanation": "Free Night Swims start at 9pm CT, so it's about to pick up from a quiet evening.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
       "anomaly": false,
@@ -403,7 +425,7 @@
         "source": "google_maps",
         "trend_7d": null
       },
-      "summary": "Barton Springs Pool is quiet right now with no social posts in the last hour, but free Night Swims start at 9pm CT tonight, about 50 minutes from now. Later this week there's a Monkey Tree volunteer swim on Friday and a Save Our Springs snorkel Saturday morning; traffic is steady, but expect 2 full lane closures nearby.",
+      "summary": "Free Night Swims start at 9pm CT tonight, and it's a mild, clear 70F evening for it. Later this week there's a Monkey Tree volunteer swim on Friday and a Save Our Springs snorkel Saturday morning.",
       "upcoming": [
         {
           "url": "https://www.outgoing.world/activity/night-swims-eb8b9db34a2a",
@@ -432,7 +454,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T01:12:20.483119+00:00"
+    "updated_at": "2026-10-20T01:19:03.197344+00:00"
   },
   {
     "id": "capitol",
@@ -451,8 +473,8 @@
           "distance_mi": 0.14
         },
         "traffic": {
-          "note": "Disabled Vehicle at IH-35 @ Oltorf St (2.8 mi); 8 full and 45 partial lane closures within 0.5 mi",
-          "as_of": "2026-10-20T01:09:18+00:00",
+          "note": "Disabled Vehicle at IH-35 @ Oltorf St (2.8 mi); several nearby streets fully closed, allow extra time",
+          "as_of": "2026-10-20T01:14:39+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
@@ -472,10 +494,10 @@
         },
         "anomaly": false,
         "last_run": {
-          "social": "2026-10-20T00:44:26.829755+00:00",
-          "curator": "2026-10-20T01:10:00Z",
+          "social": "2026-10-20T01:13:54Z",
+          "curator": "2026-10-20T01:18:23Z",
           "reviews": "2026-10-20T00:44:25.036369+00:00",
-          "sensors": "2026-10-20T01:09:27.674116+00:00",
+          "sensors": "2026-10-20T01:14:49.567871+00:00",
           "calendar": "2026-10-20T00:47:14.726596+00:00"
         },
         "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Texas+State+Capitol%2C+Austin%2C+TX",
@@ -513,6 +535,7 @@
           "checked_at": "2026-10-20T00:41:59+00:00",
           "foot_traffic": "Google popular times not retrievable from plain web fetch; not written"
         },
+        "curator_notes": "Score excludes foot traffic (no source yet): (0.35 social + 0.25 event + 0.10 review)/0.70; social norm = posts_last_hour x 10 capped at 100 (no 4-week baseline yet).",
         "social_hourly": [
           {
             "hour": "2026-10-19T23:00:00Z",
@@ -521,8 +544,13 @@
           },
           {
             "hour": "2026-10-20T00:00:00Z",
-            "as_of": "2026-10-20T00:44:13Z",
+            "as_of": "2026-10-20T01:13:54Z",
             "count": 1
+          },
+          {
+            "hour": "2026-10-20T01:00:00Z",
+            "as_of": "2026-10-20T01:13:54Z",
+            "count": 0
           }
         ],
         "gmaps_place_id": "ChIJz42sFKC1RIYROdCVpyJXb8s",
@@ -535,6 +563,13 @@
           }
         ],
         "gmaps_place_url": "https://www.google.com/maps/search/?api=1&query=Texas%20Capitol&query_place_id=ChIJz42sFKC1RIYROdCVpyJXb8s",
+        "last_social_runs": [
+          {
+            "ts": "2026-10-20T01:07:40Z",
+            "net": "IG",
+            "run_id": "facjDmOmMMZ4Jen6l"
+          }
+        ],
         "gmaps_place_title": "Texas Capitol",
         "gmaps_place_address": "1100 Congress Ave., Austin, TX 78701"
       },
@@ -568,8 +603,8 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T01:10:00Z",
-        "explanation": "Tomorrow morning's Counties 101 event at the Capitol drives event proximity and 1 Instagram post in the last hour adds a little, while the newest Google review is weeks old; foot traffic is excluded for now.",
+        "computed_at": "2026-10-20T01:18:23Z",
+        "explanation": "It's quiet tonight, with a Counties 101 lunch-and-learn kicking off tomorrow morning.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
       "anomaly": false,
@@ -601,7 +636,7 @@
         "source": "google_maps",
         "trend_7d": null
       },
-      "summary": "The Capitol is quiet tonight, and tomorrow brings a Counties 101 lunch-and-learn at 10 AM CT. The Princeton Nassoons sing in the Rotunda Thursday at noon, and the Texas Energy Summit starts Monday the 26th.",
+      "summary": "The Capitol is quiet tonight, and tomorrow brings a Counties 101 lunch-and-learn at 10 AM CT. The Princeton Nassoons sing in the Rotunda Thursday at noon.",
       "upcoming": [
         {
           "url": "https://tspb.texas.gov/plan/events/tcapcal.html",
@@ -654,7 +689,7 @@
       ],
       "posts_last_hour": 1
     },
-    "updated_at": "2026-10-20T01:12:20.483119+00:00"
+    "updated_at": "2026-10-20T01:19:03.197344+00:00"
   },
   {
     "id": "dkr",
@@ -673,8 +708,8 @@
           "distance_mi": 0.39
         },
         "traffic": {
-          "note": "No active incidents within 3 mi; 0 full and 20 partial lane closures within 0.5 mi",
-          "as_of": "2026-10-20T01:09:18+00:00",
+          "note": "No active incidents within 3 mi",
+          "as_of": "2026-10-20T01:14:39+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
@@ -694,10 +729,10 @@
         },
         "anomaly": false,
         "last_run": {
-          "social": "2026-10-20T00:44:26.829755+00:00",
-          "curator": "2026-10-20T01:10:00Z",
+          "social": "2026-10-20T01:13:54Z",
+          "curator": "2026-10-20T01:18:23Z",
           "reviews": "2026-10-20T00:44:25.036369+00:00",
-          "sensors": "2026-10-20T01:09:27.674116+00:00",
+          "sensors": "2026-10-20T01:14:49.567871+00:00",
           "calendar": "2026-10-20T00:47:14.726596+00:00"
         },
         "gmaps_url": "https://www.google.com/maps/search/?api=1&query=DKR+Texas+Memorial+Stadium%2C+Austin%2C+TX",
@@ -735,6 +770,7 @@
           "checked_at": "2026-10-20T00:41:59+00:00",
           "foot_traffic": "Google popular times not retrievable from plain web fetch; not written"
         },
+        "curator_notes": "Score excludes foot traffic (no source yet): (0.35 social + 0.25 event + 0.10 review)/0.70; social norm = posts_last_hour x 10 capped at 100 (no 4-week baseline yet).",
         "social_hourly": [
           {
             "hour": "2026-10-19T23:00:00Z",
@@ -743,8 +779,13 @@
           },
           {
             "hour": "2026-10-20T00:00:00Z",
-            "as_of": "2026-10-20T00:44:13Z",
+            "as_of": "2026-10-20T01:13:54Z",
             "count": 2
+          },
+          {
+            "hour": "2026-10-20T01:00:00Z",
+            "as_of": "2026-10-20T01:13:54Z",
+            "count": 0
           }
         ],
         "gmaps_place_id": "ChIJCZq4XJq1RIYRWy0bniIjSCI",
@@ -757,6 +798,13 @@
           }
         ],
         "gmaps_place_url": "https://www.google.com/maps/search/?api=1&query=Darrell%20K%20Royal%E2%80%93Texas%20Memorial%20Stadium&query_place_id=ChIJCZq4XJq1RIYRWy0bniIjSCI",
+        "last_social_runs": [
+          {
+            "ts": "2026-10-20T01:07:40Z",
+            "net": "IG",
+            "run_id": "bLKzoO2rmlZeHs77Z"
+          }
+        ],
         "gmaps_place_title": "Darrell K Royal–Texas Memorial Stadium",
         "gmaps_place_address": "2139 San Jacinto Blvd, Austin, TX 78712"
       },
@@ -778,24 +826,15 @@
           "handle": "@mrdoitall_deuce",
           "media_url": "https://scontent-cph2-1.cdninstagram.com/v/t51.82787-15/858439145_17949485328337544_5759406030625072451_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=107&cb=30a688f7-99daaf84&ig_cache_key=NDAxMTcxODUwMDM2NTYxMjc0MDE3OTQ5NDg1MzI1MzM3NTQ0.3-ccb7-5-cb30a688f7-99daaf84&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyOTAuc2RyLnZpZGVvX3VzZXJfc2VsZWN0ZWRfdGh1bWJuYWlsLkMzIn0%3D&_nc_ohc=iFt0OiCX2jsQ7kNvwHpesxw&_nc_oc=AdqlRi-ekS7ShX7VdHkR3b4ZFIjZfDZhDlQxUZv5DesXheEHYiA0rcdBefcLgUGz0Qo&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-cph2-1.cdninstagram.com&_nc_gid=v3wQkwGcqEjspCUqgAxB9A&_nc_ss=7a3ba&oh=00_AQP8NxFBNNizGeMX2rQcF8paVX6Yade4OnEnAUeW2eZWqA&oe=6ADC7FFB",
           "engagement": 24
-        },
-        {
-          "ts": "2026-10-19T22:58:45Z",
-          "net": "IG",
-          "url": "https://www.instagram.com/p/DesYrZbkY0y/",
-          "text": "Weekend well spent 🤘🏼\n•\n•\n#austintx #universityoftexas #explore #cuteoutfit #football",
-          "handle": "@hannahh.ashtonnn",
-          "media_url": "https://scontent-cph2-1.cdninstagram.com/v/t51.82787-15/859815535_18636658225032256_398059847464859420_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_cat=110&cb=30a688f7-99daaf84&ig_cache_key=NDAxMTY4NzcyMDI1ODA1Nzg1NA%3D%3D.3-ccb7-5-cb30a688f7-99daaf84&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMzA3Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=Cvtrrjr5KD4Q7kNvwG2n2UF&_nc_oc=Ado1TLH16s1BR7Rpq8CTD2zxCa-uD6_SDBrWhwetzrAV0gJqGXts-SkDKUwrefKfpxM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-cph2-1.cdninstagram.com&_nc_gid=v3wQkwGcqEjspCUqgAxB9A&_nc_ss=7a3ba&oh=00_AQPqz6vOc4yj0_f-oabHrQ5DryIz69y_FZ_PJFNrNqmSmg&oe=6ADC8220",
-          "engagement": 4
         }
       ],
       "volume": {
         "band": "Quiet",
-        "score": 20.6,
+        "score": 15.6,
         "inputs": {
           "review_recency": 0,
           "event_proximity": 29.6,
-          "social_velocity_norm": 20,
+          "social_velocity_norm": 10,
           "foot_vs_baseline_norm": null
         },
         "missing": [],
@@ -808,8 +847,8 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T01:10:00Z",
-        "explanation": "2 Instagram posts in the last hour and Saturday's Ole Miss game (about 5 days out) are the only drivers, and the newest Google review is weeks old; foot traffic is excluded for now.",
+        "computed_at": "2026-10-20T01:18:23Z",
+        "explanation": "No game until Saturday's Ole Miss matchup, so the stadium is quiet apart from a few visitor posts.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
       "anomaly": false,
@@ -841,7 +880,7 @@
         "source": "google_maps",
         "trend_7d": null
       },
-      "summary": "The stadium is quiet tonight, and the next home game is Texas vs. Ole Miss on Saturday at 6:30 PM CT. A few visitors are posting from the stadium after touring the 40 Acres.",
+      "summary": "The stadium is quiet tonight, and the next home game is Texas vs. Ole Miss on Saturday at 6:30 PM CT. If you're going Saturday, plan on arriving early, since SEC night games pack the campus.",
       "upcoming": [
         {
           "url": "https://texassports.com/game-center/22500",
@@ -850,9 +889,9 @@
           "source": "texassports.com"
         }
       ],
-      "posts_last_hour": 2
+      "posts_last_hour": 1
     },
-    "updated_at": "2026-10-20T01:12:20.483119+00:00"
+    "updated_at": "2026-10-20T01:19:03.197344+00:00"
   },
   {
     "id": "franklin",
@@ -864,8 +903,8 @@
       "now": [],
       "live": {
         "traffic": {
-          "note": "Disabled Vehicle at IH-35 @ Oltorf St (2.6 mi); 8 full and 11 partial lane closures within 0.5 mi",
-          "as_of": "2026-10-20T01:09:18+00:00",
+          "note": "Disabled Vehicle at IH-35 @ Oltorf St (2.6 mi); several nearby streets fully closed, allow extra time",
+          "as_of": "2026-10-20T01:14:39+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
@@ -885,10 +924,10 @@
         },
         "anomaly": false,
         "last_run": {
-          "social": "2026-10-20T00:44:26.829755+00:00",
-          "curator": "2026-10-20T01:10:00Z",
+          "social": "2026-10-20T01:13:54Z",
+          "curator": "2026-10-20T01:18:23Z",
           "reviews": "2026-10-20T00:44:25.036369+00:00",
-          "sensors": "2026-10-20T01:09:27.674116+00:00",
+          "sensors": "2026-10-20T01:14:49.567871+00:00",
           "calendar": "2026-10-20T00:47:14.726596+00:00"
         },
         "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Franklin+Barbecue%2C+Austin%2C+TX",
@@ -896,16 +935,22 @@
           "checked_at": "2026-10-20T00:41:59+00:00",
           "foot_traffic": "Google popular times not retrievable from plain web fetch; not written"
         },
+        "curator_notes": "Score excludes foot traffic (no source yet): (0.35 social + 0.25 event + 0.10 review)/0.70; social norm = posts_last_hour x 10 capped at 100 (no 4-week baseline yet).",
         "social_hourly": [
           {
             "hour": "2026-10-19T23:00:00Z",
-            "as_of": "2026-10-20T00:44:13Z",
+            "as_of": "2026-10-20T01:13:54Z",
             "count": 1
           },
           {
             "hour": "2026-10-20T00:00:00Z",
-            "as_of": "2026-10-20T00:44:13Z",
+            "as_of": "2026-10-20T01:13:54Z",
             "count": 1
+          },
+          {
+            "hour": "2026-10-20T01:00:00Z",
+            "as_of": "2026-10-20T01:13:54Z",
+            "count": 0
           }
         ],
         "gmaps_place_id": "ChIJM8w7rqS1RIYRhEz2-KuoqzE",
@@ -918,6 +963,13 @@
           }
         ],
         "gmaps_place_url": "https://www.google.com/maps/search/?api=1&query=Franklin%20Barbecue&query_place_id=ChIJM8w7rqS1RIYRhEz2-KuoqzE",
+        "last_social_runs": [
+          {
+            "ts": "2026-10-20T01:07:40Z",
+            "net": "IG",
+            "run_id": "ObasxHAHRZ4uk05OH"
+          }
+        ],
         "gmaps_place_title": "Franklin Barbecue",
         "gmaps_place_address": "900 E 11th St, Austin, TX 78702"
       },
@@ -943,11 +995,11 @@
       ],
       "volume": {
         "band": "Quiet",
-        "score": 22.5,
+        "score": 17.5,
         "inputs": {
-          "review_recency": 87.5,
+          "review_recency": 87.4,
           "event_proximity": 0,
-          "social_velocity_norm": 20,
+          "social_velocity_norm": 10,
           "foot_vs_baseline_norm": null
         },
         "missing": [],
@@ -960,8 +1012,8 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T01:10:00Z",
-        "explanation": "2 Instagram posts in the last hour and a Google review from last night are the only drivers, with no events in the next 7 days; foot traffic is excluded for now.",
+        "computed_at": "2026-10-20T01:18:23Z",
+        "explanation": "Franklin is closed Mondays, so it's quiet tonight.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
       "anomaly": false,
@@ -995,9 +1047,9 @@
       },
       "summary": "Franklin is closed Mondays, so there's no line tonight, and no events are listed for the next week. Instagram is still buzzing about last weekend's Hot Luck festival and Sunday's Culinary Curiosity Dinner.",
       "upcoming": [],
-      "posts_last_hour": 2
+      "posts_last_hour": 1
     },
-    "updated_at": "2026-10-20T01:11:50.539076+00:00"
+    "updated_at": "2026-10-20T01:19:03.197344+00:00"
   },
   {
     "id": "mohawk",
@@ -1034,8 +1086,8 @@
           "distance_mi": 0.02
         },
         "traffic": {
-          "note": "Disabled Vehicle at IH-35 @ Oltorf St (2.5 mi); 13 full and 27 partial lane closures within 0.5 mi",
-          "as_of": "2026-10-20T01:09:18+00:00",
+          "note": "Disabled Vehicle at IH-35 @ Oltorf St (2.5 mi); several nearby streets fully closed, allow extra time",
+          "as_of": "2026-10-20T01:14:39+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
@@ -1055,10 +1107,10 @@
         },
         "anomaly": false,
         "last_run": {
-          "social": "2026-10-20T00:44:26.829755+00:00",
-          "curator": "2026-10-20T01:10:00Z",
+          "social": "2026-10-20T01:13:54Z",
+          "curator": "2026-10-20T01:18:23Z",
           "reviews": "2026-10-20T00:44:25.036369+00:00",
-          "sensors": "2026-10-20T01:09:27.674116+00:00",
+          "sensors": "2026-10-20T01:14:49.567871+00:00",
           "calendar": "2026-10-20T00:47:14.726596+00:00"
         },
         "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Mohawk%2C+Austin%2C+TX",
@@ -1096,6 +1148,7 @@
           "checked_at": "2026-10-20T00:41:59+00:00",
           "foot_traffic": "Google popular times not retrievable from plain web fetch; not written"
         },
+        "curator_notes": "Score excludes foot traffic (no source yet): (0.35 social + 0.25 event + 0.10 review)/0.70; social norm = posts_last_hour x 10 capped at 100 (no 4-week baseline yet).",
         "social_hourly": [
           {
             "hour": "2026-10-19T23:00:00Z",
@@ -1104,8 +1157,13 @@
           },
           {
             "hour": "2026-10-20T00:00:00Z",
-            "as_of": "2026-10-20T00:44:13Z",
+            "as_of": "2026-10-20T01:13:54Z",
             "count": 1
+          },
+          {
+            "hour": "2026-10-20T01:00:00Z",
+            "as_of": "2026-10-20T01:13:54Z",
+            "count": 0
           }
         ],
         "gmaps_place_id": "ChIJ1aFZAqS1RIYRu5WiNjw8b0A",
@@ -1118,6 +1176,13 @@
           }
         ],
         "gmaps_place_url": "https://www.google.com/maps/search/?api=1&query=Mohawk%20Austin&query_place_id=ChIJ1aFZAqS1RIYRu5WiNjw8b0A",
+        "last_social_runs": [
+          {
+            "ts": "2026-10-20T01:07:40Z",
+            "net": "IG",
+            "run_id": "ga1lx2uQQvdmfw3e0"
+          }
+        ],
         "gmaps_place_title": "Mohawk Austin",
         "gmaps_place_address": "912 Red River St, Austin, TX 78701"
       },
@@ -1134,11 +1199,11 @@
       ],
       "volume": {
         "band": "Humming",
-        "score": 50.3,
+        "score": 45.3,
         "inputs": {
-          "review_recency": 68.2,
-          "event_proximity": 99.5,
-          "social_velocity_norm": 10,
+          "review_recency": 68.1,
+          "event_proximity": 99.6,
+          "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
         "missing": [],
@@ -1151,8 +1216,8 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T01:10:00Z",
-        "explanation": "Joey Cash at 9 PM CT tonight drives event proximity, with 1 Instagram post in the last hour and a Google review from Saturday adding a little; foot traffic is excluded for now.",
+        "computed_at": "2026-10-20T01:18:23Z",
+        "explanation": "Joey Cash plays the indoor stage at 9pm CT, with doors already open.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
       "anomaly": false,
@@ -1184,7 +1249,7 @@
         "source": "google_maps",
         "trend_7d": null
       },
-      "summary": "Joey Cash with Almost Heaven plays Mohawk's indoor stage tonight at 9 PM CT (doors 8 PM). Peter Bjorn and John play the outdoor stage tomorrow at 7:30 PM.",
+      "summary": "Joey Cash with Almost Heaven plays Mohawk's indoor stage tonight at 9 PM CT, and doors are already open. Peter Bjorn and John play the outdoor stage tomorrow at 7:30 PM.",
       "upcoming": [
         {
           "url": "https://www.etix.com/ticket/p/75853671/joey-cash-austin-resound-presents",
@@ -1235,9 +1300,9 @@
           "source": "mohawkaustin.com"
         }
       ],
-      "posts_last_hour": 1
+      "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T01:12:20.483119+00:00"
+    "updated_at": "2026-10-20T01:19:03.197344+00:00"
   },
   {
     "id": "moody-center",
@@ -1253,13 +1318,6 @@
           "source": "moodycenteratx.com",
           "confidence": 0.85,
           "expires_at": "2026-10-20T04:00:00Z"
-        },
-        {
-          "t": "2026-10-20T00:44:00Z",
-          "title": "Concertgoers are still posting from inside Moody Center, with 2 Instagram posts in the last hour.",
-          "source": "Instagram",
-          "confidence": 0.75,
-          "expires_at": "2026-10-20T01:30:00Z"
         }
       ],
       "live": {
@@ -1271,8 +1329,8 @@
           "distance_mi": 0.29
         },
         "traffic": {
-          "note": "No active incidents within 3 mi; 0 full and 11 partial lane closures within 0.5 mi",
-          "as_of": "2026-10-20T01:09:18+00:00",
+          "note": "No active incidents within 3 mi",
+          "as_of": "2026-10-20T01:14:39+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
@@ -1292,10 +1350,10 @@
         },
         "anomaly": false,
         "last_run": {
-          "social": "2026-10-20T00:44:00Z",
-          "curator": "2026-10-20T01:10:00Z",
+          "social": "2026-10-20T01:13:54Z",
+          "curator": "2026-10-20T01:18:23Z",
           "reviews": "2026-10-20T00:11:32.626309+00:00",
-          "sensors": "2026-10-20T01:09:27.674116+00:00",
+          "sensors": "2026-10-20T01:14:49.567871+00:00",
           "calendar": "2026-10-20T00:42:08Z"
         },
         "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Moody+Center+Austin+TX",
@@ -1333,15 +1391,21 @@
           "checked_at": "2026-10-19T23:32:55+00:00",
           "foot_traffic": "Google popular times not retrievable from plain web fetch; not written"
         },
+        "curator_notes": "Score excludes foot traffic (no source yet): (0.35 social + 0.25 event + 0.10 review)/0.70; social norm = posts_last_hour x 10 capped at 100 (no 4-week baseline yet).",
         "social_hourly": [
           {
             "hour": "2026-10-19T23:00:00Z",
-            "as_of": "2026-10-20T00:44:00Z",
+            "as_of": "2026-10-20T01:13:54Z",
             "count": 8
           },
           {
             "hour": "2026-10-20T00:00:00Z",
-            "as_of": "2026-10-20T00:44:00Z",
+            "as_of": "2026-10-20T01:13:54Z",
+            "count": 1
+          },
+          {
+            "hour": "2026-10-20T01:00:00Z",
+            "as_of": "2026-10-20T01:13:54Z",
             "count": 0
           }
         ],
@@ -1366,11 +1430,25 @@
             "ts": "2026-10-20T00:36:36Z",
             "net": "IG",
             "run_id": "HhRermZiMCymZHrXg"
+          },
+          {
+            "ts": "2026-10-20T01:07:40Z",
+            "net": "IG",
+            "run_id": "aQW6zTa9dUMUkJkbc"
           }
         ],
         "social_velocity_as_of": "2026-10-20T00:08:44Z"
       },
       "social": [
+        {
+          "ts": "2026-10-20T00:48:50Z",
+          "net": "X",
+          "url": "https://x.com/DuckerAdin36/status/2112345260869161368",
+          "text": "Caught the last few hoobastank songs, out here in the moody center in Austin about to see staind and seether. https://t.co/cHwTARgnoz",
+          "handle": "@DuckerAdin36",
+          "media_url": null,
+          "engagement": 0
+        },
         {
           "ts": "2026-10-19T23:42:22Z",
           "net": "IG",
@@ -1424,51 +1502,15 @@
           "handle": "@_caitlyn.8_",
           "media_url": "https://scontent-cph2-1.cdninstagram.com/v/t51.82787-15/857415185_18481464337113250_8824513097354280861_n.jpg?stp=dst-jpegr_e35_s1080x1080_tt6&_nc_cat=106&ig_cache_key=NDAxMTY5NjAxMTU0MDIxOTQzNA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuNDAzMi5oZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=VrIz612T7JEQ7kNvwEFOGnb&_nc_oc=AdoVCtfvEiZLN0WVmk5QD9PQfgHCtFcLfRoKMlKkGpIY23oRsdYqr7_pcMXwq07ytICac-DgZiRQWbukZ3XU_W1j&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=-1&_nc_ht=scontent-cph2-1.cdninstagram.com&_nc_gid=OfYFQN1ZIyg0o1-gWsnX6A&_nc_ss=7a3ba&oh=00_AQMFLDzu97EjH1JGdvzQjaUU-Tl71wC4iDH2blakClCMAw&oe=6ADC705B",
           "engagement": 3
-        },
-        {
-          "ts": "2026-10-19T23:03:58Z",
-          "net": "IG",
-          "url": "https://www.instagram.com/p/DesZRazID-w/",
-          "text": "Feeling happy",
-          "handle": "@gval.adez",
-          "media_url": "https://scontent-cph2-1.cdninstagram.com/v/t39.30808-6/853566745_1165089406581229_5275168672450759783_n.jpg?stp=c0.64.1536.1920a_dst-jpg_e35_s1080x1080_tt6&_nc_cat=108&ig_cache_key=NDAxMTY5MjUxNjI0OTE5MDMyMA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTUzNi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=eweEsgPw7i0Q7kNvwHRS-X-&_nc_oc=AdojuWhDjG35A6y80dfjWDDd19-5UnOXmcMUEkf_Ue1vCLv2cCMa8ZCWmIV-5MbrNcmMTWj_86fj9SjWqjjQLicl&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-cph2-1.cdninstagram.com&_nc_gid=OfYFQN1ZIyg0o1-gWsnX6A&_nc_ss=7a3ba&oh=00_AQNMo9khvUr58EXo0rfgxZP7gQNRknFZYwrps5Z1POiTYw&oe=6ADC6C16",
-          "engagement": 0
-        },
-        {
-          "ts": "2026-10-19T23:01:33Z",
-          "net": "IG",
-          "url": "https://www.instagram.com/p/DesY__wkUiT/",
-          "text": "@majidjordan live @moodycenteratx (2026)",
-          "handle": "@thatkidcarter",
-          "media_url": "https://scontent-cph2-1.cdninstagram.com/v/t51.82787-15/857049851_18646541050023299_6065860559814585286_n.jpg?stp=dst-jpg_e35_p1080x1080_tt6&_nc_cat=110&ig_cache_key=NDAxMTY4NzY1ODk3OTIzMjE1Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMzA3Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=PRARcq1n7pMQ7kNvwEggDrY&_nc_oc=AdqWRwcsC3Y2v8a4HlyzOwmnkfTXcA2rH3YJF8k9yRkFvsSwHvVb0PW2cv_grgUjtSEGycj94ezANULim5pZOZ5r&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-cph2-1.cdninstagram.com&_nc_gid=OfYFQN1ZIyg0o1-gWsnX6A&_nc_ss=7a3ba&oh=00_AQPT9S_dtoFjOYtaW4CmpjIWFUh6FMF2sfvkwS7xOht7rA&oe=6ADC7235",
-          "engagement": 2
-        },
-        {
-          "ts": "2026-10-19T22:57:01Z",
-          "net": "IG",
-          "url": "https://www.instagram.com/p/DesYevJFLce/",
-          "text": "@staindofficial @hoobastank @seether @hindermusic #instamood #rocknroll #music #energy #showtime",
-          "handle": "@thejoker3355",
-          "media_url": "https://scontent-cph2-1.cdninstagram.com/v/t51.82787-15/857674375_18136440385670236_591121244042374147_n.jpg?stp=dst-jpegr_e35_s1080x1080_tt6&_nc_cat=103&ig_cache_key=NDAxMTY4ODM4NzI2ODgzMzE0MQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuNDA5Ni5oZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=9BFuB-LRDSUQ7kNvwH1Gqt8&_nc_oc=AdrdNo3fqIO3NjS-cftzvDmfqhDhv9euFxxwD4MTy6B451TGMyTJdEHMWGHn694oP8fm9U9PVOqckRlDqcwl_-Yf&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=-1&_nc_ht=scontent-cph2-1.cdninstagram.com&_nc_gid=OfYFQN1ZIyg0o1-gWsnX6A&_nc_ss=7a3ba&oh=00_AQPUSAtCUYZJUcJ7wZuVWPovo5y-6wdjHYHHA0R4SrFzyw&oe=6ADC7482",
-          "engagement": 5
-        },
-        {
-          "ts": "2026-10-19T22:56:28Z",
-          "net": "IG",
-          "url": "https://www.instagram.com/p/DesYaJ2MBdh/",
-          "text": "Staind!",
-          "handle": "@mr.reginojoey",
-          "media_url": "https://scontent-cph2-1.cdninstagram.com/v/t51.82787-15/854337691_18127051333894135_6817544326003784340_n.heic?stp=dst-jpg_e35_s1080x1080_tt6&_nc_cat=106&ig_cache_key=NDAxMTY4ODcxODQ3NTcyODczNw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=pbLDW1yr2C8Q7kNvwExbvkC&_nc_oc=AdqKx6Hy7MSckz4cjskMIPfOoLE-YVLUrY5gN2NxPzAPPGSBCPEUmIv-Gr1kB3eurmdgUBNXLnlaT9Wj1BTWDuW0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-cph2-1.cdninstagram.com&_nc_gid=OfYFQN1ZIyg0o1-gWsnX6A&_nc_ss=7a3ba&oh=00_AQOxNIZBEU_4T-NHQompOq4SwrKNg8Ntc2d0VvcHT6HzfQ&oe=6ADC942D",
-          "engagement": 0
         }
       ],
       "volume": {
-        "band": "Buzzing",
-        "score": 57.7,
+        "band": "Humming",
+        "score": 52.7,
         "inputs": {
-          "review_recency": 84.1,
+          "review_recency": 84.0,
           "event_proximity": 100,
-          "social_velocity_norm": 20,
+          "social_velocity_norm": 10,
           "foot_vs_baseline_norm": null
         },
         "missing": [],
@@ -1481,8 +1523,8 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T01:10:00Z",
-        "explanation": "The Staind show that's on now maxes out event proximity and a Google review from yesterday adds a little, while Instagram has cooled to 2 posts in the last hour; foot traffic is excluded for now.",
+        "computed_at": "2026-10-20T01:18:23Z",
+        "explanation": "Staind, Seether, Hoobastank and Hinder are on now, and fans have been posting from inside tonight.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
       "anomaly": false,
@@ -1516,7 +1558,7 @@
         "source": "google_maps",
         "trend_7d": null
       },
-      "summary": "The Staind 25th anniversary show with Seether, Hoobastank and Hinder is on now, and concertgoers are posting from inside the venue. Next up is SOMBR on Tuesday at 7pm CT; traffic is steady, but there's a disabled vehicle at IH-35 and Airport Blvd about 1.7 miles away if you're driving.",
+      "summary": "Staind's Break The Cycle 25th anniversary show with Seether, Hoobastank and Hinder is on now, and fans have been posting from inside all evening. Next up is SOMBR on Tuesday at 7pm CT, then the Spurs vs. Rockets on Friday.",
       "upcoming": [
         {
           "url": "https://moodycenteratx.com/event/staind/",
@@ -1549,9 +1591,9 @@
           "source": "moodycenteratx.com"
         }
       ],
-      "posts_last_hour": 2
+      "posts_last_hour": 1
     },
-    "updated_at": "2026-10-20T01:12:20.483119+00:00"
+    "updated_at": "2026-10-20T01:19:03.197344+00:00"
   },
   {
     "id": "mount-bonnell",
@@ -1563,8 +1605,8 @@
       "now": [],
       "live": {
         "traffic": {
-          "note": "No active incidents within 3 mi; 6 full and 2 partial lane closures within 0.5 mi",
-          "as_of": "2026-10-20T01:09:18+00:00",
+          "note": "No active incidents within 3 mi; several nearby streets fully closed, allow extra time",
+          "as_of": "2026-10-20T01:14:39+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
@@ -1584,10 +1626,10 @@
         },
         "anomaly": false,
         "last_run": {
-          "social": "2026-10-20T00:44:26.829755+00:00",
-          "curator": "2026-10-20T01:10:00Z",
+          "social": "2026-10-20T01:13:54Z",
+          "curator": "2026-10-20T01:18:23Z",
           "reviews": "2026-10-20T00:44:25.036369+00:00",
-          "sensors": "2026-10-20T01:09:27.674116+00:00",
+          "sensors": "2026-10-20T01:14:49.567871+00:00",
           "calendar": "2026-10-20T00:47:14.726596+00:00"
         },
         "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Mount+Bonnell%2C+Austin%2C+TX",
@@ -1595,6 +1637,7 @@
           "checked_at": "2026-10-20T00:41:59+00:00",
           "foot_traffic": "Google popular times not retrievable from plain web fetch; not written"
         },
+        "curator_notes": "Score excludes foot traffic (no source yet): (0.35 social + 0.25 event + 0.10 review)/0.70; social norm = posts_last_hour x 10 capped at 100 (no 4-week baseline yet).",
         "social_hourly": [
           {
             "hour": "2026-10-19T23:00:00Z",
@@ -1604,6 +1647,11 @@
           {
             "hour": "2026-10-20T00:00:00Z",
             "as_of": "2026-10-20T00:44:13Z",
+            "count": 0
+          },
+          {
+            "hour": "2026-10-20T01:00:00Z",
+            "as_of": "2026-10-20T01:13:54Z",
             "count": 0
           }
         ],
@@ -1617,6 +1665,13 @@
           }
         ],
         "gmaps_place_url": "https://www.google.com/maps/search/?api=1&query=Mt%20Bonnell&query_place_id=ChIJB5JC7sfKRIYRA4i6L8ld7fY",
+        "last_social_runs": [
+          {
+            "ts": "2026-10-20T01:07:40Z",
+            "net": "IG",
+            "run_id": "IsixmSxrpg7jGNP7E"
+          }
+        ],
         "gmaps_place_title": "Mt Bonnell",
         "gmaps_place_address": "Austin, TX 78731"
       },
@@ -1625,7 +1680,7 @@
         "band": "Quiet",
         "score": 13.9,
         "inputs": {
-          "review_recency": 97.5,
+          "review_recency": 97.4,
           "event_proximity": 0,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
@@ -1640,8 +1695,8 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T01:10:00Z",
-        "explanation": "Only a Google review from this afternoon registers, with no tagged posts in the last hour and no events in the next 7 days; foot traffic is excluded for now.",
+        "computed_at": "2026-10-20T01:18:23Z",
+        "explanation": "No events this week, so it's just the usual evening overlook visitors.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
       "anomaly": false,
@@ -1673,11 +1728,11 @@
         "source": "google_maps",
         "trend_7d": null
       },
-      "summary": "Mount Bonnell has no scheduled events this week, and no tagged posts turned up in the last hour. The overlook in Covert Park is open until 10 PM, and sunset is the busiest time.",
+      "summary": "Mount Bonnell has no scheduled events this week, so it's a low-key spot for a view tonight. The overlook in Covert Park is open until 10 PM, and sunset is the busiest time.",
       "upcoming": [],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T01:11:50.539076+00:00"
+    "updated_at": "2026-10-20T01:19:03.197344+00:00"
   },
   {
     "id": "q2",
@@ -1706,8 +1761,8 @@
           "distance_mi": 0.22
         },
         "traffic": {
-          "note": "Traffic Hazard at 2000-2200 W Braker Ln (0.7 mi) +1 more within 3 mi; 0 full and 5 partial lane closures within 0.5 mi",
-          "as_of": "2026-10-20T01:09:18+00:00",
+          "note": "Traffic Hazard at 2000-2200 W Braker Ln (0.7 mi) +1 more within 3 mi",
+          "as_of": "2026-10-20T01:14:39+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
@@ -1727,10 +1782,10 @@
         },
         "anomaly": false,
         "last_run": {
-          "social": "2026-10-20T00:44:00Z",
-          "curator": "2026-10-20T01:10:00Z",
+          "social": "2026-10-20T01:13:54Z",
+          "curator": "2026-10-20T01:18:23Z",
           "reviews": "2026-10-20T00:11:32.626309+00:00",
-          "sensors": "2026-10-20T01:09:27.674116+00:00",
+          "sensors": "2026-10-20T01:14:49.567871+00:00",
           "calendar": "2026-10-20T00:42:08Z"
         },
         "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Q2+Stadium+Austin+TX",
@@ -1768,6 +1823,7 @@
           "checked_at": "2026-10-19T23:32:55+00:00",
           "foot_traffic": "Google popular times not retrievable from plain web fetch; not written"
         },
+        "curator_notes": "Score excludes foot traffic (no source yet): (0.35 social + 0.25 event + 0.10 review)/0.70; social norm = posts_last_hour x 10 capped at 100 (no 4-week baseline yet).",
         "social_hourly": [
           {
             "hour": "2026-10-19T23:00:00Z",
@@ -1777,6 +1833,11 @@
           {
             "hour": "2026-10-20T00:00:00Z",
             "as_of": "2026-10-20T00:44:00Z",
+            "count": 0
+          },
+          {
+            "hour": "2026-10-20T01:00:00Z",
+            "as_of": "2026-10-20T01:13:54Z",
             "count": 0
           }
         ],
@@ -1801,6 +1862,11 @@
             "ts": "2026-10-20T00:36:36Z",
             "net": "IG",
             "run_id": "dluyv1aqDOpdEuElD"
+          },
+          {
+            "ts": "2026-10-20T01:07:40Z",
+            "net": "IG",
+            "run_id": "dfyINiMkgYq0e5krm"
           }
         ],
         "social_velocity_as_of": "2026-10-20T00:08:44Z"
@@ -1810,8 +1876,8 @@
         "band": "Quiet",
         "score": 23.6,
         "inputs": {
-          "review_recency": 78.7,
-          "event_proximity": 34.6,
+          "review_recency": 78.6,
+          "event_proximity": 34.7,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
@@ -1825,8 +1891,8 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T01:10:00Z",
-        "explanation": "Review recency and a distant event split the low score (a Google review from yesterday, and the SAFE Alliance Truck-or-Treat is about 110 hours away), with no posts in the last hour; foot traffic is excluded for now.",
+        "computed_at": "2026-10-20T01:18:23Z",
+        "explanation": "There's no match or event tonight, and the next thing on the calendar is Saturday morning.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
       "anomaly": false,
@@ -1863,7 +1929,7 @@
         "source": "google_maps",
         "trend_7d": null
       },
-      "summary": "Nothing is on at Q2 Stadium right now, and the next listed event is the SAFE Alliance Truck-or-Treat on Saturday, Oct 24 at 10am CT. Traffic is steady, but watch for a traffic hazard on W Braker Ln about 0.7 miles away.",
+      "summary": "Nothing is on at Q2 Stadium tonight, and the next listed event is the SAFE Alliance Truck-or-Treat on Saturday, Oct 24 at 10am CT. It's a family morning, so bring the kids in costume.",
       "upcoming": [
         {
           "url": "https://www.safeaustin.org/get-involved/donate/events/",
@@ -1874,7 +1940,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T01:12:20.483119+00:00"
+    "updated_at": "2026-10-20T01:19:03.197344+00:00"
   },
   {
     "id": "rainey",
@@ -1890,13 +1956,6 @@
           "source": "austintexas.gov",
           "confidence": 0.9,
           "expires_at": "2026-10-20T04:00:00Z"
-        },
-        {
-          "t": "2026-10-20T01:10:00Z",
-          "title": "14 full and 21 partial lane closures within half a mile, including Cesar Chavez at Red River for overnight paving.",
-          "source": "City of Austin + TxDOT",
-          "confidence": 0.8,
-          "expires_at": "2026-10-20T01:40:00Z"
         }
       ],
       "live": {
@@ -1908,8 +1967,8 @@
           "distance_mi": 0.21
         },
         "traffic": {
-          "note": "Disabled Vehicle at IH-35 @ Oltorf St (1.7 mi) +1 more within 3 mi; 14 full and 21 partial lane closures within 0.5 mi",
-          "as_of": "2026-10-20T01:09:18+00:00",
+          "note": "Disabled Vehicle at IH-35 @ Oltorf St (1.7 mi) +1 more within 3 mi; several nearby streets fully closed, allow extra time",
+          "as_of": "2026-10-20T01:14:39+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
@@ -1929,10 +1988,10 @@
         },
         "anomaly": false,
         "last_run": {
-          "social": "2026-10-20T00:44:00Z",
-          "curator": "2026-10-20T01:10:00Z",
+          "social": "2026-10-20T01:13:54Z",
+          "curator": "2026-10-20T01:18:23Z",
           "reviews": "2026-10-20T00:11:32.626309+00:00",
-          "sensors": "2026-10-20T01:09:27.674116+00:00",
+          "sensors": "2026-10-20T01:14:49.567871+00:00",
           "calendar": "2026-10-20T00:42:08Z"
         },
         "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Rainey+Street+Historic+District+Austin+TX",
@@ -1970,6 +2029,7 @@
           "checked_at": "2026-10-19T23:32:55+00:00",
           "foot_traffic": "Google popular times not retrievable from plain web fetch; not written"
         },
+        "curator_notes": "Score excludes foot traffic (no source yet): (0.35 social + 0.25 event + 0.10 review)/0.70; social norm = posts_last_hour x 10 capped at 100 (no 4-week baseline yet). Event proximity held at 100 because the block party runs until 11pm CT.",
         "social_hourly": [
           {
             "hour": "2026-10-19T23:00:00Z",
@@ -1979,6 +2039,11 @@
           {
             "hour": "2026-10-20T00:00:00Z",
             "as_of": "2026-10-20T00:44:00Z",
+            "count": 0
+          },
+          {
+            "hour": "2026-10-20T01:00:00Z",
+            "as_of": "2026-10-20T01:13:54Z",
             "count": 0
           }
         ],
@@ -1998,21 +2063,16 @@
             "ts": "2026-10-20T00:36:22Z",
             "net": "X",
             "run_id": "Rvct09rF2h4E06fle"
+          },
+          {
+            "ts": "2026-10-20T01:07:40Z",
+            "net": "IG",
+            "run_id": "uidCcTpuab5J8xiEt"
           }
         ],
         "social_velocity_as_of": "2026-10-20T00:08:44Z"
       },
-      "social": [
-        {
-          "ts": "2026-10-19T22:45:54Z",
-          "net": "IG",
-          "url": "https://www.instagram.com/p/DesXNSvFKUF/",
-          "text": "Your favorite demon 🤭😈🔪",
-          "handle": "@theshannencummings",
-          "media_url": "https://scontent-bru2-1.cdninstagram.com/v/t51.82787-15/853815020_18310382263305177_8616101282677157569_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_cat=103&ig_cache_key=NDAxMTY4MzA0MDI4NzM3NjAyNg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjg4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=2vHTxzMEy1QQ7kNvwGtb_bX&_nc_oc=AdrcHZUCwHwisMb3sjv29sufY5oBQYca8OBaaDdsJWCO_Zv6H-QjxcmvRHvuRCloGlY4PDU9B0Ed3iulnWLK2x42&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-bru2-1.cdninstagram.com&_nc_gid=X7LrFwr-k_4QWnGFD75kTA&_nc_ss=7a3ba&oh=00_AQO8xrkOTYsBFdZGcIDDYOJidbvHVOaFbCTlSVFB-UXl4g&oe=6ADC9A72",
-          "engagement": 1
-        }
-      ],
+      "social": [],
       "volume": {
         "band": "Humming",
         "score": 35.7,
@@ -2032,8 +2092,8 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T01:10:00Z",
-        "explanation": "Event proximity drove the score (the MNP Rainey St. Block Party runs until 11pm CT), since nobody posted from Rainey in the last hour and the newest Google review is months old; foot traffic is excluded for now.",
+        "computed_at": "2026-10-20T01:18:23Z",
+        "explanation": "The MNP Rainey St. Block Party is on until 11pm CT.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
       "anomaly": false,
@@ -2070,7 +2130,7 @@
         "source": "google_maps",
         "trend_7d": null
       },
-      "summary": "The MNP Rainey St. Block Party is going until 11pm CT on the 73-88 block, and Tuesday brings a comedy open mic at Rainey House at 8pm CT. Skip driving in if you can, since 14 lanes nearby are fully closed (including Cesar Chavez at Red River for overnight paving) and there's a disabled vehicle on IH-35 at Oltorf about 1.7 miles south.",
+      "summary": "The MNP Rainey St. Block Party is going until 11pm CT on the 73-88 block, and Tuesday brings a comedy open mic at Rainey House at 8pm CT. Rideshare or walk in if you can, since Cesar Chavez at Red River is closed for overnight paving.",
       "upcoming": [
         {
           "url": "https://www.austintexas.gov/ace/events/mnp-rainey-st-block-party",
@@ -2099,7 +2159,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T01:12:20.483119+00:00"
+    "updated_at": "2026-10-20T01:19:03.197344+00:00"
   },
   {
     "id": "sixth-street",
@@ -2108,15 +2168,7 @@
     "lng": -97.7395,
     "city": "Austin, TX",
     "record": {
-      "now": [
-        {
-          "t": "2026-10-20T01:10:00Z",
-          "title": "14 full and 41 partial lane closures within half a mile.",
-          "source": "City of Austin + TxDOT",
-          "confidence": 0.8,
-          "expires_at": "2026-10-20T01:40:00Z"
-        }
-      ],
+      "now": [],
       "live": {
         "camera": {
           "view": "6th St at San Jacinto Blvd, looking at the bar-lined 6th St corner with crosswalks and sidewalks; pedestrians clearly visible",
@@ -2136,8 +2188,8 @@
           "distance_mi": 0.05
         },
         "traffic": {
-          "note": "Disabled Vehicle at IH-35 @ Oltorf St (2.3 mi); 14 full and 41 partial lane closures within 0.5 mi",
-          "as_of": "2026-10-20T01:09:18+00:00",
+          "note": "Disabled Vehicle at IH-35 @ Oltorf St (2.3 mi); several nearby streets fully closed, allow extra time",
+          "as_of": "2026-10-20T01:14:39+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
@@ -2157,10 +2209,10 @@
         },
         "anomaly": false,
         "last_run": {
-          "social": "2026-10-20T00:44:00Z",
-          "curator": "2026-10-20T01:10:00Z",
+          "social": "2026-10-20T01:13:54Z",
+          "curator": "2026-10-20T01:18:23Z",
           "reviews": "2026-10-20T00:11:32.626309+00:00",
-          "sensors": "2026-10-20T01:09:27.674116+00:00",
+          "sensors": "2026-10-20T01:14:49.567871+00:00",
           "calendar": "2026-10-20T00:42:08Z"
         },
         "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Sixth+Street+Austin+TX",
@@ -2198,6 +2250,7 @@
           "checked_at": "2026-10-19T23:32:55+00:00",
           "foot_traffic": "Google popular times not retrievable from plain web fetch; not written"
         },
+        "curator_notes": "Score excludes foot traffic (no source yet): (0.35 social + 0.25 event + 0.10 review)/0.70; social norm = posts_last_hour x 10 capped at 100 (no 4-week baseline yet).",
         "social_hourly": [
           {
             "hour": "2026-10-19T23:00:00Z",
@@ -2207,6 +2260,11 @@
           {
             "hour": "2026-10-20T00:00:00Z",
             "as_of": "2026-10-20T00:44:00Z",
+            "count": 0
+          },
+          {
+            "hour": "2026-10-20T01:00:00Z",
+            "as_of": "2026-10-20T01:13:54Z",
             "count": 0
           }
         ],
@@ -2240,10 +2298,10 @@
       "social": [],
       "volume": {
         "band": "Quiet",
-        "score": 25.3,
+        "score": 25.4,
         "inputs": {
           "review_recency": 0,
-          "event_proximity": 70.9,
+          "event_proximity": 71.0,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
@@ -2257,8 +2315,8 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T01:10:00Z",
-        "explanation": "Event proximity is the only thing lifting the score (Dreadneck Wednesdays at Flamingo Cantina on Wednesday at 9pm CT is about 49 hours out), since there were no posts in the last hour and the newest Google review is months old; foot traffic is excluded for now.",
+        "computed_at": "2026-10-20T01:18:23Z",
+        "explanation": "It's a quiet Monday in the E 6th St district, with the next listed shows on Wednesday and Friday.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
       "anomaly": false,
@@ -2295,7 +2353,7 @@
         "source": "google_maps",
         "trend_7d": null
       },
-      "summary": "Nothing is listed in the E 6th St district tonight, and the next shows are Dreadneck Wednesdays at Flamingo Cantina on Wednesday night and Esther's Follies on Friday. Avoid driving through if you can, since 14 lanes nearby are fully closed.",
+      "summary": "The E 6th St district is having a quiet Monday, and the next listed shows are Dreadneck Wednesdays at Flamingo Cantina on Wednesday night and Esther's Follies on Friday. If you're out tonight, the bars are open but expect light crowds.",
       "upcoming": [
         {
           "url": "https://flamingocantina.com/calendar/list/",
@@ -2336,7 +2394,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T01:12:20.483119+00:00"
+    "updated_at": "2026-10-20T01:19:03.197344+00:00"
   },
   {
     "id": "south-congress",
@@ -2352,13 +2410,6 @@
           "source": "wherethemusicsplaying.com",
           "confidence": 0.7,
           "expires_at": "2026-10-20T03:15:00Z"
-        },
-        {
-          "t": "2026-10-20T01:10:00Z",
-          "title": "Traffic is steady nearby, with a disabled vehicle on IH-35 at Oltorf St about 1.2 miles away.",
-          "source": "TxDOT Austin + City of Austin",
-          "confidence": 0.8,
-          "expires_at": "2026-10-20T01:40:00Z"
         }
       ],
       "live": {
@@ -2380,8 +2431,8 @@
           "distance_mi": 0.08
         },
         "traffic": {
-          "note": "Disabled Vehicle at IH-35 @ Oltorf St (1.2 mi) +2 more within 3 mi; 2 full and 14 partial lane closures within 0.5 mi",
-          "as_of": "2026-10-20T01:09:18+00:00",
+          "note": "Disabled Vehicle at IH-35 @ Oltorf St (1.2 mi) +1 more within 3 mi",
+          "as_of": "2026-10-20T01:14:39+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
@@ -2401,10 +2452,10 @@
         },
         "anomaly": false,
         "last_run": {
-          "social": "2026-10-20T00:44:00Z",
-          "curator": "2026-10-20T01:10:00Z",
+          "social": "2026-10-20T01:13:54Z",
+          "curator": "2026-10-20T01:18:23Z",
           "reviews": "2026-10-20T00:11:32.626309+00:00",
-          "sensors": "2026-10-20T01:09:27.674116+00:00",
+          "sensors": "2026-10-20T01:14:49.567871+00:00",
           "calendar": "2026-10-20T00:42:08Z"
         },
         "gmaps_url": "https://www.google.com/maps/search/?api=1&query=South+Congress+Avenue+Austin+TX",
@@ -2442,6 +2493,7 @@
           "checked_at": "2026-10-19T23:32:55+00:00",
           "foot_traffic": "Google popular times not retrievable from plain web fetch; not written"
         },
+        "curator_notes": "Score excludes foot traffic (no source yet): (0.35 social + 0.25 event + 0.10 review)/0.70; social norm = posts_last_hour x 10 capped at 100 (no 4-week baseline yet).",
         "social_hourly": [
           {
             "hour": "2026-10-19T23:00:00Z",
@@ -2451,6 +2503,11 @@
           {
             "hour": "2026-10-20T00:00:00Z",
             "as_of": "2026-10-20T00:44:00Z",
+            "count": 0
+          },
+          {
+            "hour": "2026-10-20T01:00:00Z",
+            "as_of": "2026-10-20T01:13:54Z",
             "count": 0
           }
         ],
@@ -2475,6 +2532,11 @@
             "ts": "2026-10-20T00:36:43Z",
             "net": "IG",
             "run_id": "dbENhnVEjiHyKV7Ir"
+          },
+          {
+            "ts": "2026-10-20T01:07:40Z",
+            "net": "IG",
+            "run_id": "QsDVMf8OTdlUgBU92"
           }
         ],
         "social_velocity_as_of": "2026-10-20T00:08:44Z"
@@ -2482,10 +2544,10 @@
       "social": [],
       "volume": {
         "band": "Humming",
-        "score": 35.6,
+        "score": 35.7,
         "inputs": {
           "review_recency": 0,
-          "event_proximity": 99.8,
+          "event_proximity": 99.9,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
@@ -2499,8 +2561,8 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T01:10:00Z",
-        "explanation": "Event proximity drove the score (Elias Haslanger plays the Continental Club at 8:30pm CT, about 20 minutes away), since there were no posts in the last hour and the newest Google review is about two weeks old; foot traffic is excluded for now.",
+        "computed_at": "2026-10-20T01:18:23Z",
+        "explanation": "Elias Haslanger is about to start at the Continental Club, with Dale Watson later tonight.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
       "anomaly": false,
@@ -2537,7 +2599,7 @@
         "source": "google_maps",
         "trend_7d": null
       },
-      "summary": "The Continental Club has Elias Haslanger at 8:30pm CT and Dale Watson at 10:15pm tonight, with Jim Ortiz & The Ballroom Destroyers at C-Boy's, and the sidewalks look uncrowded right now. Traffic is steady, though there's a disabled vehicle on IH-35 at Oltorf St about 1.2 miles away.",
+      "summary": "The Continental Club has Elias Haslanger at 8:30pm CT and Dale Watson at 10:15pm tonight, and Jim Ortiz & The Ballroom Destroyers are at C-Boy's. Sidewalks look uncrowded right now, so it's an easy night to walk in.",
       "upcoming": [
         {
           "url": "https://austin.showlists.net/",
@@ -2590,7 +2652,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T01:12:20.483119+00:00"
+    "updated_at": "2026-10-20T01:19:03.197344+00:00"
   },
   {
     "id": "stubbs",
@@ -2609,8 +2671,8 @@
           "distance_mi": 0.08
         },
         "traffic": {
-          "note": "Disabled Vehicle at IH-35 @ Oltorf St (2.4 mi); 17 full and 27 partial lane closures within 0.5 mi",
-          "as_of": "2026-10-20T01:09:18+00:00",
+          "note": "Disabled Vehicle at IH-35 @ Oltorf St (2.4 mi); several nearby streets fully closed, allow extra time",
+          "as_of": "2026-10-20T01:14:39+00:00",
           "level": "Steady",
           "source": "TxDOT Austin + City of Austin"
         },
@@ -2630,10 +2692,10 @@
         },
         "anomaly": false,
         "last_run": {
-          "social": "2026-10-20T00:44:26.829755+00:00",
-          "curator": "2026-10-20T01:10:00Z",
+          "social": "2026-10-20T01:13:54Z",
+          "curator": "2026-10-20T01:18:23Z",
           "reviews": "2026-10-20T00:44:25.036369+00:00",
-          "sensors": "2026-10-20T01:09:27.674116+00:00",
+          "sensors": "2026-10-20T01:14:49.567871+00:00",
           "calendar": "2026-10-20T00:47:14.726596+00:00"
         },
         "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Stubb%27s+BBQ%2C+Austin%2C+TX",
@@ -2671,6 +2733,7 @@
           "checked_at": "2026-10-20T00:41:59+00:00",
           "foot_traffic": "Google popular times not retrievable from plain web fetch; not written"
         },
+        "curator_notes": "Score excludes foot traffic (no source yet): (0.35 social + 0.25 event + 0.10 review)/0.70; social norm = posts_last_hour x 10 capped at 100 (no 4-week baseline yet).",
         "social_hourly": [
           {
             "hour": "2026-10-19T23:00:00Z",
@@ -2680,6 +2743,11 @@
           {
             "hour": "2026-10-20T00:00:00Z",
             "as_of": "2026-10-20T00:44:13Z",
+            "count": 0
+          },
+          {
+            "hour": "2026-10-20T01:00:00Z",
+            "as_of": "2026-10-20T01:13:54Z",
             "count": 0
           }
         ],
@@ -2693,6 +2761,13 @@
           }
         ],
         "gmaps_place_url": "https://www.google.com/maps/search/?api=1&query=Stubb's%20Bar-B-Q&query_place_id=ChIJSVyqJ6S1RIYRdx8PPPRl9Is",
+        "last_social_runs": [
+          {
+            "ts": "2026-10-20T01:07:40Z",
+            "net": "IG",
+            "run_id": "fL47ZMqPBUr9E2rWq"
+          }
+        ],
         "gmaps_place_title": "Stubb's Bar-B-Q",
         "gmaps_place_address": "801 Red River St, Austin, TX 78701"
       },
@@ -2701,8 +2776,8 @@
         "band": "Humming",
         "score": 34.7,
         "inputs": {
-          "review_recency": 98.4,
-          "event_proximity": 57.8,
+          "review_recency": 98.3,
+          "event_proximity": 57.9,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
@@ -2716,8 +2791,8 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T01:10:00Z",
-        "explanation": "Vince Staples on Thursday gives moderate event proximity and a fresh Google review from this evening adds a little, with no tagged posts in the last hour; foot traffic is excluded for now.",
+        "computed_at": "2026-10-20T01:18:23Z",
+        "explanation": "Nothing on tonight, with Vince Staples coming Thursday.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
       "anomaly": false,
@@ -2772,7 +2847,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T01:12:20.483119+00:00"
+    "updated_at": "2026-10-20T01:19:03.197344+00:00"
   },
   {
     "id": "the-domain",
@@ -2792,7 +2867,7 @@
         },
         "traffic": {
           "note": "Traffic Hazard at 2000-2200 W Braker Ln (1.2 mi) +1 more within 3 mi",
-          "as_of": "2026-10-20T01:09:18+00:00",
+          "as_of": "2026-10-20T01:14:39+00:00",
           "level": "Quiet",
           "source": "TxDOT Austin + City of Austin"
         },
@@ -2812,10 +2887,10 @@
         },
         "anomaly": false,
         "last_run": {
-          "social": "2026-10-20T00:44:00Z",
-          "curator": "2026-10-20T01:10:00Z",
+          "social": "2026-10-20T01:13:54Z",
+          "curator": "2026-10-20T01:18:23Z",
           "reviews": "2026-10-20T00:11:32.626309+00:00",
-          "sensors": "2026-10-20T01:09:27.674116+00:00",
+          "sensors": "2026-10-20T01:14:49.567871+00:00",
           "calendar": "2026-10-20T00:42:08Z"
         },
         "gmaps_url": "https://www.google.com/maps/search/?api=1&query=The+Domain+Austin+TX",
@@ -2853,15 +2928,21 @@
           "checked_at": "2026-10-19T23:32:55+00:00",
           "foot_traffic": "Google popular times not retrievable from plain web fetch; not written"
         },
+        "curator_notes": "Score excludes foot traffic (no source yet): (0.35 social + 0.25 event + 0.10 review)/0.70; social norm = posts_last_hour x 10 capped at 100 (no 4-week baseline yet).",
         "social_hourly": [
           {
             "hour": "2026-10-19T23:00:00Z",
-            "as_of": "2026-10-20T00:44:00Z",
+            "as_of": "2026-10-20T01:13:54Z",
             "count": 3
           },
           {
             "hour": "2026-10-20T00:00:00Z",
             "as_of": "2026-10-20T00:44:00Z",
+            "count": 0
+          },
+          {
+            "hour": "2026-10-20T01:00:00Z",
+            "as_of": "2026-10-20T01:13:54Z",
             "count": 0
           }
         ],
@@ -2886,6 +2967,11 @@
             "ts": "2026-10-20T00:36:43Z",
             "net": "IG",
             "run_id": "xU7B2pjTWcH6LoAQc"
+          },
+          {
+            "ts": "2026-10-20T01:07:40Z",
+            "net": "IG",
+            "run_id": "5u7qRGMqLm1CXGW92"
           }
         ],
         "social_velocity_as_of": "2026-10-20T00:08:44Z"
@@ -2899,32 +2985,14 @@
           "handle": "@_ibrahimesenn",
           "media_url": "https://scontent-cph2-1.cdninstagram.com/v/t51.82787-15/857011418_18120722308822986_2819871701933875641_n.jpg?stp=dst-jpegr_e35_tt6&_nc_cat=102&cb=30a688f7-99daaf84&ig_cache_key=NDAxMTcwMTU1MTc5NTcxNjI5MQ%3D%3D.3-ccb7-5-cb30a688f7-99daaf84&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuOTEyLmhkci5yZWd1bGFyX3Bob3RvLkMzIn0%3D&_nc_ohc=DF5DmxGCgJEQ7kNvwEkEBld&_nc_oc=AdqPbvVtKZKz8S6ZVqC3HupIBATHRo-6hhP0XcJrpVZEE69Edc5fGtR5A08emvfTmwE&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=8&_nc_ht=scontent-cph2-1.cdninstagram.com&_nc_gid=znBxBdEhOSKjazOacqSfMg&_nc_ss=7a3ba&oh=00_AQPUpvWhJD-s_LOeByTz43Iz8YfhAEtODptcR28rNnKxoA&oe=6ADC8B89",
           "engagement": 14
-        },
-        {
-          "ts": "2026-10-19T23:10:08Z",
-          "net": "IG",
-          "url": "https://www.instagram.com/p/DesZ59ExP0N/",
-          "text": "Love this day dress 🩶🩶🩶🩶",
-          "handle": "@victoria.eliz.barrera",
-          "media_url": "https://scontent-cph2-1.cdninstagram.com/v/t51.82787-15/857625567_18095890379412870_8702298184337036405_n.jpg?stp=dst-jpg_e15_s640x640_tt6&_nc_cat=106&cb=30a688f7-99daaf84&ig_cache_key=NDAxMTY5NTMwMTgzMTQ5MDgyOTE4MDk1ODkwMzc2NDEyODcw.3-ccb7-5-cb30a688f7-99daaf84&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEzMjAuc2RyLnZpZGVvX3VzZXJfc2VsZWN0ZWRfdGh1bWJuYWlsLkMzIn0%3D&_nc_ohc=RgdY3tgzlx8Q7kNvwHxHV4E&_nc_oc=AdoMXWLY1VzOfDUi7v5-okt3kQWyfrKR7BvYhYli6G7NMRUONjPiaq8HgEFno5M84w8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-cph2-1.cdninstagram.com&_nc_gid=znBxBdEhOSKjazOacqSfMg&_nc_ss=7a3ba&oh=00_AQOuipMcnwOlGxJ7FML4iUhOAHRhWaqVJsXUbk7HvzgEEA&oe=6ADC941F",
-          "engagement": 5
-        },
-        {
-          "ts": "2026-10-19T23:09:44Z",
-          "net": "IG",
-          "url": "https://www.instagram.com/p/DesZNkLxH_t/",
-          "text": "Soy muy afortunada, Dios siempre me rodea de personas maravillosas y con ellas no fue una excepción 🥹🩵✨🍸\n\n#babyshowerideas #girls #fyp #momboy #dinner",
-          "handle": "@lusneel",
-          "media_url": "https://scontent-cph2-1.cdninstagram.com/v/t51.71878-15/851111308_1808716750338361_4620493260427933023_n.jpg?stp=dst-jpegr_e15_p360x360_tt6&_nc_cat=110&cb=30a688f7-99daaf84&ig_cache_key=NDAxMTY5MjI1MTQ0ODM3NzMyNTQxNzg0NzQxMzU3Nzc5NTg%3D.3-ccb7-5-cb30a688f7-99daaf84&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5oZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=DoKE0ZJlCoAQ7kNvwFi05nc&_nc_oc=Adqz32Jr4RhAV83GcpCNC50Zr6tJsQA-otN_rYtPaYZ3pSWHeXXsqWQi4hGIk12z1eA&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=-1&_nc_ht=scontent-cph2-1.cdninstagram.com&_nc_gid=znBxBdEhOSKjazOacqSfMg&_nc_ss=7a3ba&oh=00_AQN9xPne3kq7W7tHhq8EyB_71C4XqzPyrYMzA_G_cHj0Pg&oe=6ADC8464",
-          "engagement": 43
         }
       ],
       "volume": {
         "band": "Quiet",
-        "score": 25.8,
+        "score": 25.9,
         "inputs": {
-          "review_recency": 97.4,
-          "event_proximity": 33.4,
+          "review_recency": 97.3,
+          "event_proximity": 33.5,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
@@ -2938,8 +3006,8 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T01:10:00Z",
-        "explanation": "A Google review from about 4 hours ago does most of the work, with no Instagram posts in the last hour and the next listed event (Pettober on Saturday) still days away; foot traffic is excluded for now.",
+        "computed_at": "2026-10-20T01:18:23Z",
+        "explanation": "Nothing is listed tonight, with Pettober coming Saturday.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
       "anomaly": false,
@@ -2976,7 +3044,7 @@
         "source": "google_maps",
         "trend_7d": null
       },
-      "summary": "Nothing is listed at The Domain tonight, and traffic nearby is quiet apart from a traffic hazard on W Braker Ln about 1.2 miles away. Next up is Pettober with Boogaloo and Swing Shift Trio on Saturday, Oct 24, followed by salsa night at Gloria's that evening.",
+      "summary": "Nothing is listed at The Domain tonight, so it's a calm evening for shopping or dinner. Next up is Pettober with Boogaloo and Swing Shift Trio on Saturday, Oct 24, followed by salsa night at Gloria's that evening.",
       "upcoming": [
         {
           "url": "https://www.songkick.com/metro-areas/9179-us-austin/this-weekend",
@@ -2993,7 +3061,7 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T01:12:20.483119+00:00"
+    "updated_at": "2026-10-20T01:19:03.197344+00:00"
   },
   {
     "id": "zilker",
@@ -3002,22 +3070,7 @@
     "lng": -97.7729,
     "city": "Austin, TX",
     "record": {
-      "now": [
-        {
-          "t": "2026-10-20T01:10:00Z",
-          "title": "Traffic is quiet around Zilker, with only a disabled vehicle on IH-35 at Oltorf St about 3 miles away.",
-          "source": "TxDOT Austin + City of Austin",
-          "confidence": 0.8,
-          "expires_at": "2026-10-20T01:40:00Z"
-        },
-        {
-          "t": "2026-10-20T01:10:00Z",
-          "title": "70F and mostly clear with calm wind.",
-          "source": "NWS",
-          "confidence": 0.9,
-          "expires_at": "2026-10-20T02:00:00Z"
-        }
-      ],
+      "now": [],
       "live": {
         "camera": {
           "view": "Barton Springs Rd at Stratford Dr at the park's west edge; road and sidewalk only, park lawns not in view",
@@ -3027,8 +3080,8 @@
           "distance_mi": 0.12
         },
         "traffic": {
-          "note": "Disabled Vehicle at IH-35 @ Oltorf St (3.0 mi); 0 full and 3 partial lane closures within 0.5 mi",
-          "as_of": "2026-10-20T01:09:18+00:00",
+          "note": "Disabled Vehicle at IH-35 @ Oltorf St (3.0 mi)",
+          "as_of": "2026-10-20T01:14:39+00:00",
           "level": "Quiet",
           "source": "TxDOT Austin + City of Austin"
         },
@@ -3048,10 +3101,10 @@
         },
         "anomaly": false,
         "last_run": {
-          "social": "2026-10-20T00:44:00Z",
-          "curator": "2026-10-20T01:10:00Z",
+          "social": "2026-10-20T01:13:54Z",
+          "curator": "2026-10-20T01:18:23Z",
           "reviews": "2026-10-20T01:06:33Z",
-          "sensors": "2026-10-20T01:09:27.674116+00:00",
+          "sensors": "2026-10-20T01:14:49.567871+00:00",
           "calendar": "2026-10-20T00:42:08Z"
         },
         "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Zilker+Park+Austin+TX",
@@ -3089,6 +3142,7 @@
           "checked_at": "2026-10-19T23:32:55+00:00",
           "foot_traffic": "Google popular times not retrievable from plain web fetch; not written"
         },
+        "curator_notes": "Score excludes foot traffic (no source yet): (0.35 social + 0.25 event + 0.10 review)/0.70; social norm = posts_last_hour x 10 capped at 100 (no 4-week baseline yet).",
         "social_hourly": [
           {
             "hour": "2026-10-19T23:00:00Z",
@@ -3098,6 +3152,11 @@
           {
             "hour": "2026-10-20T00:00:00Z",
             "as_of": "2026-10-20T00:44:00Z",
+            "count": 0
+          },
+          {
+            "hour": "2026-10-20T01:00:00Z",
+            "as_of": "2026-10-20T01:13:54Z",
             "count": 0
           }
         ],
@@ -3122,6 +3181,11 @@
             "ts": "2026-10-20T00:36:45Z",
             "net": "IG",
             "run_id": "unefwTaPQgcwrGVfe"
+          },
+          {
+            "ts": "2026-10-20T01:07:40Z",
+            "net": "IG",
+            "run_id": "TQ2S7nwhp0zQMhBli"
           }
         ],
         "gmaps_place_title": "Zilker Metropolitan Park",
@@ -3133,8 +3197,8 @@
         "band": "Humming",
         "score": 44.8,
         "inputs": {
-          "review_recency": 95.8,
-          "event_proximity": 87.0,
+          "review_recency": 95.7,
+          "event_proximity": 87.1,
           "social_velocity_norm": 0,
           "foot_vs_baseline_norm": null
         },
@@ -3148,8 +3212,8 @@
         "excluded": [
           "foot_traffic"
         ],
-        "computed_at": "2026-10-20T01:10:00Z",
-        "explanation": "Upcoming events (a Viz Whizz dog meet-up tomorrow at 6pm CT, about 22 hours out) and a Google review from about 7 hours ago drove the score, with no posts in the last hour; foot traffic is excluded for now.",
+        "computed_at": "2026-10-20T01:18:23Z",
+        "explanation": "A calm night in the park, with a dog meet-up tomorrow evening and more events through the week.",
         "social_norm_method": "no 4-week baseline yet, so posts_last_hour x 10, capped at 100"
       },
       "anomaly": false,
@@ -3185,7 +3249,7 @@
         "source": "google_maps",
         "trend_7d": null
       },
-      "summary": "Zilker Park is calm tonight with quiet traffic and 70F mostly clear, calm weather. Next up are a Viz Whizz dog meet-up tomorrow at 6pm CT and Mindful Movement in the Park on Wednesday evening.",
+      "summary": "Zilker Park is calm tonight under clear skies at 70F. Next up are a Viz Whizz dog meet-up tomorrow at 6pm CT and Mindful Movement in the Park on Wednesday evening.",
       "upcoming": [
         {
           "url": "https://happeningnext.com/event/viz-whizz-atx-oct-meet-up-at-zilker-park-eid3a0e2qefmx",
@@ -3214,6 +3278,6 @@
       ],
       "posts_last_hour": 0
     },
-    "updated_at": "2026-10-20T01:12:20.483119+00:00"
+    "updated_at": "2026-10-20T01:19:03.197344+00:00"
   }
 ]
